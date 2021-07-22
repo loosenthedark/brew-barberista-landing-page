@@ -61,7 +61,6 @@ Accessibility: taken from https://www.linkedin.com/learning/css-advanced-layouts
   /* Above WP toolbar */
 }
 
-
 /* CSS style resets adapted from https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274400#overview & https://www.linkedin.com/learning/css-advanced-layouts-with-grid */
 
 * {
@@ -333,4 +332,31 @@ img:not(.profiler, .logo, .logo-cyan) {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+/* Header */
+
+header {
+  height: 79vh;
+  background-image: url(../images/image-horizon.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.heading-slogan {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: .35rem;
+  padding-top: 31.5%;
+  line-height: 1.25;
+}
+
+.arrow-box {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
