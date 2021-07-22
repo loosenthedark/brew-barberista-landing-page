@@ -1,3 +1,31 @@
+/* 
+
+## Colours
+
+### Primary
+
+- Dark blue in logo: hsl(234, 40%, 29%)
+- Gold in logo: hsl(47, 58%, 56%)
+
+### Neutral
+
+
+
+## Typography
+
+### Body Copy
+
+- Base font size: 18px (1.125rem)
+
+### Font
+
+- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
+- Weights: 600
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700, 900
+
+*/
+
 /* CSS style resets adapted from https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274400#overview & https://www.linkedin.com/learning/css-advanced-layouts-with-grid */
 
 * {
@@ -9,7 +37,7 @@
 
 body {
   /* font-family: Barlow, sans-serif; */
-  font-weight: 600;
+  /* font-weight: 600; */
   font-size: 1.125rem;
   line-height: 1.5;
   /* color: hsl(245, 6%, 54%);
