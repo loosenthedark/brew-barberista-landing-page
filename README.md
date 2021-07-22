@@ -5,3 +5,5 @@
 <p align="center"><img width="50%" alt="Font Awesome attribution info" src="https://user-images.githubusercontent.com/48750933/126652247-1619eb62-dbc6-4b2f-b999-00e386107240.png"></p>
 
 - [Photo by cottonbro from Pexels](https://www.pexels.com/photo/calm-sea-under-blue-sky-4571251/)
+
+- FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
