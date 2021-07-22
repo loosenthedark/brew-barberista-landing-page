@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!--  favicon -->
-  <link rel="shortcut icon" type="image/svg" href="./static/images/coffee-solid-gold.svg">
+  <link rel="shortcut icon" type="image/svg" href="./static/images/icons/coffee-solid-gold.svg">
   <!--  /favicon -->
 
   <!-- Font Awesome script -->
@@ -26,13 +26,40 @@
 <body>
 
   <!-- Full-width nav bar fixed to top of viewport -->
-  <nav class="navbar fixed-top">Full-width nav bar fixed to top of viewport
+  <nav class="navbar fixed-top"><button class="navbar-toggler" id="nav-toggler" type="button"
+      aria-expanded="false"><span class="screen-reader-text">Reveal menu</span>
+      <img class="navbar-toggler-icon" src="./static/images/icons/icon-hamburger-gold.svg"
+        alt="hamburger navbar toggler icon">
+    </button>
+
+    <a class="navbar-logo" href="#">
+      <img class="logo" src="./static/images/logo.svg" alt="Brew Barberista brand logo">
+    </a>
+
+    <div class="collapse navbar-toggleable-sm-md">
+      <ul class="navbar-nav">
+        <div class="triangle triangle-left"></div>
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#clients">Reviews</a>
+        </li>
+        <li class="nav-item nav-item-contact">
+          <a class="nav-link btn btn-contact" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- /nav -->
 
   <!-- Header: above-the-fold CTA elements (main heading/logo/hero img/animated icons/buttons etc.) -->
   <header>
-    <h1><i class="fas fa-coffee"></i> <i class="fas fa-cut"></i><br>Welcome to Brew Barberista</h1><p>Bringing you a new barber shop and takeaway specialty coffee from 3FE. Also offering delicious pastries from
+    <h1><i class="fas fa-coffee"></i> <i class="fas fa-cut"></i><br>Welcome to Brew Barberista</h1>
+    <p>Bringing you a new barber shop and takeaway specialty coffee from 3FE. Also offering delicious pastries from
       Tartine Organic Bakery along with locally handmade cakes and treats. Follow us on Instagram & Twitter to keep up
       to
       date on our progress.</p>
