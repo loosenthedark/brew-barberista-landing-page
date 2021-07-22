@@ -133,3 +133,72 @@ big {
 figure {
   margin: 0;
 }
+
+/* Global styles */
+
+h1,
+h3,
+h4 {
+  text-align: center;
+  padding: 1em 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  font-weight: 900;
+  font-size: .975rem;
+  margin-top: 3.75rem;
+  padding-bottom: 1.5rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+  letter-spacing: .0175rem;
+}
+
+h4,
+h6 {
+  color: hsl(260, 5%, 65%);
+}
+
+h6 {
+  font-size: .9rem;
+}
+
+h2,
+h3,
+h5 {
+  font-weight: 900;
+  line-height: 1.15;
+  padding: 1rem 0 1.33rem;
+  position: relative;
+}
+
+p {
+  margin-bottom: 2.2rem;
+  line-height: 1.7;
+  color: hsl(260, 5%, 65%);
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img:not(.profiler, .logo, .logo-cyan) {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
