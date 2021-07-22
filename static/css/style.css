@@ -26,41 +26,6 @@
 
 */
 
-/*--------------------------------------------------------------
-Accessibility: taken from https://www.linkedin.com/learning/css-advanced-layouts-with-grid
---------------------------------------------------------------*/
-
-/* Text meant only for screen readers */
-.screen-reader-text {
-  clip: rect(.0625rem, .0625rem, .0625rem, .0625rem);
-  position: absolute !important;
-  height: .0625rem;
-  width: .0625rem;
-  overflow: hidden;
-}
-
-.screen-reader-text:hover,
-.screen-reader-text:active,
-.screen-reader-text:focus {
-  background-color: hsl(0, 0%, 95%);
-  border-radius: .1875rem;
-  box-shadow: 0 0 .125rem .125rem rgba(0, 0, 0, 0.6);
-  clip: auto !important;
-  color: hsl(199, 65%, 37%);
-  display: block;
-  font-size: .875rem;
-  font-weight: bold;
-  height: auto;
-  left: .3125rem;
-  line-height: normal;
-  padding: .9375rem 1.4375rem .875rem;
-  text-decoration: none;
-  top: .3125rem;
-  width: auto;
-  z-index: 100000;
-  /* Above WP toolbar */
-}
-
 /* CSS style resets adapted from https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274400#overview & https://www.linkedin.com/learning/css-advanced-layouts-with-grid */
 
 * {
@@ -112,22 +77,6 @@ address {
   margin: 0 0 1.5em;
 }
 
-pre {
-  display: inline-block;
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  color: hsl(48, 58%, 68%);
-  background: hsl(220, 13%, 18%);
-  padding: .5em .8em;
-  border-radius: .2em;
-}
-
-code,
-kbd,
-tt,
-var {
-  font: .9375rem Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-}
-
 abbr,
 acronym {
   border-bottom: .0625rem dotted #666;
@@ -138,31 +87,6 @@ mark,
 ins {
   background: hsl(54, 100%, 88%);
   text-decoration: none;
-}
-
-sup,
-sub {
-  font-size: 75%;
-  height: 0;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  bottom: 1ex;
-}
-
-sub {
-  top: .5ex;
-}
-
-small {
-  font-size: 75%;
-}
-
-big {
-  font-size: 125%;
 }
 
 figure {
