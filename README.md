@@ -6,4 +6,23 @@
 
 - [Photo by cottonbro from Pexels](https://www.pexels.com/photo/calm-sea-under-blue-sky-4571251/)
 
+## Project Design
+
+### Colour Scheme:
+
+<p align="center"></p>
+<p align="center"></p>
+
+### Typography:
+
+#### Primary font...
+
+[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) | fallback = `sans-serif`
+
+#### Secondary (Heading) font...
+
+[Lora](https://fonts.google.com/specimen/Lora?query=lora) | fallback = `serif`
+
+
+
 - FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)

@@ -19,10 +19,10 @@
 
 ### Font
 
-- Family: [Barlow](https://fonts.google.com/specimen/Barlow)
-- Weights: 600
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700, 900
+- Family: [Poppins](https://fonts.google.com/specimen/Barlow)
+- Weights: 300, 400, 500
+- Family: [Lora](https://fonts.google.com/specimen/Fraunces)
+- Weights: 600, 700
 
 */
 
@@ -39,8 +39,8 @@ html {
 }
 
 body {
-  /* font-family: Barlow, sans-serif; */
-  /* font-weight: 600; */
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.5;
   /* color: hsl(245, 6%, 54%);
@@ -52,7 +52,7 @@ h2,
 h3,
 h4,
 h5 {
-  /* font-family: Fraunces, serif; */
+  font-family: Lora, serif;
   /* color: hsl(214, 24%, 19%); */
   clear: both;
 }
@@ -117,7 +117,7 @@ h3 {
 h4 {
   text-transform: uppercase;
   letter-spacing: .25rem;
-  font-weight: 900;
+  font-weight: 700;
   font-size: .975rem;
   margin-top: 3.75rem;
   padding-bottom: 1.5rem;
@@ -140,7 +140,7 @@ h6 {
 h2,
 h3,
 h5 {
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.15;
   padding: 1rem 0 1.33rem;
   position: relative;
@@ -274,7 +274,7 @@ header {
 .heading-slogan {
   text-transform: uppercase;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 700;
   color: hsl(0, 0%, 100%);
   letter-spacing: .35rem;
   padding-top: 31.5%;
