@@ -171,7 +171,7 @@ img:not(.profiler, .logo, .logo-cyan) {
   background-color: hsl(234, 40%, 29%);
   width: 100%;
   color: hsl(47, 58%, 56%);
-  padding: 1.375rem 1.25rem;
+  padding: .5rem 1rem;
   position: relative;
 }
 
@@ -184,8 +184,14 @@ img:not(.profiler, .logo, .logo-cyan) {
   height: 4.25rem;
 }
 
+.navbar-logo {
+  width: 42.5%;
+  display: inline-block;
+}
+
 .logo {
-  width: 7.5rem;
+  width: 100%;
+  height: auto;
 }
 
 .navbar-toggler {
@@ -264,21 +270,35 @@ img:not(.profiler, .logo, .logo-cyan) {
 /* Header */
 
 header {
-  height: 79vh;
+  height: 150vw;
   background-image: url(../images/image-horizon.jpg);
   background-size: cover;
   background-position: bottom;
   position: relative;
 }
 
-.heading-slogan {
-  text-transform: uppercase;
-  font-size: 2.5rem;
+.hero-icons {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
-  letter-spacing: .35rem;
-  padding-top: 31.5%;
-  line-height: 1.25;
+  display: flex;
+  padding-top: 25vw;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.hero-icons > img {
+  display: inline-block;
+  position: relative;
+}
+
+.hero-icons > img:first-of-type {
+  left: 20vw;
+}
+
+.hero-icons > img:nth-of-type(2) {
+  right: 33vw;
 }
 
 .arrow-box {
