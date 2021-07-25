@@ -23,6 +23,12 @@
 
 [Lora](https://fonts.google.com/specimen/Lora?query=lora) | fallback = `serif`
 
+- ['Hot coffe cup icon.'](https://www.shutterstock.com/image-vector/hot-coffe-cup-icon-disposable-coffee-1784164067) by [Coosh448](https://www.shutterstock.com/g/Coosh448) on Shutterstock
 
+- ['Fashion silhouette hipster style, vector illustration'](https://www.shutterstock.com/image-vector/fashion-silhouette-hipster-style-vector-illustration-161463794) by [RomanYa](https://www.shutterstock.com/g/RomanYa) on Shutterstock
+
+- Both these images converted from `.eps` to `.svg` using [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
+
+- ['How to crop SVG file within HTML/CSS'](https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css/37589395)
 
 - FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)

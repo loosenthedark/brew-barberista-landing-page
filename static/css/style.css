@@ -281,9 +281,9 @@ header {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   display: flex;
-  padding-top: 25vw;
+  padding-top: 40vw;
   justify-content: center;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -291,14 +291,11 @@ header {
 .hero-icons > img {
   display: inline-block;
   position: relative;
-}
-
-.hero-icons > img:first-of-type {
-  left: 20vw;
+  width: 60%;
 }
 
 .hero-icons > img:nth-of-type(2) {
-  right: 33vw;
+  right: 12vw;
 }
 
 .arrow-box {
