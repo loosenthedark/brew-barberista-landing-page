@@ -1,15 +1,11 @@
 /* 
 
-## Colours
-
-### Primary
+## Colour palette
 
 - Dark blue in logo: hsl(234, 40%, 29%)
 - Gold in logo: hsl(47, 58%, 56%)
-
-### Neutral
-
-
+- Off-white blue (body background): hsl(215, 37%, 90%)
+- Gunmetal blue-black (body text): hsl(213, 24%, 15%)
 
 ## Typography
 
@@ -40,11 +36,12 @@ html {
 
 body {
   font-family: Poppins, sans-serif;
-  font-weight: 300;
-  font-size: 1.125rem;
+  font-weight: 400;
+  font-size: 1.0625rem;
   line-height: 1.5;
-  /* color: hsl(245, 6%, 54%);
-  background-color: hsl(26, 100%, 99%); */
+  color: hsl(213, 24%, 15%);
+  background-color: hsl(215, 37%, 90%);
+  ;
 }
 
 h1,
@@ -53,7 +50,6 @@ h3,
 h4,
 h5 {
   font-family: Lora, serif;
-  /* color: hsl(214, 24%, 19%); */
   clear: both;
 }
 
@@ -147,7 +143,7 @@ h5 {
 }
 
 p {
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.5rem;
   line-height: 1.7;
   color: hsl(260, 5%, 65%);
   padding-left: .5rem;
@@ -270,7 +266,7 @@ img:not(.profiler, .logo, .logo-cyan) {
 /* Header */
 
 header {
-  height: 150vw;
+  height: 178vw;
   background-image: url(../images/image-horizon.jpg);
   background-size: cover;
   background-position: bottom;
@@ -281,7 +277,7 @@ header {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   display: flex;
-  padding-top: 40vw;
+  padding-top: 50.5vw;
   justify-content: center;
   width: 90%;
   margin: 0 auto;
@@ -298,9 +294,62 @@ header {
   right: 12vw;
 }
 
-.arrow-box {
+.chevron-box {
   position: absolute;
-  top: 63%;
+  top: 140vw;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.chevron-box a {
+  font-size: 3.5rem;
+  color: hsl(47, 58%, 56%);
+}
+
+/* Main */
+
+/* About section */
+
+.about-section-image {
+  height: 84vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-coffee-image {
+  background-image: url(../images/bg-coffee-cups.jpg);
+}
+
+.about-barber-image {
+  background-image: url(../images/bg-barber-kit.jpg);
+}
+
+.about-section-text {
+  height: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.about-section-text > h2 {
+  padding: .5rem 0 1rem;
+}
+
+.more-info {
+  font-family: Lora, serif;
+  color: hsl(213, 24%, 15%);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: .025rem;
+  font-weight: 700;
+  background-position: bottom;
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  padding-left: .33rem;
+  padding-right: .33rem;
+  background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .5), hsla(47, 58%, 56%, .5))
 }

@@ -6,6 +6,10 @@
 
 - [Photo by cottonbro from Pexels](https://www.pexels.com/photo/calm-sea-under-blue-sky-4571251/)
 
+- [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/set-of-disposable-paper-coffee-cups-4349942/)
+
+- [Photo by Josh Sorenson from Pexels](https://www.pexels.com/photo/straight-razor-kit-995300/)
+
 ## Project Design
 
 ### Colour Scheme:
