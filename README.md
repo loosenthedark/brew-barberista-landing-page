@@ -12,6 +12,8 @@
 
 - [Photo by Gareth Rees from Pexels](https://www.pexels.com/photo/white-ceramic-mug-with-brown-liquid-4334758/) https://twitter.com/garethrees19 | https://www.instagram.com/garethrees1/
 
+- [Photo by cottonbro from Pexels](https://www.pexels.com/photo/man-in-white-and-black-stripe-shirt-holding-black-pen-3998429/)
+
 ## Project Design
 
 ### Colour Scheme:

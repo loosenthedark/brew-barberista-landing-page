@@ -266,7 +266,7 @@ img:not(.profiler, .logo, .logo-cyan) {
 /* Header */
 
 header {
-  height: 178vw;
+  height: 100vh;
   background-image: url(../images/image-horizon.jpg);
   background-size: cover;
   background-position: bottom;
@@ -284,13 +284,13 @@ header {
   overflow-x: hidden;
 }
 
-.hero-icons > img {
+.hero-icons>img {
   display: inline-block;
   position: relative;
   width: 60%;
 }
 
-.hero-icons > img:nth-of-type(2) {
+.hero-icons>img:nth-of-type(2) {
   right: 12vw;
 }
 
@@ -311,7 +311,7 @@ header {
 /* About section */
 
 .about-section-image {
-  height: 84vw;
+  height: 95vw;
   background-size: cover;
   background-position: center;
 }
@@ -325,7 +325,7 @@ header {
 }
 
 .about-section-text {
-  height: 80vw;
+  height: 84vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,7 +335,7 @@ header {
   position: relative;
 }
 
-.about-section-text > h2 {
+.about-section-text>h2 {
   padding: .5rem 0 1rem;
 }
 
@@ -361,22 +361,22 @@ header {
 }
 
 .more-info-section-image {
-  height: 160vw;
+  height: 178vw;
   background-size: cover;
   background-position: top;
 }
 
-.local-image {
-  background-image: url(../images/bg-local.jpg);
+.local-business-image {
+  background-image: url(../images/bg-local-business.jpg);
 }
 
-.photog-image {
-  background-image: url(../images/image-photography.jpg);
+.get-in-touch-image {
+  background-image: url(../images/bg-get-in-touch.jpg);
 }
 
-.more-info-section-text {
+.local-business-text,
+.get-in-touch-text {
   position: absolute;
-  top: 3vw;
   left: 0;
   text-align: center;
   padding: 1rem;
@@ -388,4 +388,21 @@ header {
   padding-right: .75rem;
   color: hsl(213, 24%, 15%);
   font-weight: 300;
+}
+
+.local-business-text {
+  top: 14vw;
+}
+
+.get-in-touch-text {
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .get-in-touch-text {
+    -webkit-backdrop-filter: blur(.5rem);
+    backdrop-filter: blur(.5rem);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
 }
