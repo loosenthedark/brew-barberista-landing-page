@@ -69,7 +69,7 @@ blockquote {
   margin: 0 1.66rem;
   line-height: 1.8;
   margin-bottom: 1.125rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 address {
@@ -78,7 +78,7 @@ address {
 
 abbr,
 acronym {
-  border-bottom: .0625rem dotted #666;
+  border-bottom: .0625rem dotted hsl(0, 0%, 40%);
   cursor: help;
 }
 
@@ -228,9 +228,6 @@ img:not(.profiler, .logo, .logo-cyan) {
   left: 100%;
   display: block;
   width: calc(100% - 2.5rem);
-  box-shadow: 0 .25rem .25rem .25rem rgba(164, 161, 170, .25);
-  -webkit-box-shadow: 0 .25rem .25rem .25rem rgba(164, 161, 170, .25);
-  -moz-box-shadow: 0 .25rem .25rem .25rem rgba(164, 161, 170, .25);
 }
 
 .navbar-nav,
@@ -396,13 +393,37 @@ header {
 
 .get-in-touch-text {
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: hsla(0, 0%, 100%, .8);
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .get-in-touch-text {
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(.5rem);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: hsla(0, 0%, 100%, .5);
   }
+}
+
+/* Customer reviews section */
+
+#customer-reviews {
+  padding-bottom: 2.75rem;
+}
+
+figure {
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profiler {
+  border-radius: 50%;
+  margin-bottom: 2.25rem;
+}
+
+.customer {
+  padding-bottom: .75rem;
 }

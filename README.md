@@ -39,4 +39,8 @@
 
 - ['How to crop SVG file within HTML/CSS'](https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css/37589395)
 
+- [Limited browser support - and none in Firefox - for the CSS `backdrop-filter` property](https://caniuse.com/#feat=css-backdrop-filter) necessitated a `@supports` query on line 402 of the project's custom stylesheet (with a reasonable fallback option of an opaque background), as suggested in [this CSS-Tricks article](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
+
+- Generic/stock avatars for the customer reviews section taken from [UI Faces](https://uifaces.co/)
+
 - FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
