@@ -14,6 +14,14 @@
 
 - [Photo by cottonbro from Pexels](https://www.pexels.com/photo/man-in-white-and-black-stripe-shirt-holding-black-pen-3998429/)
 
+- [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/crop-barista-pouring-milk-froth-in-cappuccino-for-client-4349759/)
+
+- [Photo by Liana Horodetska from Pexels](https://www.pexels.com/photo/dawn-caffeine-coffee-dark-7507365/) https://www.instagram.com/liana.wow/
+
+- [Photo by Magda Ehlers from Pexels](https://www.pexels.com/photo/baked-pastries-2573870/) https://instagram.com/magda_ehlers_photography
+
+- Photo by <a href="https://unsplash.com/@sinvalbmx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sinval Carvalho</a> on <a href="https://unsplash.com/s/photos/barber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> https://unsplash.com/photos/WbEibGKHBMY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
 ## Project Design
 
 ### Colour Scheme:
