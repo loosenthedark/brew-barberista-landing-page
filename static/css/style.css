@@ -107,7 +107,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.65rem;
 }
 
 h4 {
@@ -339,7 +339,7 @@ header {
   padding: .5rem 0 1rem;
 }
 
-.more-info {
+.link-more-info {
   font-family: Lora, serif;
   color: hsl(213, 24%, 15%);
   text-transform: uppercase;
@@ -352,4 +352,40 @@ header {
   padding-left: .33rem;
   padding-right: .33rem;
   background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .5), hsla(47, 58%, 56%, .5))
+}
+
+/* More Info section */
+
+.more-info-section {
+  position: relative;
+}
+
+.more-info-section-image {
+  height: 160vw;
+  background-size: cover;
+  background-position: top;
+}
+
+.local-image {
+  background-image: url(../images/bg-local.jpg);
+}
+
+.photog-image {
+  background-image: url(../images/image-photography.jpg);
+}
+
+.more-info-section-text {
+  position: absolute;
+  top: 3vw;
+  left: 0;
+  text-align: center;
+  padding: 1rem;
+}
+
+.more-info-section-text p {
+  font-size: .95rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  color: hsl(213, 24%, 15%);
+  font-weight: 300;
 }

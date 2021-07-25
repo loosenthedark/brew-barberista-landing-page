@@ -10,6 +10,8 @@
 
 - [Photo by Josh Sorenson from Pexels](https://www.pexels.com/photo/straight-razor-kit-995300/)
 
+- [Photo by Gareth Rees from Pexels](https://www.pexels.com/photo/white-ceramic-mug-with-brown-liquid-4334758/) https://twitter.com/garethrees19 | https://www.instagram.com/garethrees1/
+
 ## Project Design
 
 ### Colour Scheme:
