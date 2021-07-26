@@ -155,7 +155,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .logo-cyan) {
+img:not(.profiler, .logo, .partner-logo) {
   display: block;
   border: 0;
   width: 100%;
@@ -445,4 +445,23 @@ figure {
 
 .gallery-image:nth-of-type(4) {
   background-image: url(../images/bg-pasteis.jpg);
+}
+
+/* Partners section */
+
+#partners {
+  margin: 1rem;
+}
+
+.partner {
+  margin: 1rem 0;
+}
+
+.partner-logo {
+  width: 100%;
+  height: 32vw;
+}
+
+.pieman-logo {
+  background-color: hsl(12, 19%, 95%);
 }
