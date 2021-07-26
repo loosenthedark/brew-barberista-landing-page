@@ -156,7 +156,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .partner-logo) {
+img:not(.profiler, .logo, .partner-logo, .email-icon) {
   display: block;
   border: 0;
   width: 100%;
@@ -476,7 +476,8 @@ figure {
 /* Footer */
 
 footer {
-  height: 60vh;
+  height: 90vh;
+  max-height: 36.5rem;
   background-color: hsl(204, 47%, 54%);
   display: flex;
   justify-content: center;
@@ -485,39 +486,86 @@ footer {
   position: relative;
 }
 
-.footer-logo {
-  margin-bottom: 1rem;
+.heading-footer {
+  padding-bottom: 15vw;
   position: relative;
-  top: -2rem;
+  font-size: 2.25rem;
 }
 
 .footer-nav,
 .footer-nav-social {
   display: flex;
-  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 }
 
 .footer-nav {
+  justify-content: space-evenly;
+}
+
+.footer-nav-social {
+  justify-content: space-between;
+}
+
+.footer-nav-contact {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav-contact .nav-item {
+  margin: 0 0 .5rem;
+}
+
+.footer-nav {
   width: 80%;
   margin-bottom: 1rem;
-  top: -2.25rem;
+  top: -10vw;
+}
+
+.reach-out {
+  position: relative;
+  top: -10vw;
 }
 
 .footer-nav-social {
   width: 44%;
-  top: -1.75rem;
+  top: -17.5vw;
+}
+
+pre {
+  position: relative;
+  top: -18.5vw;
 }
 
 .footer-nav .nav-link,
-.footer-nav-social .nav-link {
+.footer-nav-social .nav-link,
+.reach-out,
+pre {
   color: hsl(215, 37%, 90%);
 }
 
 .footer-nav .nav-link {
   font-size: 1.05rem;
+}
+
+.footer-nav:not(.footer-nav-contact) .nav-link {
+  font-size: 1.25rem;
+}
+
+.email-link {
+  color: hsl(213, 24%, 15%);
+}
+
+.email-icon {
+  position: relative;
+  top: .25rem;
+}
+
+.fa-phone,
+.email-icon {
+  margin-right: .35rem;
 }
 
 .footer-nav-social .nav-link {
@@ -526,7 +574,7 @@ footer {
 
 .twitter {
   position: relative;
-  top: .125rem;
+  top: .175rem;
 }
 
 /* Attribution notes */
@@ -561,7 +609,7 @@ footer {
 .fa-mug-hot {
   font-size: .9rem;
   position: relative;
-  top: -.125rem;
+  top: -.1rem;
 }
 
 .ltd {
