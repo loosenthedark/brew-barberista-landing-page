@@ -28,6 +28,8 @@
 
 - Several of the partner logos were customised using [Kapwing](https://t.co/8EeLHn2GvC?amp=1)'s suite of online content editing tools
 
+- [Gmail vector icon downloaded from IconApe](https://iconape.com/gmail-new-2020-seeklogo-com-3-logo-icon-svg-png.html)
+
 ## Project Design
 
 ### Colour Scheme:
