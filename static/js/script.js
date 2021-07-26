@@ -14,6 +14,7 @@ function showMenu() {
 }
 
 function hideMenu() {
+  COLLAPSE.classList.remove('toggled');
   MENU.classList.remove('show');
   TRIANGLE.classList.remove('show');
 }
