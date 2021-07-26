@@ -247,7 +247,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
 .navbar-nav {
   background-color: hsl(0, 0%, 96%);
   text-align: center;
-  padding: 2rem .5rem 1.5rem;
+  padding: 1.5rem .5rem;
   position: absolute;
   top: 0;
   height: calc(100vh - 4.25rem);
@@ -260,10 +260,10 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
   width: 100%;
   clip-path: polygon(
       /* X and Y points */
-      0% 22%,
+      0% 24%,
       62% 0,
       100% 0,
-      100% 78%,
+      100% 76%,
       38% 100%,
       0 100%);
 }
@@ -289,7 +289,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
 }
 
 .nav-item:not(.nav-item-contact) {
-  margin: 1.125rem 0;
+  margin: 1rem 0;
 }
 
 .nav-item-contact {
