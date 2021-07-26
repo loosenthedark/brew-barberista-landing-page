@@ -2,9 +2,11 @@ const BODY = document.querySelector('.element-body');
 const HAMBURGER = document.querySelector('.navbar-toggler');
 const ICON = document.querySelector('.navbar-toggler-icon');
 const TRIANGLE = document.querySelector('.triangle-left');
+const COLLAPSE = document.querySelector('.collapse');
 const MENU = document.querySelector('.navbar-nav');
 
 function showMenu() {
+  COLLAPSE.classList.toggle('toggled');
   MENU.classList.toggle('show');
   TRIANGLE.classList.toggle('show');
   HAMBURGER.getAttribute('aria-expanded') == 'false' ? HAMBURGER.setAttribute('aria-expanded', true) : HAMBURGER.setAttribute('aria-expanded', false);

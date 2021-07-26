@@ -30,6 +30,8 @@
 
 - [Gmail vector icon downloaded from IconApe](https://iconape.com/gmail-new-2020-seeklogo-com-3-logo-icon-svg-png.html)
 
+- [CSS boilerplate for the `navbar-nav` polygon clip-path adapted from this CodePen sandbox](https://codepen.io/heyitsolivia/pen/EICDK?editors=1100)
+
 ## Project Design
 
 ### Colour Scheme:
