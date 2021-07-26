@@ -4,6 +4,8 @@
 [Font Awesome licence](https://fontawesome.com/license)
 <p align="center"><img width="50%" alt="Font Awesome attribution info" src="https://user-images.githubusercontent.com/48750933/126652247-1619eb62-dbc6-4b2f-b999-00e386107240.png"></p>
 
+- ['Cyan Process' shade of blue used in footer modelled on the company's Facebook profile picture featuring their blue and yellow shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425)
+
 - [Photo by cottonbro from Pexels](https://www.pexels.com/photo/calm-sea-under-blue-sky-4571251/)
 
 - [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/set-of-disposable-paper-coffee-cups-4349942/)
