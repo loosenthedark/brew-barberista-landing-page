@@ -2,10 +2,11 @@
 
 ## Colour palette
 
-- Dark blue in logo: hsl(234, 40%, 29%)
-- Gold in logo: hsl(47, 58%, 56%)
-- Off-white blue (body background): hsl(215, 37%, 90%)
-- Gunmetal blue-black (body text): hsl(213, 24%, 15%)
+- 'Space Cadet' dark blue in logo: hsl(234, 40%, 29%)
+- 'Old Gold' gold in logo: hsl(47, 58%, 56%)
+- 'Alice Blue' off-white blue (body background): hsl(215, 37%, 90%)
+- 'Gunmetal' blue-black (body text): hsl(213, 24%, 15%)
+- 'Carolina Blue' blue (footer): hsl(204, 47%, 54%)
 
 ## Typography
 
@@ -251,7 +252,7 @@ img:not(.profiler, .logo, .partner-logo) {
 
 header {
   height: 100vh;
-  background-image: url(../images/image-horizon.jpg);
+  background-image: url(../images/bg-horizon.jpg);
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -450,15 +451,15 @@ figure {
 /* Partners section */
 
 #partners {
-  margin: 1.5rem;
+  margin: 1.75rem;
 }
 
 .partner {
-  margin: 1.5rem 0;
+  margin: 1.75rem 0;
 }
 
 .partner-logo {
-  height: 30.5vw;
+  height: 30vw;
   display: block;
 }
 
@@ -469,4 +470,81 @@ figure {
 
 .pieman-logo {
   background-color: hsl(12, 19%, 95%);
+}
+
+/* Footer */
+
+footer {
+  height: 60vh;
+  background-color: hsl(204, 47%, 54%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+  position: relative;
+  top: -2rem;
+}
+
+.logo-cyan {
+  width: 11rem;
+}
+
+.footer-nav,
+.footer-nav-social {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.footer-nav {
+  width: 80%;
+  margin-bottom: 1rem;
+  top: -2.25rem;
+}
+
+.footer-nav-social {
+  width: 44%;
+  top: -1.75rem;
+}
+
+.footer-nav .nav-link,
+.footer-nav-social .nav-link {
+  color: hsl(168, 34%, 41%);
+  font-size: 1.025rem;
+}
+
+.twitter {
+  position: relative;
+  top: .125rem;
+}
+
+/* Attribution notes */
+
+.attribution {
+  font-size: .75rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: hsl(168, 34%, 41%);
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.attribution p {
+  margin-bottom: 0;
+}
+
+.attribution a {
+  color: #fff;
 }
