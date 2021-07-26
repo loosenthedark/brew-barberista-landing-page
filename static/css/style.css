@@ -115,9 +115,9 @@ h4 {
   text-transform: uppercase;
   letter-spacing: .25rem;
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   margin-top: 3.75rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 h5 {
@@ -302,11 +302,11 @@ header {
 }
 
 .about-coffee-image {
-  background-image: url(../images/bg-coffee-cups.jpg);
+  background-image: url(../images/coffee-cups.jpg);
 }
 
 .about-barber-image {
-  background-image: url(../images/bg-barber-kit.jpg);
+  background-image: url(../images/barbers.jpg);
 }
 
 .about-section-text {
@@ -399,20 +399,50 @@ header {
 }
 
 figure {
-  height: 100vw;
-  max-height: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin: 1.5rem 0 3.5rem;
 }
 
 .profiler {
   border-radius: 50%;
-  margin-bottom: 1.55rem;
+  margin-bottom: 1.25rem;
 }
 
 .customer {
   padding-bottom: .75rem;
+}
+
+/* Image gallery */
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  width: 50vw;
+  height: 50vw;
+  max-height: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-image:first-of-type {
+  background-image: url(../images/bg-coffee-heart.jpg);
+}
+
+.gallery-image:nth-of-type(2) {
+  background-image: url(../images/bg-barber-kit.jpg);
+}
+
+.gallery-image:nth-of-type(3) {
+  background-image: url(../images/bg-matthew.jpg);
+}
+
+.gallery-image:nth-of-type(4) {
+  background-image: url(../images/bg-pasteis.jpg);
 }
