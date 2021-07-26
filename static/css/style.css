@@ -117,7 +117,7 @@ h4 {
   letter-spacing: .25rem;
   font-weight: 700;
   font-size: 1.25rem;
-  margin-top: 3.75rem;
+  margin-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -163,6 +163,34 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
   height: auto;
 }
 
+/* Pseudo-element selector workaround to handle fixed navbar encroaching into anchor link areas - as suggested here: https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
+:target::before {
+  content: "";
+  display: block;
+  height: 3rem;
+  /* fixed header height*/
+  margin: -3rem 0 0;
+  /* negative fixed header height */
+}
+
+/* Buttons */
+
+.btn {
+  padding: 1rem 1.85rem;
+  text-transform: uppercase;
+  font-family: Fraunces, serif;
+  color: hsl(214, 24%, 19%);
+  font-size: .95rem;
+  border-radius: 5rem;
+  font-weight: 900;
+  letter-spacing: -.0125rem;
+}
+
+.btn-contact {
+  background-color: hsl(204, 47%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
 /* Navbar */
 
 .navbar {
@@ -206,16 +234,40 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
   background-color: hsl(234, 40%, 29%);
 }
 
+.collapse {
+  /* height: calc(100vh - 4.25rem); */
+  width: 100vw;
+  padding: 0;
+  position: absolute;
+  top: 4.25rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: hsla(213, 24%, 15%, .3); */
+}
+
 .navbar-nav {
   background-color: hsl(0, 0%, 96%);
   text-align: center;
   padding: 2rem .5rem 1.5rem;
   position: absolute;
-  top: 4.25rem;
-  height: 100vw;
+  top: 0;
+  height: calc(100vh - 4.25rem);
   left: 100%;
-  display: block;
-  width: calc(100% - 2.5rem);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  clip-path: polygon(
+      /* X and Y points */
+      0% 22%,
+      62% 0,
+      100% 0,
+      100% 78%,
+      38% 100%,
+      0 100%);
 }
 
 .navbar-nav,
@@ -230,19 +282,20 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
 }
 
 .navbar-nav.show {
-  left: 1.25rem;
+  left: 0;
 }
 
 .nav-item:not(.nav-item-contact) {
-  margin: 1.625rem 0;
+  margin: 1.125rem 0;
 }
 
 .nav-item-contact {
-  margin: 2.25rem 0;
+  margin: 2rem 0;
 }
 
 .nav-link:not(.btn) {
-  color: hsl(260, 5%, 65%);
+  color: hsl(213, 24%, 15%);
+  font-weight: 300;
   width: 100%;
   height: 100%;
   display: block;
@@ -450,6 +503,10 @@ figure {
 
 /* Partners section */
 
+.reviews-heading {
+  padding-bottom: 1.5rem;
+}
+
 #partners {
   margin: 1.75rem;
 }
@@ -540,7 +597,6 @@ pre {
 }
 
 .footer-nav .nav-link,
-.footer-nav-social .nav-link,
 .reach-out,
 pre {
   color: hsl(215, 37%, 90%);
