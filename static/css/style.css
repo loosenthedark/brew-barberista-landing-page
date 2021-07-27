@@ -42,7 +42,11 @@ body {
   line-height: 1.5;
   color: hsl(213, 24%, 15%);
   background-color: hsl(215, 37%, 90%);
+}
+
+body>* {
   max-width: 54rem;
+  margin: 0 auto;
 }
 
 h1,
@@ -902,13 +906,66 @@ pre {
     0% {
       top: 100vw;
     }
-  
+
     50% {
       top: 105vw;
     }
-  
+
     100% {
       top: 100vw;
+    }
+  }
+
+  /*--------------------------------------------------------------
+CSS Grid layout for wider screens, when browser supports grid:
+--------------------------------------------------------------*/
+
+  @supports (grid-area: auto) {
+    :target::before {
+      height: 4.25rem;
+      /* fixed header height*/
+      margin: -4.25rem 0 0;
+      /* negative fixed header height */
+    }
+
+    #about {
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 100vw;
+      grid-template-rows: auto auto;
+    }
+
+    .about-section {
+      height: 50vh;
+    }
+
+    .about-section>* {
+      height: unset;
+    }
+
+    .about-section.coffee {
+      display: flex;
+    }
+
+    .about-coffee-image {
+      width: 60%;
+      order: 2;
+    }
+
+    .coffee-text {
+      width: 40%;
+      order: 1;
+    }
+
+    .about-section.barber {
+      display: grid;
+      grid-template-columns: 60% 40%;
+    }
+
+    .about-section-text>h2,
+    .about-section-text>p,
+    .about-section-text>a {
+      top: unset;
     }
   }
 }
