@@ -712,6 +712,7 @@ figure {
 
 footer {
   height: 90vh;
+  min-height: 35rem;
   max-height: 36.5rem;
   background-color: hsl(204, 47%, 54%);
   display: flex;
@@ -921,7 +922,7 @@ pre {
     font-size: 1rem;
   }
 
-  figure {
+  figure:not(.partner) {
     max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
@@ -1026,7 +1027,7 @@ pre {
   .gallery-image:nth-of-type(3) {
     background-image: url(../images/bg-pasteis.jpg);
   }
-  
+
   .gallery-image:nth-of-type(4) {
     background-image: url(../images/bg-barber-kit-orange.jpg);
   }
@@ -1034,9 +1035,37 @@ pre {
   .gallery-image:nth-of-type(5) {
     background-image: url(../images/bg-coffee-heart.jpg);
   }
-  
+
   .gallery-image:nth-of-type(6) {
     background-image: url(../images/bg-barber-kit.jpg);
+  }
+
+  #partners {
+    padding: 3.5rem 0;
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 3.5rem);
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #partners .reviews-heading {
+    width: 100%;
+  }
+
+  .partner {
+    display: block;
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: unset;
+    text-align: center;
+    width: calc(50% - .875rem);
+    margin: .875rem 0;
+  }
+
+  .partner-logo,
+  .partner-link {
+    height: 15vw;
   }
 
   @keyframes bob {
