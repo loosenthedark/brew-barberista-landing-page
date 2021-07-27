@@ -24,6 +24,8 @@ function hideMenus() {
   collapse.classList.remove('toggled');
   menu.classList.remove('show');
   pressList.classList.remove('press-reveal');
+  hamburgerIcon.classList.remove('active');
+  coffeeIcon.classList.remove('active');
 }
 
 // Hide nav menu when touch or click happens elsewhere:

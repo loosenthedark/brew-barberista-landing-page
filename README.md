@@ -28,6 +28,8 @@
 
 - Several of the partner logos were customised using [Kapwing](https://t.co/8EeLHn2GvC?amp=1)'s suite of online content editing tools
 
+- ['Dog-friendly' logo in footer purchased and downloaded from SVG Craft Lounge](https://www.etsy.com/ie/listing/1046348333/dog-friendly-sign-printable-and-cut-file?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=no+pets+allowed+png&ref=sr_gallery-2-26&pro=1)
+
 - [Gmail vector icon downloaded from IconApe](https://iconape.com/gmail-new-2020-seeklogo-com-3-logo-icon-svg-png.html)
 
 - [CSS boilerplate for the `navbar-nav` polygon clip-path adapted from this CodePen sandbox](https://codepen.io/heyitsolivia/pen/EICDK?editors=1100)

@@ -42,7 +42,7 @@ body {
   line-height: 1.5;
   color: hsl(213, 24%, 15%);
   background-color: hsl(215, 37%, 90%);
-  ;
+  max-width: 54rem;
 }
 
 h1,
@@ -276,6 +276,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
 
 .navbar-logo {
   width: 42.5%;
+  max-width: 10rem;
   display: inline-block;
 }
 
@@ -457,6 +458,7 @@ header {
   display: inline-block;
   position: relative;
   width: 60%;
+  max-width: 18rem;
 }
 
 .hero-icons>img:nth-of-type(2) {
@@ -872,5 +874,41 @@ pre {
 
   100% {
     top: 136vw;
+  }
+}
+
+/* Media Queries */
+
+/* Tablet screens */
+
+@media screen and (min-width: 768px) {
+  .hero-icons {
+    padding-top: 15vw;
+  }
+
+  .hero-icons>img:nth-of-type(2) {
+    right: 5vw;
+  }
+
+  .chevron-box {
+    top: 100vw;
+  }
+
+  .chevron-box a {
+    font-size: 4.5rem;
+  }
+
+  @keyframes bob {
+    0% {
+      top: 100vw;
+    }
+  
+    50% {
+      top: 105vw;
+    }
+  
+    100% {
+      top: 100vw;
+    }
   }
 }
