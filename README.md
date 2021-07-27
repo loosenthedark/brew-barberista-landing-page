@@ -61,4 +61,6 @@
 
 - Generic/stock avatars for the customer reviews section taken from [UI Faces](https://uifaces.co/)
 
+- Pure JS boilerplate for the 'scroll back to top' `button` adpated from [this CodePen](https://jsfiddle.net/amirsaleem/xpd1wr7n/) | [transition styles applied on this element with help from this example](https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555)
+
 - FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)

@@ -45,11 +45,16 @@ function showPress() {
   }
 }
 
+// Code block adapted from https://jsfiddle.net/amirsaleem/xpd1wr7n/
+
+// Listen for page scroll
 window.addEventListener("scroll", function () {
   var backToTopButton = document.getElementById('btn-back-to-top');
+  // Show button if user scrolls more than 500px from top
   if (window.pageYOffset > 500) {
     backToTopButton.style.display = "block";
   }
+  // hide it when user is less than 500px from top
   else if (window.pageYOffset < 500) {
     backToTopButton.style.display = "none";
   }

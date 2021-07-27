@@ -160,7 +160,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
+img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon) {
   display: block;
   border: 0;
   width: 100%;
@@ -225,6 +225,8 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   display: none;
 }
 
+/* Code block adapted from https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555 */
+
 .js .cd-top--fade-out {
   opacity: .5
 }
@@ -284,16 +286,36 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
 
 .navbar-toggler {
   position: absolute;
-  top: 1.5rem;
-  right: 1.25rem;
+  top: 1rem;
+  right: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: .25rem;
+  /* border: .125rem solid hsl(47, 58%, 56%); */
   border: none;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 2;
 }
 
-.navbar-toggler-icon {
-  width: 1.75rem;
-  height: 1.25rem;
-  color: hsl(47, 58%, 56%);
+#nav-toggler span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   background-color: hsl(234, 40%, 29%);
+  color: hsl(47, 58%, 56%);
+  transition: .05s ease-in-out;
+}
+
+#nav-toggler span:nth-child(2) {
+  font-size: 2.25rem;
+  padding-left: 0;
+  position: relative;
+  top: .125rem;
+  left: -.25rem;
 }
 
 .collapse {
@@ -348,6 +370,11 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   margin: 1rem 0;
 }
 
+.navbar-nav>.nav-item {
+  position: relative;
+  top: -.5rem;
+}
+
 .nav-item-contact {
   margin: 2rem 0;
 }
@@ -390,6 +417,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   position: relative;
   padding-left: 2.25rem;
 }
+
 .press-list-icon {
   position: absolute;
   left: 0;
