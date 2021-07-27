@@ -160,7 +160,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon) {
+img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon, .logo-dog-friendly) {
   display: block;
   border: 0;
   width: 100%;
@@ -375,7 +375,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
 }
 
 .nav-item:not(.nav-item-contact) {
-  margin: 2vh 0;
+  margin: 3.75vw 0;
 }
 
 .navbar-nav>.nav-item {
@@ -789,6 +789,13 @@ pre {
 .twitter {
   position: relative;
   top: .175rem;
+}
+
+.dog-friendly {
+  position: relative;
+  top: -14vw;
+  text-align: left;
+  transform: rotate(35deg);
 }
 
 /* Attribution notes */

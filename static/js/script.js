@@ -6,9 +6,9 @@ const pressList = document.querySelector('#press-list');
 const pressLink = document.querySelector('.press-list-link');
 const collapse = document.querySelector('.collapse');
 const menu = document.querySelector('.navbar-nav');
-const animateNavToggler = document.getElementById("nav-toggler");
-const hamburgerIcon = document.querySelector(".hamburger-icon");
-const coffeeIcon = document.querySelector(".coffee-icon");
+const animateNavToggler = document.getElementById('nav-toggler');
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+const coffeeIcon = document.querySelector('.coffee-icon');
 
 function showMenu() {
   collapse.classList.toggle('toggled');
@@ -49,21 +49,21 @@ function showPress() {
 }
 
 // Code block adapted from https://jsfiddle.net/amirsaleem/xpd1wr7n/
-
 // Listen for page scroll
-window.addEventListener("scroll", function () {
+window.addEventListener('scroll', function () {
   var backToTopButton = document.getElementById('btn-back-to-top');
   // Show button if user scrolls more than 500px from top
   if (window.pageYOffset > 500) {
-    backToTopButton.style.display = "block";
+    backToTopButton.style.display = 'block';
   }
   // hide it when user is less than 500px from top
   else if (window.pageYOffset < 500) {
-    backToTopButton.style.display = "none";
+    backToTopButton.style.display = 'none';
   }
 }, false);
 
-animateNavToggler.addEventListener("click", function () {
+// Custom nav toggler icon animation on click - code block adapted from https://www.youtube.com/watch?v=g7v4BB9IMRw
+animateNavToggler.addEventListener('click', function () {
   hamburgerIcon.classList.toggle('active');
   coffeeIcon.classList.toggle('active');
 });
