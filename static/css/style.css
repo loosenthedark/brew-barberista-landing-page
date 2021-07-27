@@ -213,6 +213,46 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .33), hsla(47, 58%, 56%, .33))
 }
 
+/* Back-to-top button */
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: -.5rem;
+  right: .9rem;
+  z-index: 98;
+  font-size: 3.5rem;
+  color: hsl(234, 40%, 29%);
+  display: none;
+}
+
+.js .cd-top--fade-out {
+  opacity: .5
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+}
+
 /* Navbar */
 
 .navbar {
@@ -341,7 +381,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
 }
 
 .press-list-item {
-  padding: .625rem 0;
+  padding: .55rem 0;
 }
 
 .press-list-link {
@@ -598,6 +638,7 @@ figure {
 /* Location section */
 
 #location h5 {
+  color: hsl(234, 40%, 29%);
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;

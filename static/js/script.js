@@ -44,3 +44,13 @@ function showPress() {
     x.className = x.className.replace('press-reveal', '');
   }
 }
+
+window.addEventListener("scroll", function () {
+  var backToTopButton = document.getElementById('btn-back-to-top');
+  if (window.pageYOffset > 500) {
+    backToTopButton.style.display = "block";
+  }
+  else if (window.pageYOffset < 500) {
+    backToTopButton.style.display = "none";
+  }
+}, false);
