@@ -26,6 +26,8 @@
 
 - [Matthew photo taken from Brew Barberista's Facebook page](https://www.facebook.com/photo/?fbid=246151787283327&set=bc.AbrXKgJIKp_x_V53WD-7kYeXbmn_KqgG2K999xiRUZ4DB8-GYReJXamI33kZepirdUgegLsyEXdX7uTW7tAn2yrczT4LbzLBwYA11nPRDlSj11c-1yUiSKiL_Vf864hBCqVsOpuEIsi8wyu9IhKNHmQo&opaqueCursor=AboUwXHhzz6KBzqFdz8DpzK8_QKiMnDclZhyK14cozAJrWxsf7lfpaH1DeOUsubo4KNJzyr9O9F95915wF77KhqbFibENqKnzKwa41feXk6O5ebCDPkigSuv5qgg8nW66S26Xc2MwP2fEmbUVxpSZMNa3NNF-kGikHa0TAhTLQoHVMmF766WB2-H584foVzO1ONuHqziA5oDekDFjhtRDP4xVyM9Ah-EVyH_73dpM08rW23q_KENWUMn9V8wY0XmRg8vbdxRZpxZsqG4Cin-9jYCMSelK0cD6mBQV7FBlCi4sXZcg2iHqkfAmMBtR-LkFkpGqQtQy1M-fTBFVDKpqPaTvU2f0Vg6Kkj1Fo1HhLc4iK-EYW6F76DZKLA_nmJmijjXohAQqYT6sQ0bMf84SuqS_CRMNtiIJDrTVmTytLq95wXsMZDqsd35LUBscVGl6bZmhYgLEygqNNF6puWi2gIwRH_6p2QiTx6lv4jvo6YTxzWs-ETnXX4Rqiiz_zxGlmIUoqS0JxnhQjLuodfPZCifuIImgwssdb7vaW8zQtUBDupSv0eHnjBwtwK9WDcFAMA)
 
+- Photo by <a href="https://unsplash.com/@donovan_valdivia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew "Donovan" Valdivia</a> on <a href="https://unsplash.com/s/photos/cold-brew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 - Several of the partner logos were customised using [Kapwing](https://t.co/8EeLHn2GvC?amp=1)'s suite of online content editing tools
 
 - ['Dog-friendly' logo in footer purchased and downloaded from SVG Craft Lounge](https://www.etsy.com/ie/listing/1046348333/dog-friendly-sign-printable-and-cut-file?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=no+pets+allowed+png&ref=sr_gallery-2-26&pro=1)
