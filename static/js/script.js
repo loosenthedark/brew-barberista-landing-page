@@ -1,33 +1,44 @@
-const BODY = document.querySelector('.element-body');
-const HAMBURGER = document.querySelector('.navbar-toggler');
-const ICON = document.querySelector('.navbar-toggler-icon');
-const TRIANGLE = document.querySelector('.triangle-left');
-const COLLAPSE = document.querySelector('.collapse');
-const MENU = document.querySelector('.navbar-nav');
+const body = document.querySelector('.element-body');
+const hamburger = document.querySelector('.navbar-toggler');
+const icon = document.querySelector('.navbar-toggler-icon');
+const pressButton = document.querySelector('.btn-press');
+const pressList = document.querySelector('#press-list');
+const pressLink = document.querySelector('.press-list-link');
+const collapse = document.querySelector('.collapse');
+const menu = document.querySelector('.navbar-nav');
 
 function showMenu() {
-  COLLAPSE.classList.toggle('toggled');
-  MENU.classList.toggle('show');
-  TRIANGLE.classList.toggle('show');
-  HAMBURGER.getAttribute('aria-expanded') == 'false' ? HAMBURGER.setAttribute('aria-expanded', true) : HAMBURGER.setAttribute('aria-expanded', false);
+  collapse.classList.toggle('toggled');
+  menu.classList.toggle('show');
+  // TRIANGLE.classList.toggle('show');
+  hamburger.getAttribute('aria-expanded') == 'false' ? hamburger.setAttribute('aria-expanded', true) : hamburger.setAttribute('aria-expanded', false);
   
 }
 
-function hideMenu() {
-  COLLAPSE.classList.remove('toggled');
-  MENU.classList.remove('show');
-  TRIANGLE.classList.remove('show');
+function hideMenus() {
+  collapse.classList.remove('toggled');
+  menu.classList.remove('show');
+  pressList.classList.remove('press-reveal');
 }
 
 // Hide nav menu when touch or click happens elsewhere:
 function clickTarget(e) {
-  if (e.target !== ICON && e.target !== TRIANGLE) {
-    hideMenu();
+  if (e.target !== icon && e.target !== pressButton && e.target !== pressLink) {
+    hideMenus();
   }
 }
 
 // Listen for hamburger icon clicks
-HAMBURGER.addEventListener('click', showMenu, false);
+hamburger.addEventListener('click', showMenu, false);
 
 // Listen for clicks anywhere on screen:
-BODY.addEventListener('click', function (e) { clickTarget(e); }, true);
+body.addEventListener('click', function (e) { clickTarget(e); }, true);
+
+function showPress() {
+  var x = document.getElementById("press-list");
+  if (x.className.indexOf("press-reveal") == -1) {
+    x.className += "press-reveal";
+  } else { 
+    x.className = x.className.replace("press-reveal", "");
+  }
+}

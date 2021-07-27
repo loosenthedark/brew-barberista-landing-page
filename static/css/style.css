@@ -16,9 +16,9 @@
 
 ### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Barlow)
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 300, 400, 500
-- Family: [Lora](https://fonts.google.com/specimen/Fraunces)
+- Family: [Lora](https://fonts.google.com/specimen/Lora)
 - Weights: 600, 700
 
 */
@@ -52,6 +52,10 @@ h4,
 h5 {
   font-family: Lora, serif;
   clear: both;
+}
+
+ul {
+  list-style-type: none;
 }
 
 b,
@@ -156,7 +160,7 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .partner-logo, .email-icon) {
+img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   display: block;
   border: 0;
   width: 100%;
@@ -178,7 +182,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
 .btn {
   padding: 1rem 1.85rem;
   text-transform: uppercase;
-  font-family: Fraunces, serif;
+  font-family: Lora, serif;
   color: hsl(214, 24%, 19%);
   font-size: .95rem;
   border-radius: 5rem;
@@ -189,6 +193,24 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
 .btn-contact {
   background-color: hsl(204, 47%, 54%);
   color: hsl(0, 0%, 100%);
+}
+
+.btn-press {
+  border: none;
+  background-color: hsl(0, 0%, 96%);
+  font-family: unset;
+  text-transform: unset;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: 300;
+  font-size: 1.0625rem;
+  border-radius: 0;
+  background-position: bottom;
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+  padding-left: .33rem;
+  padding-right: .33rem;
+  background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .5), hsla(47, 58%, 56%, .5))
 }
 
 /* Navbar */
@@ -269,12 +291,6 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
 }
 
 .navbar-nav,
-.footer-nav,
-.footer-nav-social {
-  list-style-type: none;
-}
-
-.navbar-nav,
 .collapse {
   transition: all .25s;
 }
@@ -302,6 +318,44 @@ img:not(.profiler, .logo, .partner-logo, .email-icon) {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+#press-list {
+  position: fixed;
+  bottom: 1vw;
+  left: 0;
+  width: 100vw;
+  background-color: hsl(215, 37%, 90%);
+  z-index: 999;
+  padding: 1rem 2rem;
+  height: 0;
+  display: none;
+  transform: translateY(100%);
+  transition: all 5s ease-in-out;
+  opacity: 0;
+}
+
+#press-list.press-reveal {
+  height: 44.5vw;
+  display: block;
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.press-list-item {
+  padding: .625rem 0;
+}
+
+.press-list-link {
+  color: hsl(213, 24%, 15%);
+  font-weight: 400;
+  position: relative;
+  padding-left: 2.5rem;
+}
+.press-list-icon {
+  position: absolute;
+  left: 0;
+  top: -.55rem;
 }
 
 /* Header */
@@ -352,7 +406,7 @@ header {
 /* About section */
 
 .about-section-image {
-  height: 95vw;
+  height: 90vw;
   background-size: cover;
   background-position: center;
 }
@@ -366,7 +420,7 @@ header {
 }
 
 .about-section-text {
-  height: 84vw;
+  height: 86vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -663,7 +717,7 @@ pre {
 
 .attribution p {
   margin-bottom: 0;
-  color: hsl(257, 5%, 30%);
+  color: hsl(213, 24%, 15%);
 }
 
 .attribution a {
