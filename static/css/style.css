@@ -311,11 +311,19 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
 }
 
 #nav-toggler span:nth-child(2) {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   padding-left: 0;
   position: relative;
-  top: .125rem;
-  left: -.25rem;
+  /* top: .125rem; */
+  /* left: -.25rem; */
+}
+
+#nav-toggler span.active {
+  transform: translateY(-100%);
+}
+
+#nav-toggler span:nth-child(2).active {
+  top: -.25rem;
 }
 
 .collapse {
@@ -367,7 +375,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
 }
 
 .nav-item:not(.nav-item-contact) {
-  margin: 1rem 0;
+  margin: 2vh 0;
 }
 
 .navbar-nav>.nav-item {

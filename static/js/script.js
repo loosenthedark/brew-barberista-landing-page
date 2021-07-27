@@ -1,11 +1,14 @@
 const body = document.querySelector('.element-body');
 const hamburger = document.querySelector('.navbar-toggler');
-const icon = document.querySelector('.navbar-toggler-icon');
+const icon = document.querySelectorAll('.navbar-toggler-icon');
 const pressButton = document.querySelector('.btn-press');
 const pressList = document.querySelector('#press-list');
 const pressLink = document.querySelector('.press-list-link');
 const collapse = document.querySelector('.collapse');
 const menu = document.querySelector('.navbar-nav');
+const animateNavToggler = document.getElementById("nav-toggler");
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const coffeeIcon = document.querySelector(".coffee-icon");
 
 function showMenu() {
   collapse.classList.toggle('toggled');
@@ -31,7 +34,7 @@ function clickTarget(e) {
 }
 
 // Listen for hamburger icon clicks
-hamburger.addEventListener('click', showMenu, false);
+hamburgerIcon.addEventListener('click', showMenu, false);
 
 // Listen for clicks anywhere on screen:
 body.addEventListener('click', function (e) { clickTarget(e); }, true);
@@ -59,3 +62,8 @@ window.addEventListener("scroll", function () {
     backToTopButton.style.display = "none";
   }
 }, false);
+
+animateNavToggler.addEventListener("click", function () {
+  hamburgerIcon.classList.toggle('active');
+  coffeeIcon.classList.toggle('active');
+});
