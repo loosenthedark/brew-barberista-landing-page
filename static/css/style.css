@@ -210,7 +210,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   background-repeat: no-repeat;
   padding-left: .33rem;
   padding-right: .33rem;
-  background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .5), hsla(47, 58%, 56%, .5))
+  background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .33), hsla(47, 58%, 56%, .33))
 }
 
 /* Navbar */
@@ -322,13 +322,12 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
 
 #press-list {
   position: fixed;
-  bottom: 1vw;
+  bottom: 0;
   left: 0;
   width: 100vw;
   background-color: hsl(215, 37%, 90%);
   z-index: 999;
   padding: 1rem 2rem;
-  height: 0;
   display: none;
   transform: translateY(100%);
   transition: all 5s ease-in-out;
@@ -336,7 +335,6 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
 }
 
 #press-list.press-reveal {
-  height: 44.5vw;
   display: block;
   transform: translateY(0%);
   opacity: 1;
@@ -350,12 +348,12 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon) {
   color: hsl(213, 24%, 15%);
   font-weight: 400;
   position: relative;
-  padding-left: 2.5rem;
+  padding-left: 2.25rem;
 }
 .press-list-icon {
   position: absolute;
   left: 0;
-  top: -.55rem;
+  top: -.375rem;
 }
 
 /* Header */
@@ -406,7 +404,7 @@ header {
 /* About section */
 
 .about-section-image {
-  height: 90vw;
+  height: 92vw;
   background-size: cover;
   background-position: center;
 }
@@ -420,7 +418,7 @@ header {
 }
 
 .about-section-text {
-  height: 86vw;
+  height: 84vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -575,7 +573,7 @@ figure {
 }
 
 #partners {
-  margin: 1.75rem;
+  margin: 0 1.75rem 1.75rem;
 }
 
 .partner {
@@ -595,6 +593,22 @@ figure {
 
 .pieman-logo {
   background-color: hsl(12, 19%, 95%);
+}
+
+/* Location section */
+
+#location h5 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.map-container {
+  min-height: 100vw;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem;
 }
 
 /* Footer */

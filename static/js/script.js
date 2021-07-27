@@ -10,9 +10,11 @@ const menu = document.querySelector('.navbar-nav');
 function showMenu() {
   collapse.classList.toggle('toggled');
   menu.classList.toggle('show');
-  // TRIANGLE.classList.toggle('show');
+  if (pressList.className.indexOf('press-reveal') !== -1) {
+    pressList.className = pressList.className.replace('press-reveal', '');
+  }
   hamburger.getAttribute('aria-expanded') == 'false' ? hamburger.setAttribute('aria-expanded', true) : hamburger.setAttribute('aria-expanded', false);
-  
+
 }
 
 function hideMenus() {
@@ -35,10 +37,10 @@ hamburger.addEventListener('click', showMenu, false);
 body.addEventListener('click', function (e) { clickTarget(e); }, true);
 
 function showPress() {
-  var x = document.getElementById("press-list");
-  if (x.className.indexOf("press-reveal") == -1) {
-    x.className += "press-reveal";
-  } else { 
-    x.className = x.className.replace("press-reveal", "");
+  var x = document.getElementById('press-list');
+  if (x.className.indexOf('press-reveal') == -1) {
+    x.className += 'press-reveal';
+  } else {
+    x.className = x.className.replace('press-reveal', '');
   }
 }
