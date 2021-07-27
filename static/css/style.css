@@ -904,6 +904,29 @@ pre {
     padding-bottom: 1.5rem;
   }
 
+  h4 {
+    font-size: 1.33rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  figure {
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+
+  blockquote {
+    font-size: 1.1rem;
+  }
+
   .btn-book {
     background-color: hsl(47, 58%, 56%);
     color: hsl(0, 0%, 100%);
@@ -966,6 +989,12 @@ pre {
   .get-in-touch-text p {
     max-width: 27rem;
     font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  .profiler {
+    width: 5rem;
+    height: 5rem;
     margin-bottom: 1rem;
   }
 
