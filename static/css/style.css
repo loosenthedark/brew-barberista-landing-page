@@ -217,6 +217,10 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
   background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .33), hsla(47, 58%, 56%, .33))
 }
 
+.btn-book {
+  display: none;
+}
+
 /* Back-to-top button */
 
 #btn-back-to-top {
@@ -576,6 +580,11 @@ header {
   font-weight: 300;
 }
 
+.more-info-section-text p:nth-of-type(2),
+.more-info-section-text p:nth-of-type(3) {
+  display: none;
+}
+
 .local-business-text {
   top: 14vw;
 }
@@ -886,6 +895,24 @@ pre {
 /* Tablet screens */
 
 @media screen and (min-width: 768px) {
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .btn-book {
+    background-color: hsl(47, 58%, 56%);
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    margin-top: .75rem;
+    letter-spacing: unset;
+    font-weight: 600;
+  }
+
   .hero-icons {
     padding-top: 15vw;
   }
@@ -900,6 +927,46 @@ pre {
 
   .chevron-box a {
     font-size: 4.5rem;
+  }
+
+  .local-business-text,
+  .get-in-touch-text {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .local-business-text {
+    top: 6vw;
+  }
+
+  .more-info-section-text p {
+    font-size: 1.05rem;
+    max-width: 42rem;
+    margin: 0 auto 1.25rem;
+  }
+
+  .more-info-section-text p:nth-of-type(2),
+  .more-info-section-text p:nth-of-type(3) {
+    display: block;
+  }
+
+  .get-in-touch-image {
+    background-image: url(../images/bg-get-in-touch-md.jpg);
+  }
+
+  .get-in-touch-text {
+    padding-bottom: 4.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .get-in-touch-text h3 {
+    padding-bottom: 1.25rem;
+  }
+
+  .get-in-touch-text p {
+    max-width: 27rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
   }
 
   @keyframes bob {
@@ -962,10 +1029,28 @@ CSS Grid layout for wider screens, when browser supports grid:
       grid-template-columns: 60% 40%;
     }
 
+    .about-section-text {
+      padding: 2rem;
+    }
+
     .about-section-text>h2,
     .about-section-text>p,
     .about-section-text>a {
       top: unset;
+    }
+
+    .coffee-text>h2,
+    .coffee-text>p,
+    .coffee-text>a {
+      top: 1rem;
+    }
+
+    .about-section-text>h2 {
+      padding: 0 0 2rem;
+    }
+
+    .more-info-section-image {
+      height: 100vh;
     }
   }
 }
