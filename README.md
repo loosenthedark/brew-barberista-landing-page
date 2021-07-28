@@ -1,5 +1,5 @@
 <p align="center"><img alt="Code Institute logo" src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"></p>
-<p align="center"><img src="static/images/icons/gh-logo-pride.png" alt="Brew Barberista logo" width="100" height="auto"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/48750933/127286116-82305cdf-d23b-43b9-8cd2-4ece1145ebcc.jpg" alt="Brew Barberista logo" width="200" height="auto"></p>
 
 <h4 align="center"><a href="https://loosenthedark.github.io/brew-barberista">Live link to deployed project</a> (hosted on GitHub Pages)</h4>
 
