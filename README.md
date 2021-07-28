@@ -9,6 +9,8 @@ While the company has made good use of social media (notably Instagram) througho
 
 ## User Experience (UX)
 
+**Brew Barberista** is a fully-responsive frontend website, offering users a visually appealing summary of the business's services, identity and core values. Both first-time and returning visitors will be impressed by the site's mobile-first design as well as its intuitive navigation and layout, while their knowledge of Brew Barberista's offerings and message will be enriched by the site's informative content.
+
 ### User stories:
 
 #### User goals (general visitor to the site):
