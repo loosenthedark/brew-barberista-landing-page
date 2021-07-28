@@ -1,4 +1,82 @@
 <p align="center"><img alt="Code Institute logo" src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"></p>
+<p align="center"><img src="static/images/icons/gh-logo-pride.png" alt="Brew Barberista logo" width="100" height="auto"></p>
+
+<h1 align='center'>Brew Barberista</h1>
+
+<h4 align="center"><a href="https://loosenthedark.github.io/brew-barberista">Live link to deployed project</a> (hosted on GitHub Pages)</h4>
+
+
+
+## User Experience (UX)
+
+### User stories:
+
+#### User goals (general visitor to the site):
+
+
+
+#### Developer goals:
+
+
+
+### Project design:
+
+#### Colour scheme:
+
+#### Typography:
+
+#### Wireframes:
+
+## Features
+
+### Existing features:
+
+
+
+### Potential future features:
+
+
+
+## Technologies Used
+
+
+
+## Testing
+
+### Validation:
+
+### Responsiveness:
+
+### Bugs:
+
+
+## Deployment
+
+### GitHub Pages:
+
+### Forking the GitHub Repository:
+
+### Making a local clone:
+
+## Credits
+
+### Code:
+
+### Content:
+
+
+
+### Media:
+
+
+
+### Acknowledgements:
+
+### Notice:
+
+
+
+
 <p align="center"><img width="40%" alt="Screen Shot 2021-07-22 at 08 50 34" src="https://user-images.githubusercontent.com/48750933/126610883-b9f5c00e-fa68-4a53-abb8-c1d357a65496.png"> <img width="40%" alt="Screen Shot 2021-07-22 at 08 54 47" src="https://user-images.githubusercontent.com/48750933/126610961-708c7cf3-f267-4db5-b7b1-acc2d5f8ff41.png"></p>
 
 [Font Awesome licence](https://fontawesome.com/license)
