@@ -710,7 +710,8 @@ figure {
 }
 
 .map-container {
-  min-height: 100vw;
+  height: 125vw;
+  max-height: 25rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 5rem;
@@ -960,6 +961,14 @@ pre {
   .partner-link {
     height: 15vw;
   }
+
+  .map-container {
+    min-height: unset;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    height: 48vw;
+  }
 }
 
 /* Tablet screens */
@@ -1152,14 +1161,6 @@ pre {
 
   .gallery-image:nth-of-type(6) {
     background-image: url(../images/bg-barber-kit.jpg);
-  }
-
-  .map-container {
-    min-height: unset;
-    margin-left: auto;
-    margin-right: auto;
-    width: 72vw;
-    height: 48vw;
   }
 
   .heading-footer {
