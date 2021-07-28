@@ -815,7 +815,6 @@ pre {
 .dog-friendly {
   position: relative;
   top: -14vw;
-  text-align: left;
   transform: rotate(35deg);
 }
 
@@ -1098,6 +1097,34 @@ pre {
 
   .footer-nav {
     width: 60%;
+  }
+
+  .footer-nav:not(.footer-nav-contact) {
+    top: -14vw;
+  }
+
+  .footer-nav-contact {
+    top: -16vw;
+  }
+
+  .footer-nav-contact .nav-item {
+    margin: 0;
+  }
+
+  .reach-out {
+    top: -14.5vw;
+  }
+
+  .footer-nav-social .nav-link {
+    font-size: 1.75rem;
+  }
+
+  .dog-friendly {
+    top: -13vw;
+  }
+
+  .attribution {
+    font-size: .875rem;
   }
 
   @keyframes bob {
