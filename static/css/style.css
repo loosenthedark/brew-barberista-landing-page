@@ -441,6 +441,10 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
   top: -.375rem;
 }
 
+.full-date {
+  display: none;
+}
+
 /* Header */
 
 header {
@@ -945,6 +949,37 @@ pre {
     margin-top: .75rem;
     letter-spacing: unset;
     font-weight: 600;
+  }
+
+  .navbar-nav>.nav-item {
+    font-size: 1.25rem;
+    top: 0;
+  }
+
+  #press-list {
+    padding-left: 30vw;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    min-height: 32.5vw;
+  }
+
+  #press-list.press-reveal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .press-list-item {
+    padding-bottom: 1rem;
+    font-size: 1.15rem;
+  }
+
+  .abbr {
+    display: none;
+  }
+
+  .full-date {
+    display: inline;
   }
 
   .hero-icons {
