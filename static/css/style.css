@@ -558,6 +558,7 @@ header {
 
 .more-info-section-image {
   height: 178vw;
+  max-height: 45rem;
   background-size: cover;
   background-position: top;
 }
@@ -576,6 +577,7 @@ header {
   left: 0;
   text-align: center;
   padding: 1rem;
+  width: 100%;
 }
 
 .more-info-section-text p {
@@ -921,6 +923,10 @@ pre {
   .about-barber-image {
     background-position: top;
   }
+
+  .get-in-touch-image {
+    background-position: center;
+}
 }
 
 /* Tablet screens */
@@ -1022,6 +1028,11 @@ pre {
 
   .chevron-box a {
     font-size: 4.5rem;
+  }
+
+  .more-info-section-image {
+    height: 100vh;
+    max-height: unset;
   }
 
   .local-business-text,
@@ -1272,10 +1283,6 @@ CSS Grid layout for wider screens, when browser supports grid:
 
     .about-section-text>h2 {
       padding: 0 0 2rem;
-    }
-
-    .more-info-section-image {
-      height: 100vh;
     }
   }
 }

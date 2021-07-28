@@ -171,3 +171,5 @@ Fallback: `serif`
 - [Ray.so:](https://ray.so/) used to create the code block image featured in the [**Bugs** section](#bugs) of this Markdown file
 
 - Tim: add `/* jshint esversion: 8 */` as the opening line of code in each of the project's custom JS files for validation purposes
+
+- Initial design inspiration for this project's layout and aesthetic came from [this Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
