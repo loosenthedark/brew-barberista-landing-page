@@ -197,6 +197,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
 .btn-contact {
   background-color: hsl(204, 47%, 54%);
   color: hsl(0, 0%, 100%);
+  display: inline-block;
 }
 
 .btn-press {
@@ -384,7 +385,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
 }
 
 .nav-item:not(.nav-item-contact) {
-  margin: 3.75vw 0;
+  margin: 2.4vh 0;
 }
 
 .navbar-nav>.nav-item {
@@ -411,7 +412,7 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
   width: 100vw;
   background-color: hsl(215, 37%, 90%);
   z-index: 999;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 1rem 12.5vw;
   display: none;
   transform: translateY(100%);
   transition: all 5s ease-in-out;
@@ -445,6 +446,24 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
   display: none;
 }
 
+/* Media Queries */
+
+/* small mobile */
+
+@media screen and (max-width: 360px) {
+  .navbar-nav>.nav-item {
+    top: 0;
+  }
+
+  .nav-item:not(.nav-item-contact) {
+    margin: 1.9vh 0;
+  }
+
+  .press-list-link {
+    font-size: .9rem;
+  }
+}
+
 /* Header */
 
 header {
@@ -471,10 +490,12 @@ header {
   position: relative;
   width: 50%;
   max-width: 12.5rem;
+  animation: icon-reveal .5s ease-in-out 1s 1 forwards;
 }
 
 .hero-icons>img:nth-of-type(2) {
-  right: 10vw;
+  right: 7vw;
+  animation-delay: 2s;
 }
 
 .chevron-box {
@@ -535,6 +556,23 @@ header {
   top: -1rem;
 }
 
+/* Media Queries */
+
+/* small mobile */
+
+@media screen and (max-width: 360px) {
+  .about-section-text>p {
+    font-size: .9rem;
+  }
+
+  .about-section-text>h2,
+  .about-section-text>p,
+  .about-section-text>a {
+    position: relative;
+    top: 0;
+  }
+}
+
 .link-more-info {
   font-family: Lora, serif;
   color: hsl(213, 24%, 15%);
@@ -588,6 +626,25 @@ header {
   font-weight: 300;
 }
 
+/* Media Queries */
+
+/* small mobile */
+
+@media screen and (max-width: 360px) {
+  h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .more-info-section-text p {
+    font-size: .85rem;
+  }
+
+  .local-business-text {
+    top: 10vw;
+  }
+}
+
 .more-info-section-text p:nth-of-type(2),
 .more-info-section-text p:nth-of-type(3) {
   display: none;
@@ -597,9 +654,29 @@ header {
   top: 14vw;
 }
 
+/* Media Queries */
+
+/* small mobile */
+
+@media screen and (max-width: 360px) {
+  h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .more-info-section-text p {
+    font-size: .85rem;
+  }
+
+  .local-business-text {
+    top: 5vw;
+  }
+}
+
 .get-in-touch-text {
   bottom: 0;
   background-color: hsla(0, 0%, 100%, .8);
+  padding-bottom: .25rem;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -608,6 +685,10 @@ header {
     backdrop-filter: blur(.5rem);
     background-color: hsla(0, 0%, 100%, .5);
   }
+}
+
+.get-in-touch-text p {
+  margin-bottom: 2.5rem;
 }
 
 /* Customer reviews section */
@@ -732,9 +813,9 @@ footer {
 }
 
 .heading-footer {
-  padding-bottom: 15vw;
   position: relative;
   font-size: 2.25rem;
+  top: -2.5vh;
 }
 
 .footer-nav,
@@ -753,6 +834,20 @@ footer {
   justify-content: space-between;
 }
 
+/* Media Queries */
+
+/* small mobile */
+
+@media screen and (max-width: 360px) {
+  .footer-nav-contact {
+    font-size: .9rem;
+  }
+
+  .email-icon {
+    width: 1.2rem;
+  }
+}
+
 .footer-nav-contact {
   flex-direction: column;
   align-items: center;
@@ -766,22 +861,26 @@ footer {
 .footer-nav {
   width: 80%;
   margin-bottom: 1rem;
-  top: -10vw;
+  top: -6vh;
+}
+
+.footer-nav:not(.footer-nav-contact) {
+  top: -5vh;
 }
 
 .reach-out {
   position: relative;
-  top: -10vw;
+  top: -6.5vh;
 }
 
 .footer-nav-social {
   width: 44%;
-  top: -17.5vw;
+  top: -11vh;
 }
 
 pre {
   position: relative;
-  top: -18.5vw;
+  top: -12vh;
 }
 
 .footer-nav .nav-link,
@@ -807,6 +906,20 @@ pre {
   top: .25rem;
 }
 
+/* Media Queries */
+
+/* small mobile */
+
+@media screen and (max-width: 360px) {
+  .footer-nav-contact {
+    font-size: .9rem;
+  }
+
+  .email-icon {
+    width: 1.2rem;
+  }
+}
+
 .fa-phone,
 .email-icon {
   margin-right: .35rem;
@@ -823,7 +936,7 @@ pre {
 
 .dog-friendly {
   position: relative;
-  top: -14vw;
+  top: -8vh;
   transform: rotate(35deg);
 }
 
@@ -866,17 +979,7 @@ pre {
   padding-left: .2rem;
 }
 
-.hero-icons>img {
-  animation: icon-reveal .5s ease-in-out 1s 1 forwards;
-}
-
-.hero-icons>img:nth-of-type(2) {
-  animation-delay: 2s;
-}
-
-.chevron-box {
-  animation: bobbing 2s 2.5s ease-in-out infinite;
-}
+/* Animations */
 
 @keyframes icon-reveal {
   0% {
@@ -906,9 +1009,18 @@ pre {
 
 /* Media Queries */
 
-/* Large mobile/Small tablet */
+/* large mobile/small tablet */
 
 @media screen and (min-width: 600px) {
+
+  /* Navbar */
+
+  #press-list {
+    padding-left: 32vw;
+  }
+
+  /* Header */
+
   header {
     background-position: center;
   }
@@ -916,6 +1028,10 @@ pre {
   .hero-icons>img:nth-of-type(2) {
     right: 3vw;
   }
+
+  /* Main */
+
+  /* About section */
 
   .about-coffee-image {
     background-position: bottom;
@@ -925,13 +1041,19 @@ pre {
     background-position: top;
   }
 
+  /* More Info section */
+
   .get-in-touch-image {
     background-position: center;
   }
 
+  /* Image gallery */
+
   .gallery-image {
     max-height: 19rem;
   }
+
+  /* Partners section */
 
   #partners {
     padding: 3.5rem 0 0;
@@ -962,6 +1084,8 @@ pre {
     height: 15vw;
   }
 
+  /* Location section */
+
   .map-container {
     min-height: unset;
     margin-left: auto;
@@ -969,11 +1093,30 @@ pre {
     width: 75vw;
     height: 48vw;
   }
+
+  /* Footer */
+
+  .heading-footer {
+    top: .75vh;
+  }
+
+  .footer-nav:not(.footer-nav-contact) {
+    width: 50%;
+    top: -4vh;
+  }
+
+  .footer-nav-contact {
+    top: -8vh;
+  }
+
 }
 
-/* Tablet screens */
+/* medium tablet screens */
 
 @media screen and (min-width: 768px) {
+
+  /* Global styles */
+
   h2 {
     font-size: 2.25rem;
   }
@@ -1012,6 +1155,8 @@ pre {
     height: unset;
   }
 
+  /* Buttons */
+
   .btn-book {
     background-color: hsl(47, 58%, 56%);
     color: hsl(0, 0%, 100%);
@@ -1021,9 +1166,15 @@ pre {
     font-weight: 600;
   }
 
+  /* Navbar */
+
   .navbar-nav>.nav-item {
-    font-size: 1.25rem;
     top: 0;
+  }
+
+  .navbar-nav>.nav-item,
+  .btn-press {
+    font-size: 1.25rem;
   }
 
   #press-list {
@@ -1052,6 +1203,8 @@ pre {
     display: inline;
   }
 
+  /* Header */
+
   .hero-icons {
     padding-top: 15vw;
   }
@@ -1066,11 +1219,16 @@ pre {
 
   .chevron-box {
     top: 100vw;
+    animation: bobbing 2s 2.5s ease-in-out infinite;
   }
 
   .chevron-box a {
     font-size: 4.5rem;
   }
+
+  /* Main */
+
+  /* More Info section */
 
   .more-info-section-image {
     height: 100vh;
@@ -1117,6 +1275,8 @@ pre {
     margin-bottom: 1rem;
   }
 
+  /* Customer reviews section */
+
   #customer-reviews,
   #location {
     padding-top: 3.5rem;
@@ -1127,6 +1287,8 @@ pre {
     height: 5rem;
     margin-bottom: 1rem;
   }
+
+  /* Image gallery */
 
   .gallery-image {
     max-height: unset;
@@ -1163,9 +1325,21 @@ pre {
     background-image: url(../images/bg-barber-kit.jpg);
   }
 
+  /* Footer */
+
+  footer {
+    min-height: 37.5rem;
+  }
+
   .heading-footer {
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
     font-size: 2.5rem;
+    top: -0.5vh;
+  }
+
+  .footer-nav:not(.footer-nav-contact) {
+    top: -3.75vh;
+    width: 40%;
   }
 
   .footer-nav:not(.footer-nav-contact) .nav-link {
@@ -1176,12 +1350,8 @@ pre {
     width: 60%;
   }
 
-  .footer-nav:not(.footer-nav-contact) {
-    top: -14vw;
-  }
-
   .footer-nav-contact {
-    top: -16vw;
+    top: -5.75vh;
   }
 
   .footer-nav-contact .nav-item {
@@ -1189,20 +1359,30 @@ pre {
   }
 
   .reach-out {
-    top: -14.5vw;
+    top: -6vh;
+  }
+
+  .footer-nav-social {
+    top: -9.5vh;
   }
 
   .footer-nav-social .nav-link {
     font-size: 1.75rem;
   }
 
+  pre {
+    top: -10vh;
+  }
+
   .dog-friendly {
-    top: -13vw;
+    top: -8vh;
   }
 
   .attribution {
     font-size: .875rem;
   }
+
+  /* Animations */
 
   @keyframes bobbing {
     0% {
@@ -1230,6 +1410,10 @@ CSS Grid layout for wider screens, when browser supports grid:
       /* negative fixed header height */
       display: none;
     }
+
+    /* Main */
+
+    /* About section */
 
     #about {
       overflow: hidden;
