@@ -45,7 +45,6 @@ body {
 }
 
 body>* {
-  max-width: 54rem;
   margin: 0 auto;
 }
 
@@ -1292,7 +1291,7 @@ pre {
 
   .gallery-image {
     max-height: unset;
-    width: 33.33333vw;
+    width: 33.33333%;
     height: 33.33333vw;
   }
 
@@ -1473,5 +1472,13 @@ CSS Grid layout for wider screens, when browser supports grid:
     .about-section-text>h2 {
       padding: 0 0 2rem;
     }
+  }
+}
+
+/* small laptop screens */
+
+@media screen and (min-width: 992px) {
+  body>* {
+    max-width: 54rem;
   }
 }
