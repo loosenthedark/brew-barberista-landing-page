@@ -458,7 +458,7 @@ header {
 
 .hero-icons {
   display: flex;
-  padding-top: 20vw;
+  padding-top: 10vh;
   justify-content: center;
   width: 90%;
   margin: 0 auto;
@@ -469,17 +469,17 @@ header {
   opacity: 0;
   display: inline-block;
   position: relative;
-  width: 60%;
-  max-width: 18rem;
+  width: 50%;
+  max-width: 12.5rem;
 }
 
 .hero-icons>img:nth-of-type(2) {
-  right: 12vw;
+  right: 10vw;
 }
 
 .chevron-box {
   position: absolute;
-  top: 136vw;
+  top: 81vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -870,7 +870,7 @@ pre {
 }
 
 .chevron-box {
-  animation: bob 2s 2.5s ease-in-out infinite;
+  animation: bobbing 2s 2.5s ease-in-out infinite;
 }
 
 @keyframes icon-reveal {
@@ -885,21 +885,29 @@ pre {
   }
 }
 
-@keyframes bob {
+@keyframes bobbing {
   0% {
-    top: 136vw;
+    top: 81vh;
   }
 
   50% {
-    top: 140vw;
+    top: 85vh;
   }
 
   100% {
-    top: 136vw;
+    top: 81vh;
   }
 }
 
 /* Media Queries */
+
+/* Large mobile/Small tablet */
+
+@media screen and (min-width: 600px) {
+  header {
+    background-position: center;
+  }
+}
 
 /* Tablet screens */
 
@@ -986,6 +994,10 @@ pre {
     padding-top: 15vw;
   }
 
+  .hero-icons>img {
+    max-width: 17.5rem;
+}
+
   .hero-icons>img:nth-of-type(2) {
     right: 5vw;
   }
@@ -1051,8 +1063,8 @@ pre {
 
   .gallery-image {
     max-height: unset;
-    width: 33.33333333333333333333333333333333vw;
-    height: 33.33333333333333333333333333333333vw;
+    width: 33.33333vw;
+    height: 33.33333vw;
   }
 
   .gallery-image:nth-of-type(5),
@@ -1162,7 +1174,7 @@ pre {
     font-size: .875rem;
   }
 
-  @keyframes bob {
+  @keyframes bobbing {
     0% {
       top: 100vw;
     }
