@@ -931,6 +931,35 @@ pre {
   .gallery-image {
     max-height: 19rem;
   }
+
+  #partners {
+    padding: 3.5rem 0 0;
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 3.5rem);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  #partners .reviews-heading {
+    width: 100%;
+  }
+
+  .partner {
+    display: block;
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: unset;
+    text-align: center;
+    width: calc(50% - .875rem);
+    margin: .875rem 0;
+  }
+
+  .partner-logo,
+  .partner-link {
+    height: 15vw;
+  }
 }
 
 /* Tablet screens */
@@ -1123,35 +1152,6 @@ pre {
 
   .gallery-image:nth-of-type(6) {
     background-image: url(../images/bg-barber-kit.jpg);
-  }
-
-  #partners {
-    padding: 3.5rem 0 0;
-    display: flex;
-    flex-direction: row;
-    width: calc(100vw - 3.5rem);
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 0;
-  }
-
-  #partners .reviews-heading {
-    width: 100%;
-  }
-
-  .partner {
-    display: block;
-    justify-content: unset;
-    align-items: unset;
-    flex-direction: unset;
-    text-align: center;
-    width: calc(50% - .875rem);
-    margin: .875rem 0;
-  }
-
-  .partner-logo,
-  .partner-link {
-    height: 15vw;
   }
 
   .map-container {
