@@ -1,11 +1,11 @@
 <p align="center"><img alt="Code Institute logo" src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"></p>
 <p align="center"><img src="static/images/icons/gh-logo-pride.png" alt="Brew Barberista logo" width="100" height="auto"></p>
 
-<h1 align='center'>Brew Barberista</h1>
-
 <h4 align="center"><a href="https://loosenthedark.github.io/brew-barberista">Live link to deployed project</a> (hosted on GitHub Pages)</h4>
 
+Brew Barberista is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a bustling community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
+While the company has made good use of social media (notably Instagram) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a 'shop window' for customers even when physical premises have to close their doors due to lockdown restrictions tightening. Coupled with the ongoing #DeleteFacebook movement and growing public concern over  the lack of privacy across SNSs, there is therefore a clear need for Brew Barberista to consolidate its brand identity and ties to the community by launching a standalone website.
 
 ## User Experience (UX)
 
