@@ -53,7 +53,23 @@ Fallback: `serif`
 
 ## Technologies Used
 
+### Languages:
 
+- [HTML5:](https://en.wikipedia.org/wiki/HTML5) used for structuring the site
+- [CSS3:](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) used for styling the site
+- [JavaScript:](https://en.wikipedia.org/wiki/JavaScript) used for site logic and web page behaviour
+
+### Frameworks/Libraries, APIs, Programmes and Tools:
+
+- [Google Fonts:](https://fonts.google.com/) used to import the Poppins and Lora fonts into the project's stylesheets
+- [Font Awesome v5.15.3:](https://fontawesome.com/) used to add appropriate and visually appealing site icons
+- [Google Maps API](https://developers.google.com/maps) used to provide a visual representation of Brew Barberista's location to site visitors
+- [Git:](https://git-scm.com/) used for version control by utilising the Gitpod terminal to commit frequently to Git and push all commits to GitHub
+- [GitHub:](https://github.com/) used to compile and remotely store the project's codebase following successive local commits initiated from the command line
+- [Balsamiq:](https://balsamiq.com/) used to generate [wireframes](docs/wireframes/flippin-proud-wireframes.pdf) during the project's design phase
+- [Adobe Illustrator:](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjHh4e5sIXyAhXP6-0KHS7vASoYABAAGgJkZw&ae=2&ohost=www.google.com&cid=CAESQOD2cD2cs4zu4JpNTapSj1nbDmPmLIo3quvyOOMw9veyz__8LtydqbjQH8HTLrYcgDlnQb6l-F40o-SYGXLD1T0&sig=AOD64_0b1ay7NFSesjZymAaH8gGibU9W0w&q&adurl&ved=2ahUKEwiPv_64sIXyAhW8UBUIHS4nDYMQ0Qx6BAgCEAE) used to.....
+- [TinyJPG:](https://tinyjpg.com/) used for image compression
+- [PicResize:](https://picresize.com/) used to crop and resize images
 
 ## Testing
 
@@ -128,23 +144,6 @@ Fallback: `serif`
 
 - [CSS boilerplate for the `navbar-nav` polygon clip-path adapted from this CodePen sandbox](https://codepen.io/heyitsolivia/pen/EICDK?editors=1100)
 
-## Project Design
-
-### Colour Scheme:
-
-<p align="center"></p>
-<p align="center"></p>
-
-### Typography:
-
-#### Primary font...
-
-[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) | fallback = `sans-serif`
-
-#### Secondary (Heading) font...
-
-[Lora](https://fonts.google.com/specimen/Lora?query=lora) | fallback = `serif`
-
 - ['Hot coffe cup icon.'](https://www.shutterstock.com/image-vector/hot-coffe-cup-icon-disposable-coffee-1784164067) by [Coosh448](https://www.shutterstock.com/g/Coosh448) on Shutterstock
 
 - ['Fashion silhouette hipster style, vector illustration'](https://www.shutterstock.com/image-vector/fashion-silhouette-hipster-style-vector-illustration-161463794) by [RomanYa](https://www.shutterstock.com/g/RomanYa) on Shutterstock
@@ -160,3 +159,11 @@ Fallback: `serif`
 - Pure JS boilerplate for the 'scroll back to top' `button` adpated from [this CodePen](https://jsfiddle.net/amirsaleem/xpd1wr7n/) | [transition styles applied on this element with help from this example](https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555)
 
 - FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
+
+- [favicon.io (favicon generator):](https://favicon.io/favicon-converter/) used to create a [favicon](https://user-images.githubusercontent.com/48750933/123767889-be6b7a80-d8bf-11eb-956c-4ec07621fab9.png) boasting full cross-browser compatibility
+
+- [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
+- [Web Formatter:](https://webformatter.com) used to assist in optimising code readability
+- [Autoprefixer:](https://autoprefixer.github.io/) used to parse CSS and apply all necessary vendor prefixes
+
+- [Ray.so:](https://ray.so/) used to create the code block image featured in the [**Bugs** section](#bugs) of this Markdown file
