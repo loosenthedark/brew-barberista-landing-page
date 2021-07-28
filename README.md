@@ -5,7 +5,7 @@
 
 Brew Barberista is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a bustling community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
-While the company has made good use of social media (notably Instagram) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a 'shop window' for customers even when physical premises have to close their doors due to lockdown restrictions tightening. Coupled with the ongoing #DeleteFacebook movement and growing public concern over  the lack of privacy across SNSs, there is therefore a clear need for Brew Barberista to consolidate its brand identity and ties to the community by launching a standalone website.
+While the company has made good use of social media (notably Instagram) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a 'shop window' for customers even when physical premises have to close their doors due to Covid restrictions tightening. Coupled with the ongoing #DeleteFacebook movement and growing public concern over  the lack of privacy across SNSs, there is therefore a clear need for Brew Barberista to consolidate its brand identity and ties to the community by launching a standalone website.
 
 ## User Experience (UX)
 
@@ -19,11 +19,25 @@ While the company has made good use of social media (notably Instagram) througho
 
 
 
-### Project design:
+## Project design
 
-#### Colour scheme:
+### Colour scheme:
 
-#### Typography:
+<p align="center"><img src="docs/images/screenshots/brew-barberista-colour-scheme.png" alt="Flippin' Proud colour scheme (Coolors palette) screenshot" width="70%"></p>
+
+### Typography:
+
+#### Primary font...
+
+Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+Weights: 300, 400, 500
+Fallback: `sans-serif`
+
+#### Secondary (Heading) font...
+
+Family: [Lora](https://fonts.google.com/specimen/Lora)
+Weights: 600, 700
+Fallback: `serif`
 
 #### Wireframes:
 
