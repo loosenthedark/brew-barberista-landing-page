@@ -495,6 +495,7 @@ header {
 
 .about-section-image {
   height: 92vw;
+  max-height: 26rem;
   background-size: cover;
   background-position: center;
 }
@@ -509,6 +510,7 @@ header {
 
 .about-section-text {
   height: 84vw;
+  max-height: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -907,6 +909,18 @@ pre {
   header {
     background-position: center;
   }
+
+  .hero-icons>img:nth-of-type(2) {
+    right: 3vw;
+  }
+
+  .about-coffee-image {
+    background-position: bottom;
+  }
+
+  .about-barber-image {
+    background-position: top;
+  }
 }
 
 /* Tablet screens */
@@ -996,7 +1010,7 @@ pre {
 
   .hero-icons>img {
     max-width: 17.5rem;
-}
+  }
 
   .hero-icons>img:nth-of-type(2) {
     right: 5vw;
@@ -1216,6 +1230,10 @@ CSS Grid layout for wider screens, when browser supports grid:
       height: unset;
     }
 
+    .about-section-image {
+      max-height: unset;
+    }
+
     .about-section.coffee {
       display: flex;
     }
@@ -1237,6 +1255,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 
     .about-section-text {
       padding: 2rem;
+      max-height: unset;
     }
 
     .about-section-text>h2,
