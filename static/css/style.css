@@ -926,7 +926,11 @@ pre {
 
   .get-in-touch-image {
     background-position: center;
-}
+  }
+
+  .gallery-image {
+    max-height: 19rem;
+  }
 }
 
 /* Tablet screens */
