@@ -163,11 +163,16 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon, .logo-dog-friendly) {
+img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon, .logo-dog-friendly, .hero-lg-icon) {
   display: block;
   border: 0;
   width: 100%;
   height: auto;
+}
+
+video,
+.header-container {
+  display: none;
 }
 
 /* Pseudo-element selector workaround to handle fixed navbar encroaching into anchor link areas - as suggested here: https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
@@ -1479,12 +1484,54 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 @media screen and (min-width: 992px) {
 
+  /* Navbar */
+
+  .navbar-nav,
+  #press-list {
+    width: 40vw;
+  }
+
+  .navbar-nav {
+    clip-path: none;
+  }
+
+  .navbar-nav.show,
+  #press-list {
+    left: 60vw;
+  }
+
+  #press-list {
+    padding-left: 4.5vw;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    min-height: unset;
+  }
+
+  .press-list-item {
+    font-size: 1rem;
+  }
+
+  .press-list-link {
+    font-weight: 300;
+  }
+
+  /* Header */
+
+  /* video background styles adapted from https://codepen.io/bradtraversy/pen/eYdMqvx */
+
+  header,
+  .header-container,
+  .overlay,
+  header video,
+  .hero-header {
+    width: 100%;
+  }
+
   header,
   .header-container,
   .overlay,
   header video {
     position: absolute;
-    width: 100%;
   }
 
   header,
@@ -1502,7 +1549,8 @@ CSS Grid layout for wider screens, when browser supports grid:
   }
 
   .overlay,
-  header video {
+  header video,
+  .hero-header {
     height: 100%;
   }
 
@@ -1516,27 +1564,88 @@ CSS Grid layout for wider screens, when browser supports grid:
   }
 
   .header-container {
+    display: block;
     z-index: 1000;
+    height: 100%;
+  }
+
+  .hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    background-color: hsla(204, 47%, 54%, .5);
+    margin: 0 auto;
+    letter-spacing: .05rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    font-size: 1.7rem;
+    font-family: Poppins, sans-serif;
+    clip-path: polygon(0% 66%, 50% 90%, 100% 66%, 100% 100%, 0% 100%);
+  }
+
+  .hero-header .nav-link {
+    width: unset;
+    height: unset;
+  }
+
+  .hero-header h2 {
+    padding-bottom: 0;
+    padding-top: 0;
+    color: hsl(215, 37%, 90%);
   }
 
   header video {
+    display: block;
     object-fit: cover;
     opacity: 0.3;
   }
 
   .overlay {
-    background: hsl(204, 47%, 54%);
+    background: hsl(215, 37%, 90%);
     mix-blend-mode: overlay;
   }
 
-  .hero-icons {
+  .hero-icons,
+  .chevron-box {
     display: none;
   }
+
+  .hero-lg-icon {
+    width: 10vw;
+    position: relative;
+    top: .55rem;
+  }
+
+  .hero-header .nav-link:nth-of-type(2) h2 {
+    position: relative;
+    right: 3vw;
+  }
+
+  .hero-header .nav-link:nth-of-type(2) h2 .hero-lg-icon {
+    position: relative;
+    left: 1vw;
+  }
+
+  /* Main */
+
+  main {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+  }
+
+  /* About section */
+
 }
 
 /* large laptop screens */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {}
+
+/* extra-large laptop screens */
+
+@media screen and (min-width: 1440px) {
   body>* {
     max-width: 54rem;
   }

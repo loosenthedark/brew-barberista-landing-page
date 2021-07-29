@@ -87,7 +87,7 @@
           <a class="nav-link" href="#location">Location</a>
         </li>
         <li class="nav-item nav-item-press">
-          <button onclick="showPress()" class="btn btn-press nav-link" href="#">Press</button>
+          <button onclick="showPress()" class="btn btn-press nav-link">Press</button>
         </li>
         <li class="nav-item nav-item-contact">
           <a class="nav-link btn btn-contact" href="#contact">Contact</a>
@@ -98,12 +98,17 @@
 
   <!-- Header: above-the-fold CTA elements (main heading/logo/hero img/animated icons/buttons etc.) -->
   <header>
-    <div class="header-container"></div>
+    <!-- hidden on desktop -->
+    <h1 class="hero-icons"><img src="static/images/icons/icon-coffee-takeaway.svg" alt="takeaway coffee icon"><img
+        src="static/images/icons/icon-silhouette.svg" alt="hairstyle beard silhouette icon"></h1>
+    <!-- hidden below desktop -->
+    <!-- code block adapted from https://codepen.io/bradtraversy/pen/eYdMqvx -->
+    <div class="header-container"><div class="hero-header"><a class="nav-link" href="#about"><h2><img class="hero-lg-icon" src="static/images/icons/icon-coffee-takeaway-space-cadet-blue.svg" alt="takeaway coffee icon"> Coffee</h2></a><a class="nav-link" href="#barber"><h2>Barber <img class="hero-lg-icon"
+      src="static/images/icons/icon-silhouette-space-cadet-blue.svg" alt="hairstyle beard silhouette icon"></h2></a></div></div>
     <video src="static/videos/bg-barista-pour.mp4" muted autoplay id="video-coffee"></video>
     <video src="static/videos/bg-barber.mp4" muted loop id="video-barber"></video>
     <div class="overlay"></div>
-    <h1 class="hero-icons"><img src="static/images/icons/icon-coffee-takeaway.svg" alt="takeaway coffee icon"><img
-        src="static/images/icons/icon-silhouette.svg" alt="hairstyle beard silhouette icon"></h1>
+    <!-- hidden on desktop -->
     <div class="chevron-box">
       <a href="#about">
         <i class="fas fa-chevron-circle-down"></i>
@@ -129,7 +134,7 @@
         <div class="about-section-image about-barber-image"></div>
         <div class="about-section-text barber-text">
           <h2>Brew Barber</h2>
-          <p>Fresh out of lockdown, Andy and Gav deliver quality cuts to go with your coffee. Catering to walk-ins and
+          <p>Fresh out of lockdown, Andy and Gav deliver crowd-pleasing cuts to go with your coffee. Catering to walk-ins and
             advance bookings five days a week.</p>
           <a class="link-more-info" href="#get-in-touch">More info</a>
         </div>
