@@ -1522,6 +1522,15 @@ CSS Grid layout for wider screens, when browser supports grid:
     font-size: 1.75rem;
   }
 
+  h4 {
+    font-size: 1.25rem;
+    letter-spacing: .185rem;
+  }
+
+  blockquote {
+    font-size: 1rem;
+  }
+
   /* Buttons */
 
   .btn:not(.btn-press) {
@@ -1730,6 +1739,35 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   .about-section-text {
     padding: 2rem 4rem;
+  }
+
+  /* Image gallery */
+
+  .gallery-image {
+    flex-wrap: nowrap;
+    width: calc(100% / 4);
+    height: 50vh;
+  }
+
+  .gallery-image:nth-of-type(5),
+  .gallery-image:nth-of-type(6) {
+    display: none;
+  }
+
+  .gallery-image:first-of-type {
+    background-image: url(../images/bg-matthew.jpg);
+  }
+
+  .gallery-image:nth-of-type(2) {
+    background-image: url(../images/bg-coffee-heart.jpg);
+  }
+
+  .gallery-image:nth-of-type(3) {
+    background-image: url(../images/bg-barber-kit.jpg);
+  }
+
+  .gallery-image:nth-of-type(4) {
+    background-image: url(../images/bg-pasteis.jpg);
   }
 
   /*--------------------------------------------------------------
