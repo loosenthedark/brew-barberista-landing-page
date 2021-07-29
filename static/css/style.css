@@ -1488,6 +1488,30 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 @media screen and (min-width: 992px) {
 
+  /* Buttons */
+
+  .btn:not(.btn-press) {
+    padding: .85rem 1.85rem;
+    font-size: .8rem;
+  }
+
+  .btn-book {
+    margin-top: .5rem;
+  }
+
+  .btn-partners {
+    background-color: hsl(215, 37%, 90%);
+    color: hsla(213, 24%, 15%, .75);
+    display: inline-block;
+    margin-top: .75rem;
+    letter-spacing: unset;
+    font-weight: 700;
+  }
+
+  .btn-partners, .btn-book {
+    width: 9.9rem;
+  }
+
   /* Navbar */
 
   .navbar-nav,
@@ -1671,6 +1695,110 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   .about-section-text {
     padding: 2rem 4rem;
+  }
+
+  /*--------------------------------------------------------------
+CSS Grid layout for wider screens, when browser supports grid:
+--------------------------------------------------------------*/
+
+  @supports (grid-area: auto) {
+    :target::before {
+      /* height: 4.25rem; */
+      /* fixed header height*/
+      /* margin: -4.25rem 0 0; */
+      /* negative fixed header height */
+      display: none;
+    }
+
+    /* Main */
+
+    /* About section */
+
+    #more-info {
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: auto;
+    }
+
+    .more-info-section-text p {
+      font-size: 1rem;
+      margin-bottom: .5rem;
+    }
+
+    .more-info-section-text p:nth-of-type(2),
+    .more-info-section-text p:nth-of-type(3) {
+      display: none;
+    }
+
+    .get-in-touch-text {
+      padding: 1rem;
+    }
+
+    .more-info-section h3 {
+      padding-bottom: 1rem;
+    }
+
+    .local-business-text {
+      padding: 1rem;
+      top: 5vw;
+    }
+
+    .local-business-image {
+      background-image: url(../images/bg-local-business-lg.jpg);
+    }
+
+    /* .more-info-section {
+    height: 66vh;
+  }
+
+  .about-section>* {
+    height: unset;
+  } */
+
+    /* .about-section-image {
+    max-height: unset;
+  }
+
+  .about-section.coffee {
+    display: flex;
+  }
+
+  .about-coffee-image {
+    width: 60%;
+    order: 2;
+  }
+
+  .coffee-text {
+    width: 40%;
+    order: 1;
+  }
+
+  .about-section.barber {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .about-section-text {
+    padding: 2rem;
+    max-height: unset;
+  }
+
+  .about-section-text>h2,
+  .about-section-text>p,
+  .about-section-text>a {
+    top: unset;
+  }
+
+  .coffee-text>h2,
+  .coffee-text>p,
+  .coffee-text>a {
+    top: 1rem;
+  }
+
+  .about-section-text>h2 {
+    padding: 0 0 2rem;
+  } */
   }
 
 }
