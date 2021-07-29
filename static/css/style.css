@@ -775,6 +775,11 @@ figure {
   margin: 1.75rem 0;
 }
 
+.partner:nth-of-type(7),
+.partner:nth-of-type(11) {
+  display: none;
+}
+
 .partner-logo {
   height: 30vw;
   display: block;
@@ -1069,7 +1074,7 @@ pre {
     padding: 3.5rem 0 0;
     display: flex;
     flex-direction: row;
-    width: calc(100vw - 3.5rem);
+    width: calc(100% - 3.5rem);
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 0;
@@ -1361,6 +1366,13 @@ pre {
     background-image: url(../images/bg-barber-kit.jpg);
   }
 
+  /* Partner section */
+
+  .partner:nth-of-type(7),
+  .partner:nth-of-type(11) {
+    display: block;
+  }
+
   /* Footer */
 
   footer {
@@ -1518,6 +1530,10 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   /* Global styles */
 
+  body {
+    position: relative;
+  }
+
   h3 {
     font-size: 1.75rem;
   }
@@ -1535,7 +1551,14 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   .btn:not(.btn-press) {
     padding: .85rem 1.85rem;
+  }
+
+  .btn:not(.btn-press, .btn-contact) {
     font-size: .8rem;
+  }
+
+  .btn-contact {
+    font-size: .9rem;
   }
 
   .btn-book {
@@ -1552,7 +1575,8 @@ CSS Grid layout for wider screens, when browser supports grid:
   }
 
   .btn-partners,
-  .btn-book {
+  .btn-book,
+  .btn-contact {
     width: 9.9rem;
   }
 
@@ -1670,7 +1694,14 @@ CSS Grid layout for wider screens, when browser supports grid:
   header video {
     display: block;
     object-fit: cover;
-    opacity: 0.3;
+  }
+
+  header video:first-of-type {
+    opacity: .5;
+  }
+
+  header video:nth-of-type(2) {
+    opacity: .3;
   }
 
   .overlay {
@@ -1770,6 +1801,46 @@ CSS Grid layout for wider screens, when browser supports grid:
     background-image: url(../images/bg-pasteis.jpg);
   }
 
+  /* Partners section */
+
+  #partners {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .partner {
+    width: calc(100% / 3 - 1rem);
+    margin: .65rem 0;
+  }
+
+  .partner-logo,
+  .partner-link {
+    height: 10vw;
+    max-height: 6.75rem;
+  }
+
+  /* Footer */
+
+  footer {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: calc(100vh + 382.5vw);
+  }
+
+  .footer-nav-social {
+    width: 36%;
+  }
+
+  .heading-footer {
+    top: -2.5vh;
+  }
+
+  .footer-nav:not(.footer-nav-contact) {
+    top: -5.75vh;
+  }
+
+
   /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
@@ -1840,17 +1911,17 @@ CSS Grid layout for wider screens, when browser supports grid:
     figure:not(.partner) {
       margin-bottom: 3rem;
     }
-  
+
     #customer-reviews figure:first-of-type {
       margin-bottom: 3rem;
     }
-  
+
     #customer-reviews figure:nth-of-type(2),
     #customer-reviews figure:nth-of-type(3) {
       width: unset;
       display: flex;
     }
-  
+
     #customer-reviews figure:nth-of-type(4) {
       margin-top: unset;
     }

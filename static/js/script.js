@@ -72,14 +72,27 @@ animateNavToggler.addEventListener('click', function () {
   hamburgerIcon.classList.toggle('active');
   coffeeIcon.classList.toggle('active');
 });
+coffeeIcon.addEventListener('click', function () {
+  coffeeIcon.classList.toggle('active');
+  hamburgerIcon.classList.toggle('active');
+})
 
 // Play multiple videos in background above the fold on desktop...
 // Adapted from https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos
 window.onload = function () {
+  // speed up above-the-fold video backgrounds cf. https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5
+  videoCoffee.playbackRate = 1.75;
+  videoBarber.playbackRate = 1.5;
   // Once the window has loaded, listen for the end of the first video and trigger the start of the second video...
   videoCoffee.addEventListener('ended', () => {
     videoCoffee.style.display = 'none';
+    videoBarber.style.display = 'block';
     playVideo(videoBarber);
+  });
+  videoBarber.addEventListener('ended', () => {
+    videoBarber.style.display = 'none';
+    videoCoffee.style.display = 'block';
+    playVideo(videoCoffee);
   });
 }
 
