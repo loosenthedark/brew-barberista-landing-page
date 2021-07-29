@@ -1,3 +1,4 @@
+// Variable declarations
 const body = document.querySelector('.element-body');
 const hamburger = document.querySelector('.navbar-toggler');
 const icon = document.querySelectorAll('.navbar-toggler-icon');
@@ -9,6 +10,8 @@ const menu = document.querySelector('.navbar-nav');
 const animateNavToggler = document.getElementById('nav-toggler');
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const coffeeIcon = document.querySelector('.coffee-icon');
+const videoCoffee = document.getElementById('video-coffee')
+const videoBarber = document.getElementById('video-barber')
 
 function showMenu() {
   collapse.classList.toggle('toggled');
@@ -28,17 +31,17 @@ function hideMenus() {
   coffeeIcon.classList.remove('active');
 }
 
-// Hide nav menu when touch or click happens elsewhere:
+// Hide nav menu when touch or click happens elsewhere...
 function clickTarget(e) {
   if (e.target !== icon && e.target !== pressButton && e.target !== pressLink) {
     hideMenus();
   }
 }
 
-// Listen for hamburger icon clicks
+// Listen for hamburger icon clicks...
 hamburgerIcon.addEventListener('click', showMenu, false);
 
-// Listen for clicks anywhere on screen:
+// Listen for clicks anywhere on screen...
 body.addEventListener('click', function (e) { clickTarget(e); }, true);
 
 function showPress() {
@@ -51,14 +54,14 @@ function showPress() {
 }
 
 // Code block adapted from https://jsfiddle.net/amirsaleem/xpd1wr7n/
-// Listen for page scroll
+// Listen for page scroll...
 window.addEventListener('scroll', function () {
   var backToTopButton = document.getElementById('btn-back-to-top');
-  // Show button if user scrolls more than 500px from top
+  // Show button if user scrolls more than 500px from top...
   if (window.pageYOffset > 500) {
     backToTopButton.style.display = 'block';
   }
-  // hide it when user is less than 500px from top
+  // hide it when user is less than 500px from top...
   else if (window.pageYOffset < 500) {
     backToTopButton.style.display = 'none';
   }
@@ -69,3 +72,18 @@ animateNavToggler.addEventListener('click', function () {
   hamburgerIcon.classList.toggle('active');
   coffeeIcon.classList.toggle('active');
 });
+
+// Play multiple videos in background above the fold on desktop...
+// Adapted from https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos
+window.onload = function () {
+  // Once the window has loaded, listen for the end of the first video and trigger the start of the second video...
+  videoCoffee.addEventListener('ended', () => {
+    videoCoffee.style.display = 'none';
+    playVideo(videoBarber);
+  });
+}
+
+function playVideo(video) {
+  // This playVideo function takes in the ID of a video element and plays that video...
+  video.play();
+}

@@ -502,6 +502,7 @@ header {
   top: 81vh;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: bobbing 2s 2.5s ease-in-out infinite;
 }
 
 .chevron-box a {
@@ -998,7 +999,7 @@ pre {
   }
 
   50% {
-    top: 85vh;
+    top: 86vh;
   }
 
   100% {
@@ -1218,7 +1219,6 @@ pre {
 
   .chevron-box {
     top: 100vw;
-    animation: bobbing 2s 2.5s ease-in-out infinite;
   }
 
   .chevron-box a {
@@ -1478,6 +1478,65 @@ CSS Grid layout for wider screens, when browser supports grid:
 /* small laptop screens */
 
 @media screen and (min-width: 992px) {
+
+  header,
+  .header-container,
+  .overlay,
+  header video {
+    position: absolute;
+    width: 100%;
+  }
+
+  header,
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-container,
+  header video,
+  .overlay {
+    top: 0;
+    left: 0;
+  }
+
+  .overlay,
+  header video {
+    height: 100%;
+  }
+
+  header {
+    /* background: #111; */
+    transition: 0.5s;
+    z-index: 2;
+    background-image: none;
+    margin-top: 4.25rem;
+    height: calc(100vh - 4.25rem);
+  }
+
+  .header-container {
+    z-index: 1000;
+  }
+
+  header video {
+    object-fit: cover;
+    opacity: 0.3;
+  }
+
+  .overlay {
+    background: hsl(204, 47%, 54%);
+    mix-blend-mode: overlay;
+  }
+
+  .hero-icons {
+    display: none;
+  }
+}
+
+/* large laptop screens */
+
+@media screen and (min-width: 1200px) {
   body>* {
     max-width: 54rem;
   }

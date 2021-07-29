@@ -138,11 +138,15 @@ Fallback: `serif`
 
 - Photo by <a href="https://unsplash.com/@donovan_valdivia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew "Donovan" Valdivia</a> on <a href="https://unsplash.com/s/photos/cold-brew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-- Several of the partner logos were customised using [Kapwing](https://t.co/8EeLHn2GvC?amp=1)'s suite of online content editing tools
+- Several of the partner logos, as well as the video used in the header background on desktop, were customised using [Kapwing](https://t.co/8EeLHn2GvC?amp=1)'s suite of online content editing tools
 
 - ['Dog-friendly' logo in footer purchased and downloaded from SVG Craft Lounge](https://www.etsy.com/ie/listing/1046348333/dog-friendly-sign-printable-and-cut-file?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=no+pets+allowed+png&ref=sr_gallery-2-26&pro=1)
 
 - [Gmail vector icon downloaded from IconApe](https://iconape.com/gmail-new-2020-seeklogo-com-3-logo-icon-svg-png.html)
+
+- [Video by Ketut Subiyanto from Pexels](https://www.pexels.com/video/a-barista-making-a-coffee-artistically-4378109/)
+
+- [Video by Pavel Danilyuk from Pexels](https://www.pexels.com/video/a-man-shaving-a-man-s-facial-hair-4178140/)
 
 - [CSS boilerplate for the `navbar-nav` polygon clip-path adapted from this CodePen sandbox](https://codepen.io/heyitsolivia/pen/EICDK?editors=1100)
 
@@ -159,6 +163,10 @@ Fallback: `serif`
 - Generic/stock avatars for the customer reviews section taken from [UI Faces](https://uifaces.co/)
 
 - Pure JS boilerplate for the 'scroll back to top' `button` adpated from [this CodePen](https://jsfiddle.net/amirsaleem/xpd1wr7n/) | [transition styles applied on this element with help from this example](https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555)
+
+- [Stack Overflow: 'How do I loop through multiple background videos?'](https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos)
+
+- [Traversy Media: 'Create a Website With Video Background'](https://www.youtube.com/watch?v=8MgpE2DTTKA)
 
 - FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 
