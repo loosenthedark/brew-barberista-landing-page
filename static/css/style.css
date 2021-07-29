@@ -170,9 +170,8 @@ img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-
   height: auto;
 }
 
-video,
-.header-container {
-  display: none;
+button {
+  cursor: pointer;
 }
 
 /* Pseudo-element selector workaround to handle fixed navbar encroaching into anchor link areas - as suggested here: https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
@@ -515,6 +514,11 @@ header {
   color: hsl(47, 58%, 56%);
 }
 
+video,
+.header-container {
+  display: none;
+}
+
 /* Main */
 
 /* About section */
@@ -527,7 +531,7 @@ header {
 }
 
 .about-coffee-image {
-  background-image: url(../images/coffee-cups.jpg);
+  background-image: url(../images/bg-coffee-cups.jpg);
 }
 
 .about-barber-image {
@@ -1637,6 +1641,38 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   /* About section */
 
+  .about-section {
+    height: 66vh;
+  }
+
+  .about-coffee-image,
+  .coffee-text {
+    width: 50%;
+  }
+
+  .coffee-text>h2,
+  .coffee-text>p,
+  .coffee-text>a {
+    top: unset;
+  }
+
+  .about-coffee-image {
+    background-image: url(../images/bg-barista.jpg);
+    background-position: right;
+  }
+
+  .about-section.barber {
+    grid-template-columns: 50% 50%;
+  }
+
+  .about-barber-image {
+    background-position: top;
+  }
+
+  .about-section-text {
+    padding: 2rem 4rem;
+  }
+
 }
 
 /* large laptop screens */
@@ -1645,7 +1681,11 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 /* extra-large laptop screens */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {}
+
+/* extra-extra-large laptop screens */
+
+@media screen and (min-width: 1600px) {
   body>* {
     max-width: 54rem;
   }
