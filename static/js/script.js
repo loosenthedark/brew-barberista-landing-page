@@ -100,3 +100,16 @@ function playVideo(video) {
   // This playVideo function takes in the ID of a video element and plays that video...
   video.play();
 }
+
+function dynamicFooterPositioning(x) {
+  if (x.matches) { // If media query matches
+    let headerHeight = document.querySelector('header').offsetHeight;
+    let mainHeight = document.querySelector('main').offsetHeight;
+    let aboveFooterHeight = headerHeight + mainHeight + 80;
+    document.querySelector('footer').style.top = aboveFooterHeight + 'px';
+  }
+}
+
+var x = window.matchMedia('(min-width: 992px)')
+dynamicFooterPositioning(x) // Call listener function at run time
+x.addListener(dynamicFooterPositioning) // Attach listener function on state changes   
