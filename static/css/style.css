@@ -221,7 +221,8 @@ button {
   background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .33), hsla(47, 58%, 56%, .33))
 }
 
-.btn-book {
+.btn-book,
+.btn-partners {
   display: none;
 }
 
@@ -1157,6 +1158,7 @@ pre {
   blockquote {
     font-size: 1.1rem;
     line-height: 1.7;
+    max-width: 35rem;
   }
 
   footer {
@@ -1288,6 +1290,32 @@ pre {
   #customer-reviews,
   #location {
     padding-top: 3.5rem;
+  }
+
+  figure:not(.partner) {
+    margin-bottom: 2.5rem;
+  }
+
+  #customer-reviews figure:first-of-type {
+    margin-bottom: 1.5rem;
+  }
+
+  #customer-reviews figure:nth-of-type(2),
+  #customer-reviews figure:nth-of-type(3) {
+    width: 48vw;
+    display: inline-block;
+  }
+
+  #customer-reviews figure:nth-of-type(2) {
+    margin-left: 1.7vw;
+  }
+
+  #customer-reviews figure:nth-of-type(3) {
+    margin-right: 1.7vw;
+  }
+
+  #customer-reviews figure:nth-of-type(4) {
+    margin-top: 0;
   }
 
   .profiler {
@@ -1488,6 +1516,12 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 @media screen and (min-width: 992px) {
 
+  /* Global styles */
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
   /* Buttons */
 
   .btn:not(.btn-press) {
@@ -1503,12 +1537,13 @@ CSS Grid layout for wider screens, when browser supports grid:
     background-color: hsl(215, 37%, 90%);
     color: hsla(213, 24%, 15%, .75);
     display: inline-block;
-    margin-top: .75rem;
+    margin-top: .5rem;
     letter-spacing: unset;
     font-weight: 700;
   }
 
-  .btn-partners, .btn-book {
+  .btn-partners,
+  .btn-book {
     width: 9.9rem;
   }
 
@@ -1722,8 +1757,10 @@ CSS Grid layout for wider screens, when browser supports grid:
     }
 
     .more-info-section-text p {
-      font-size: 1rem;
+      font-size: .9rem;
+      line-height: 1.5;
       margin-bottom: .5rem;
+      max-width: 26rem;
     }
 
     .more-info-section-text p:nth-of-type(2),
@@ -1741,75 +1778,93 @@ CSS Grid layout for wider screens, when browser supports grid:
 
     .local-business-text {
       padding: 1rem;
-      top: 5vw;
+      top: 5.5vw;
     }
 
     .local-business-image {
       background-image: url(../images/bg-local-business-lg.jpg);
     }
 
-    /* .more-info-section {
-    height: 66vh;
-  }
+    /* Customer reviews section */
 
-  .about-section>* {
-    height: unset;
-  } */
+    #customer-reviews {
+      display: grid;
+      grid-template-columns: 30% 40% 30%;
+      max-width: 90vw;
+      margin: 0 auto;
+    }
 
-    /* .about-section-image {
-    max-height: unset;
-  }
+    .reviews-heading {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
 
-  .about-section.coffee {
-    display: flex;
-  }
+    figure:not(.partner) {
+      margin-bottom: 3rem;
+    }
+  
+    #customer-reviews figure:first-of-type {
+      margin-bottom: 3rem;
+    }
+  
+    #customer-reviews figure:nth-of-type(2),
+    #customer-reviews figure:nth-of-type(3) {
+      width: unset;
+      display: flex;
+    }
+  
+    #customer-reviews figure:nth-of-type(4) {
+      margin-top: unset;
+    }
 
-  .about-coffee-image {
-    width: 60%;
-    order: 2;
-  }
+    #customer-reviews figure:first-of-type,
+    #customer-reviews figure:nth-of-type(4) {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
 
-  .coffee-text {
-    width: 40%;
-    order: 1;
-  }
+    #customer-reviews figure:nth-of-type(2) {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      margin-bottom: 0;
+      margin-bottom: -2rem;
+      margin-left: unset;
+    }
 
-  .about-section.barber {
-    display: grid;
-    grid-template-columns: 60% 40%;
-  }
+    #customer-reviews figure:nth-of-type(3) {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      margin-top: 4rem;
+      position: relative;
+      top: 1rem;
+      margin-right: unset;
+    }
 
-  .about-section-text {
-    padding: 2rem;
-    max-height: unset;
-  }
-
-  .about-section-text>h2,
-  .about-section-text>p,
-  .about-section-text>a {
-    top: unset;
-  }
-
-  .coffee-text>h2,
-  .coffee-text>p,
-  .coffee-text>a {
-    top: 1rem;
-  }
-
-  .about-section-text>h2 {
-    padding: 0 0 2rem;
-  } */
   }
 
 }
 
 /* large laptop screens */
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+  /* Header */
+
+  .hero-lg-icon {
+    top: .65rem;
+  }
+}
 
 /* extra-large laptop screens */
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+
+  /* Header */
+
+  .hero-lg-icon {
+    top: .75rem;
+  }
+}
 
 /* extra-extra-large laptop screens */
 
