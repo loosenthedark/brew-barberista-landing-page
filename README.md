@@ -16,7 +16,7 @@ mobile  |  tablet  |  desktop
 [Brew Coffee](docs/images/screenshots/old-site/brew-barberista-coffee-mobile.png)  |  [Brew Coffee](docs/images/screenshots/old-site/brew-barberista-coffee-tablet.png) |  [Brew Coffee](docs/images/screenshots/old-site/brew-barberista-coffee-desktop.png)
 [Brew Barber](docs/images/screenshots/old-site/brew-barberista-barber-mobile.png)  |  [Brew Barber](docs/images/screenshots/old-site/brew-barberista-barber-tablet.png) |  [Brew Barber](docs/images/screenshots/old-site/brew-barberista-barber-desktop.png)
 
-> Old Brew Barberista website screenshots
+> Brew Barberista old website screenshots
 
 Add to all of this the ongoing #DeleteFacebook movement and growing public concern over the lack of privacy across SNSs, and there is clearly a need for Brew Barberista to consolidate its brand identity and ties to the community by creating a bright and engaging standalone website.
 
@@ -68,8 +68,6 @@ Fallback: `serif`
     :-------------------------:|:-------------------------:|:-------------------------:
     mobile  |  tablet |  desktop
 
-    > Responsive full-width, fixed Navigation Bar
-
     - There is a full-width nav bar fixed to the top of the viewport on all device sizes
     - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
     - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
@@ -77,11 +75,9 @@ Fallback: `serif`
 
   - (Off-Canvas) Navigation Menu:
 
-    ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-laptop.png)
+    ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
     :-------------------------:|:-------------------------:|:-------------------------:
     mobile  |  tablet |  desktop
-
-    > Off-canvas Navigation Menu
 
     - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using vanilla JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button animates on click to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
     - The expanded polygon-shaped menu contains links to each of the website's six internal sections containing content (see below), as well as a seventh link entitled 'Press'.
@@ -89,23 +85,19 @@ Fallback: `serif`
     - The bottom 'Contact' link consists of a cyan call-to-action `button`. In keeping with UX best practices, clicking on any of the links embedded in the `.navbar-nav` will cause the menu to revert to its default off-canvas location as the site navigates to the designated location. Smooth scrolling has been enabled to streamline the navigation experience through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
     - NB: One further section of the site, a tiled image gallery, is purely decorative, and so no anchor link is required.
 
-    ![](docs/images/screenshots/nav/press-list-mobile.png)  |  ![](docs/images/screenshots/nav/press-list-tablet.png)  |  ![](docs/images/screenshots/nav/press-list-laptop.png)
+    ![](docs/images/screenshots/nav/press-list-mobile.png)  |  ![](docs/images/screenshots/nav/press-list-tablet.png)  |  ![](docs/images/screenshots/nav/press-list-desktop.png)
     :-------------------------:|:-------------------------:|:-------------------------:
     mobile  |  tablet |  desktop
 
-    > Off-canvas Press List Submenu
-
 - Header:
 
-  ![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
-  :-------------------------:|:-------------------------:
-  `<header>` HTML code snippet  |  `.hero-header` and `.overlay` CSS code snippets
+![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
+:-------------------------:|:-------------------------:
+`<header>` HTML code snippet  |  `.hero-header` and `.overlay` CSS code snippets
 
-  ![](docs/images/screenshots/header/header-mobile.gif)  |  ![](docs/images/screenshots/header/header-tablet.gif)  |  ![](docs/images/screenshots/header/header-desktop.gif)
-  :-------------------------:|:-------------------------:|:-------------------------:
-  mobile  |  tablet |  desktop
-
-  > Above-the-fold Header
+![](docs/images/screenshots/header/header-mobile.gif)  |  ![](docs/images/screenshots/header/header-tablet.gif)  |  ![](docs/images/screenshots/header/header-desktop.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
+mobile  |  tablet |  desktop
 
   - Mobile & Tablet (< 992px):
 
@@ -121,17 +113,26 @@ Fallback: `serif`
 
 - Main:
 
-  - About:
+  - About section:
+
+  ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
 
     - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This section is in turn subdivided into two subsections, **Brew Coffee** and **Brew Barber**, each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
 
-      ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
-      :-------------------------:|:-------------------------:|:-------------------------:
-      mobile  |  tablet |  desktop
+  - More Info section:
 
-      > About section responsive layout
+  ![](docs/images/screenshots/more-info/more-info-mobile.png)  |  ![](docs/images/screenshots/more-info/more-info-tablet.png)  |  ![](docs/images/screenshots/more-info/more-info-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
 
-  - More Info
+    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service (Brew Coffee/Brew Barber).
+    - These two More Info subsections are stacked on mobile and tablet, and side by side on desktop
+    - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
+    - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
+    - The 'Our Partners' CTA `button` (visible on desktop only) in the Brew Coffee subsection directs the user to the 'Our Partners' section of the site (see below), while the 'Book Now' `button` (visible on tablet and desktop) beneath the 'Get in touch' Brew Barber heading causes the page to scroll right down to the `footer`, where the business's contact details can be found (see below). 
+
   - Customer Reviews
   - Image Gallery
   - Partners
