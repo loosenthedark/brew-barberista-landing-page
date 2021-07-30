@@ -1,7 +1,8 @@
-<p align="center"><img alt="Code Institute logo" src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"></p>
-<p align="center"><img src="https://user-images.githubusercontent.com/48750933/127286116-82305cdf-d23b-43b9-8cd2-4ece1145ebcc.jpg" alt="Brew Barberista logo" width="200" height="auto"></p>
+![Code Institute logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-<h4 align="center"><a href="https://loosenthedark.github.io/brew-barberista">Live link to deployed project</a> (hosted on GitHub Pages)</h4>
+![Brew Barberista logo and nav bar](docs/images/brew-barberista-navbar.png)
+
+<h4 style="text-align: center;"><a href="https://loosenthedark.github.io/brew-barberista" target="_blank">Live link to deployed project</a> (hosted on GitHub Pages)</h4>
 
 Brew Barberista is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a bustling community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
@@ -100,7 +101,24 @@ Fallback: `serif`
 
 ### Media:
 
-
+| Media title/description  | Media format  | Website section  | Credit  | Link to original media source  | 
+| :------------ |:---------------|:---------------|:-----|:---------------|
+| 'Fashion silhouette hipster style'      | vector illustration  | `header`      | [RomanYa](https://www.shutterstock.com/g/RomanYa)      | [Shutterstock](https://www.shutterstock.com/image-vector/fashion-silhouette-hipster-style-vector-illustration-161463794)      |
+| 'Paper mug with hot drink inside'      | vector illustration  | `header`      |[Agnieszka Karpinska](https://www.shutterstock.com/g/Panptys)      | [Shutterstock](https://www.shutterstock.com/image-vector/paper-mug-hot-drink-inside-vector-322930262)      |
+| 'A Barista Making A Coffee Artistically'      | video  | `header`      | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/video/a-barista-making-a-coffee-artistically-4378109/)      |
+| 'Gmail New 2020 Vector'      | vector icon  | `footer`      | [IconApe](https://iconape.com/)      | [IconApe](https://iconape.com/gmail-new-2020-seeklogo-com-3-logo-icon-svg-png.html)      |
+| 'Dog Friendly sign'      | image  | `footer`      | [SVGCraftLounge](https://www.etsy.com/ie/shop/SVGCraftLounge?ref=l2-about-shopname)      | [Etsy](https://www.etsy.com/ie/listing/1046348333/dog-friendly-sign-printable-and-cut-file?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=no+pets+allowed+png&ref=sr_gallery-2-26&pro=1)      |
+| 'Cold Brew'      | photo  | `main > section#gallery`      | [Andrew "Donovan" Valdivia](https://unsplash.com/@donovan_valdivia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)      | [Unsplash](https://unsplash.com/photos/mMI5sdLFoHMt)      |
+| 'Anonymous barista pouring milk from jug into paper cup'      | photo  | `header`      | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/photo/anonymous-barista-pouring-milk-from-jug-into-paper-cup-4350051/)      |
+| barber's kit against orange background      | photo  | `main > section#gallery`      | [Sinval Carvalho](https://unsplash.com/@sinvalbmx)      | [Unsplash](https://unsplash.com/photos/WbEibGKHBMY)      |
+| 'Baked Pastries'      | photo  | `main > section#gallery`      | [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels)      | [Pexels](https://www.pexels.com/photo/baked-pastries-2573870)      |
+| 'Brown Coffee Beans on Gray Textile'      | photo  | `main > section#gallery`      | [Liana Horodetska](https://www.pexels.com/@liana-horodetska-5077625)      | [Pexels](https://www.pexels.com/photo/dawn-caffeine-coffee-dark-7507365/)      |
+| 'Crop barista pouring milk froth in cappuccino for client'      | photo  | `main > section#about`      | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/photo/crop-barista-pouring-milk-froth-in-cappuccino-for-client-4349759/)      |
+| 'Man in White and Black Stripe Shirt Holding Black Pen'      | photo  | `main > section#more-info`      | [cottonbro](https://www.pexels.com/@cottonbro)      | [Pexels](https://www.pexels.com/photo/man-in-white-and-black-stripe-shirt-holding-black-pen-3998429/)      |
+| 'White Ceramic Mug With Brown Liquid'      | photo  | `main > section#more-info`      | [Gareth Rees](https://www.pexels.com/@gareth-rees-2793957)      | [Pexels](https://www.pexels.com/photo/white-ceramic-mug-with-brown-liquid-4334758/)      |
+| 'Straight Razor Kit'      | photo  | `main > section#gallery`      | [Josh Sorenson](https://www.pexels.com/@joshsorenson)      | [Pexels](https://www.pexels.com/photo/straight-razor-kit-995300/)      |
+| 'Set of disposable paper coffee cups'      | photo  | `main > section#about`      | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/photo/set-of-disposable-paper-coffee-cups-4349942/)      |
+| 'Calm Sea Under Blue Sky'      | photo  | `header`      | [[cottonbro](https://www.pexels.com/@cottonbro)      | [Pexels](https://www.pexels.com/photo/calm-sea-under-blue-sky-4571251)      |
 
 ### Acknowledgements:
 
@@ -111,79 +129,5 @@ Fallback: `serif`
 
 <p align="center"><img width="40%" alt="Screen Shot 2021-07-22 at 08 50 34" src="https://user-images.githubusercontent.com/48750933/126610883-b9f5c00e-fa68-4a53-abb8-c1d357a65496.png"> <img width="40%" alt="Screen Shot 2021-07-22 at 08 54 47" src="https://user-images.githubusercontent.com/48750933/126610961-708c7cf3-f267-4db5-b7b1-acc2d5f8ff41.png"></p>
 
-[Font Awesome licence](https://fontawesome.com/license)
 <p align="center"><img width="50%" alt="Font Awesome attribution info" src="https://user-images.githubusercontent.com/48750933/126652247-1619eb62-dbc6-4b2f-b999-00e386107240.png"></p>
 
-- ['Cyan Process' shade of blue used in footer modelled on the company's Facebook profile picture featuring their blue and yellow shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425)
-
-- [Photo by cottonbro from Pexels](https://www.pexels.com/photo/calm-sea-under-blue-sky-4571251/)
-
-- [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/set-of-disposable-paper-coffee-cups-4349942/)
-
-- [Photo by Josh Sorenson from Pexels](https://www.pexels.com/photo/straight-razor-kit-995300/)
-
-- [Photo by Gareth Rees from Pexels](https://www.pexels.com/photo/white-ceramic-mug-with-brown-liquid-4334758/) https://twitter.com/garethrees19 | https://www.instagram.com/garethrees1/
-
-- [Photo by cottonbro from Pexels](https://www.pexels.com/photo/man-in-white-and-black-stripe-shirt-holding-black-pen-3998429/)
-
-- [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/crop-barista-pouring-milk-froth-in-cappuccino-for-client-4349759/)
-
-- [Photo by Liana Horodetska from Pexels](https://www.pexels.com/photo/dawn-caffeine-coffee-dark-7507365/) https://www.instagram.com/liana.wow/
-
-- [Photo by Magda Ehlers from Pexels](https://www.pexels.com/photo/baked-pastries-2573870/) https://instagram.com/magda_ehlers_photography
-
-- Photo by <a href="https://unsplash.com/@sinvalbmx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sinval Carvalho</a> on <a href="https://unsplash.com/s/photos/barber?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> https://unsplash.com/photos/WbEibGKHBMY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-
-- [Photo by Ketut Subiyanto from Pexels](https://www.pexels.com/photo/anonymous-barista-pouring-milk-from-jug-into-paper-cup-4350051/)
-
-- [Matthew photo taken from Brew Barberista's Facebook page](https://www.facebook.com/photo/?fbid=246151787283327&set=bc.AbrXKgJIKp_x_V53WD-7kYeXbmn_KqgG2K999xiRUZ4DB8-GYReJXamI33kZepirdUgegLsyEXdX7uTW7tAn2yrczT4LbzLBwYA11nPRDlSj11c-1yUiSKiL_Vf864hBCqVsOpuEIsi8wyu9IhKNHmQo&opaqueCursor=AboUwXHhzz6KBzqFdz8DpzK8_QKiMnDclZhyK14cozAJrWxsf7lfpaH1DeOUsubo4KNJzyr9O9F95915wF77KhqbFibENqKnzKwa41feXk6O5ebCDPkigSuv5qgg8nW66S26Xc2MwP2fEmbUVxpSZMNa3NNF-kGikHa0TAhTLQoHVMmF766WB2-H584foVzO1ONuHqziA5oDekDFjhtRDP4xVyM9Ah-EVyH_73dpM08rW23q_KENWUMn9V8wY0XmRg8vbdxRZpxZsqG4Cin-9jYCMSelK0cD6mBQV7FBlCi4sXZcg2iHqkfAmMBtR-LkFkpGqQtQy1M-fTBFVDKpqPaTvU2f0Vg6Kkj1Fo1HhLc4iK-EYW6F76DZKLA_nmJmijjXohAQqYT6sQ0bMf84SuqS_CRMNtiIJDrTVmTytLq95wXsMZDqsd35LUBscVGl6bZmhYgLEygqNNF6puWi2gIwRH_6p2QiTx6lv4jvo6YTxzWs-ETnXX4Rqiiz_zxGlmIUoqS0JxnhQjLuodfPZCifuIImgwssdb7vaW8zQtUBDupSv0eHnjBwtwK9WDcFAMA)
-
-- Photo by <a href="https://unsplash.com/@donovan_valdivia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew "Donovan" Valdivia</a> on <a href="https://unsplash.com/s/photos/cold-brew?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-- Several of the partner logos, as well as the video used in the header background on desktop, were customised using [Kapwing](https://t.co/8EeLHn2GvC?amp=1)'s suite of content editing tools
-
-- ['Dog-friendly' logo in footer purchased and downloaded from SVG Craft Lounge](https://www.etsy.com/ie/listing/1046348333/dog-friendly-sign-printable-and-cut-file?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=no+pets+allowed+png&ref=sr_gallery-2-26&pro=1)
-
-- [Gmail vector icon downloaded from IconApe](https://iconape.com/gmail-new-2020-seeklogo-com-3-logo-icon-svg-png.html)
-
-- [Video by Ketut Subiyanto from Pexels](https://www.pexels.com/video/a-barista-making-a-coffee-artistically-4378109/) | shortened using [Kapwing](https://www.kapwing.com/)'s in-browser software
-
-- [Video by Pavel Danilyuk from Pexels](https://www.pexels.com/video/a-man-shaving-a-man-s-facial-hair-4178140/)
-
-- [CSS boilerplate for the `navbar-nav` polygon clip-path adapted from this CodePen sandbox](https://codepen.io/heyitsolivia/pen/EICDK?editors=1100)
-
-- ['Hot coffe cup icon.'](https://www.shutterstock.com/image-vector/hot-coffe-cup-icon-disposable-coffee-1784164067) by [Coosh448](https://www.shutterstock.com/g/Coosh448) on Shutterstock
-
-- ['Fashion silhouette hipster style, vector illustration'](https://www.shutterstock.com/image-vector/fashion-silhouette-hipster-style-vector-illustration-161463794) by [RomanYa](https://www.shutterstock.com/g/RomanYa) on Shutterstock
-
-- Both these images converted from `.eps` to `.svg` using [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html)
-
-- ['How to crop SVG file within HTML/CSS'](https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css/37589395)
-
-- [Limited browser support - and none in Firefox - for the CSS `backdrop-filter` property](https://caniuse.com/#feat=css-backdrop-filter) necessitated a `@supports` query on line 402 of the project's custom stylesheet (with a reasonable fallback option of an opaque background), as suggested in [this CSS-Tricks article](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
-
-- Generic/stock avatars for the customer reviews section taken from [UI Faces](https://uifaces.co/)
-
-- Pure JS boilerplate for the 'scroll back to top' `button` adpated from [this CodePen](https://jsfiddle.net/amirsaleem/xpd1wr7n/) | [transition styles applied on this element with help from this example](https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555)
-
-- [Stack Overflow: 'How do I loop through multiple background videos?'](https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos)
-
-- [- [Stack Overflow: 'How to change the playing speed of videos in HTML5?'](https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5)]
-
-- [Traversy Media: 'Create a Website With Video Background'](https://www.youtube.com/watch?v=8MgpE2DTTKA)
-
-- FUTURE FEATURES: [`scroll behavior` property (still) not supported by Safari](https://css-tricks.com/almanac/properties/s/scroll-behavior/) - [potential workaround(s) to be implemented at a later date](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
-
-- [favicon.io (favicon generator):](https://favicon.io/favicon-converter/) used to create a [favicon](https://user-images.githubusercontent.com/48750933/123767889-be6b7a80-d8bf-11eb-956c-4ec07621fab9.png) boasting full cross-browser compatibility
-
-- [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
-- [Web Formatter:](https://webformatter.com) used to assist in optimising code readability
-- [Autoprefixer:](https://autoprefixer.github.io/) used to parse CSS and apply all necessary vendor prefixes
-
-- [Ray.so:](https://ray.so/) used to create the code block image featured in the [**Bugs** section](#bugs) of this Markdown file
-
-- Tim: add `/* jshint esversion: 8 */` as the opening line of code in each of the project's custom JS files for validation purposes
-
-- Ana: in-house/ad hoc testing, suggesting I should speed up the above-the-fold video backgrounds, patience, encouragement, enduring countless hours of me being trapped inside my "dev bubble"
-
-- Initial design inspiration for this project's layout and aesthetic came from [this Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)

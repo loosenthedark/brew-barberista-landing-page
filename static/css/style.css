@@ -1950,10 +1950,34 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 @media screen and (min-width: 1200px) {
 
+  /* Buttons */
+
+  .btn-partners {
+    margin-top: .25rem;
+  }
+
   /* Header */
 
   .hero-lg-icon {
     top: .65rem;
+  }
+
+  /* Main */
+
+  /* More Info section */
+
+  .more-info-section-text p {
+    line-height: 1.6;
+    max-width: 35rem;
+  }
+
+  .more-info-section-text p:nth-of-type(2),
+  .more-info-section-text p:nth-of-type(3) {
+    display: block;
+  }
+
+  .producers {
+    display: none;
   }
 
   /* Partners section */
@@ -1975,6 +1999,12 @@ CSS Grid layout for wider screens, when browser supports grid:
 
 @media screen and (min-width: 1440px) {
 
+  /* Buttons */
+
+  .btn-partners {
+    margin-top: .5rem;
+  }
+
   /* Header */
 
   .hero-lg-icon {
@@ -1985,13 +2015,16 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   /* More Info section */
 
+  .local-business-text {
+    top: 5vw;
+  }
+
   .local-business-text p {
     max-width: 37.5rem;
   }
 
-  .more-info-section-text p:nth-of-type(2),
-  .more-info-section-text p:nth-of-type(3) {
-    display: block;
+  .producers {
+    display: inline;
   }
 
   /* Image gallery */
@@ -2019,7 +2052,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 /* extra-extra-large laptop screens */
 
 @media screen and (min-width: 1601px) {
-  body>* {
+  /* body>* {
     max-width: 54rem;
-  }
+  } */
 }

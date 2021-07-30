@@ -81,7 +81,7 @@ coffeeIcon.addEventListener('click', function () {
 // Adapted from https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos
 window.onload = function () {
   // speed up above-the-fold video backgrounds cf. https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5
-  videoCoffee.playbackRate = 1.75;
+  videoCoffee.playbackRate = 1.5;
   videoBarber.playbackRate = 1.5;
   // Once the window has loaded, listen for the end of the first video and trigger the start of the second video...
   videoCoffee.addEventListener('ended', () => {
