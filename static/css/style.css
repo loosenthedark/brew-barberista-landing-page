@@ -1136,7 +1136,7 @@ pre {
   /* Header */
 
   .hero-icons {
-    padding-top: 15vw;
+    padding-top: 7.5vh;
   }
 
   .hero-icons>img {
@@ -1148,7 +1148,7 @@ pre {
   }
 
   .chevron-box {
-    top: 100vw;
+    top: 80vh;
   }
 
   .chevron-box a {
@@ -1343,15 +1343,15 @@ pre {
   @keyframes bobbing {
 
   0% {
-    top: 100vw;
+    top: 80vh;
   }
 
   50% {
-    top: 105vw;
+    top: 85vh;
   }
 
   100% {
-    top: 100vw;
+    top: 80vh;
   }
 
 }
