@@ -1823,6 +1823,7 @@ CSS Grid layout for wider screens, when browser supports grid:
 
   .footer-nav-social {
     width: 36%;
+    max-width: 24rem;
   }
 
   .heading-footer {
