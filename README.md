@@ -6,6 +6,18 @@
 
 Brew Barberista is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a bustling community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
+![](docs/images/screenshots/brew-barberista-old-site-home-mobile.png)
+
+> Brew Barberista home page on mobile (old site)
+
+![](docs/images/screenshots/brew-barberista-old-site-home-tablet.png)
+
+> Brew Barberista home page on tablet (old site)
+
+![](docs/images/screenshots/brew-barberista-old-site-home-desktop.png)
+
+> Brew Barberista home page on desktop (old site)
+
 While the company has made good use of social media (notably Instagram) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a 'shop window' for customers even when physical premises have to close their doors due to Covid restrictions tightening. Coupled with the ongoing #DeleteFacebook movement and growing public concern over  the lack of privacy across SNSs, there is therefore a clear need for Brew Barberista to consolidate its brand identity and ties to the community by launching a standalone website.
 
 ## User Experience (UX)
@@ -49,6 +61,24 @@ Fallback: `serif`
 ### Existing features:
 
 - Navigation Bar
+
+![](docs/images/screenshots/nav-bar-mobile.png)
+
+> Navigation Bar on mobile
+
+![](docs/images/screenshots/nav-bar-tablet.png)
+
+> Navigation Bar on tablet
+
+![](docs/images/screenshots/nav-bar-laptop.png)
+
+> Navigation Bar on desktop
+
+  - There is a full-width nav bar fixed to the top of the viewport on all device sizes
+  - The site's navigation menu is hidden off-canvas initially; instead, the user is greeted by the Brew Barberista `navbar-logo` on the left-hand side and a `navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
+  - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
+  - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) are what give this project its primary palette. A lighter shade of 'cyan process' blue (featured throughout this site's `footer`, for instance) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
+
 - Header
 - Main
   - About
