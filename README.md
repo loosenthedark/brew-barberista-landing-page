@@ -1,18 +1,28 @@
 ![Code Institute logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-![Brew Barberista logo and nav bar](docs/images/brew-barberista-navbar.png)
+![Brew Barberista logo and nav bar](docs/images/screenshots/nav/brew-barberista-branded-navbar-with-logo.png)
 
 #### [Live link to deployed project](https://loosenthedark.github.io/brew-barberista) (hosted on GitHub Pages)
 
-Brew Barberista is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a bustling community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
+Brew Barberista is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
-While the company has made good use of social media (notably Instagram) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a 'shop window' for customers even when physical premises have to close their doors due to Covid restrictions tightening.
+While the company has made good use of social media (notably Instagram) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a 'shop window' for customers even when physical premises might have to close their doors due to restrictions tightening.
 
-At the time of writing, the company's existing site appears to be unfinished, as well as displaying out-of-date information about opening hours etc. (last updated in December 2020) and not being sufficiently responsive for today's mobile-first consumer landscape (mobile screenshots: [Home](docs/images/screenshots/brew-barberista-old-site-home-mobile.png) | [Brew Coffee](docs/images/screenshots/brew-barberista-old-site-coffee-mobile.png) | [Brew Barber](docs/images/screenshots/brew-barberista-old-site-barber-mobile.png) / tablet screenshots: [Home](docs/images/screenshots/brew-barberista-old-site-home-tablet.png) | [Brew Coffee](docs/images/screenshots/brew-barberista-old-site-coffee-tablet.png) | [Brew Barber](docs/images/screenshots/brew-barberista-old-site-barber-tablet.png) / desktop screenshots: [Home](docs/images/screenshots/brew-barberista-old-site-home-desktop.png) | [Brew Coffee](docs/images/screenshots/brew-barberista-old-site-coffee-desktop.png) | [Brew Barber](docs/images/screenshots/brew-barberista-old-site-barber-desktop.png)). Coupled with the ongoing #DeleteFacebook movement and growing public concern over  the lack of privacy across SNSs, there is therefore a clear need for Brew Barberista to consolidate its brand identity and ties to the community by launching a bright and engaging standalone website.
+At the time of writing, the company's existing site appears to be unfinished, while it is also displaying out-of-date information about opening hours etc. (last updated in December 2020). In addition, it falls well short of being sufficiently responsive for today's mobile-first consumer landscape:
+
+mobile  |  tablet  |  desktop
+:-------------------------:|:-------------------------:|:-------------------------:
+[Home](docs/images/screenshots/old-site/brew-barberista-home-mobile.png)  |  [Home](docs/images/screenshots/old-site/brew-barberista-home-tablet.png) |  [Home](docs/images/screenshots/old-site/brew-barberista-home-desktop.png)
+[Brew Coffee](docs/images/screenshots/old-site/brew-barberista-coffee-mobile.png)  |  [Brew Coffee](docs/images/screenshots/old-site/brew-barberista-coffee-tablet.png) |  [Brew Coffee](docs/images/screenshots/old-site/brew-barberista-coffee-desktop.png)
+[Brew Barber](docs/images/screenshots/old-site/brew-barberista-barber-mobile.png)  |  [Brew Barber](docs/images/screenshots/old-site/brew-barberista-barber-tablet.png) |  [Brew Barber](docs/images/screenshots/old-site/brew-barberista-barber-desktop.png)
+
+> Old Brew Barberista website screenshots
+
+Add to all of this the ongoing #DeleteFacebook movement and growing public concern over the lack of privacy across SNSs, and there is clearly a need for Brew Barberista to consolidate its brand identity and ties to the community by creating a bright and engaging standalone website.
 
 ## User Experience (UX)
 
-[**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) is a fully-responsive frontend website, offering users a visually appealing summary of the business's services, identity and core values. Both first-time and returning visitors will be impressed by the site's mobile-first design as well as its intuitive navigation and layout, while their knowledge of Brew Barberista's offerings and message will be enriched by the site's informative content.
+[**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) is a fully-responsive frontend website, offering users a visually appealing overview of the business's services, local partnerships and core values. Both first-time and returning visitors will be impressed by the site's mobile-first design as well as its intuitive navigation and layout, while their knowledge of Brew Barberista's offerings and message will be enriched by the site's informative and regularly-updated content.
 
 ### User stories:
 
@@ -28,7 +38,7 @@ At the time of writing, the company's existing site appears to be unfinished, as
 
 ### Colour scheme:
 
-<p align="center"><img src="docs/images/screenshots/brew-barberista-colour-scheme.png" alt="Flippin' Proud colour scheme (Coolors palette) screenshot" width="70%"></p>
+![Brew Barberista colour scheme (Coolors palette) screenshot](docs/images/screenshots/brew-barberista-colour-scheme.png)
 
 ### Typography:
 
@@ -50,86 +60,77 @@ Fallback: `serif`
 
 ### Existing features:
 
-- Navigation Bar
+- Navigation:
 
-![](docs/images/screenshots/nav-bar-mobile.png)
+  - Fixed Navigation Bar:
 
-> Navigation Bar on mobile
+    ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
+    :-------------------------:|:-------------------------:|:-------------------------:
+    mobile  |  tablet |  desktop
 
-![](docs/images/screenshots/nav-bar-tablet.png)
+    > Responsive full-width, fixed Navigation Bar
 
-> Navigation Bar on tablet
+    - There is a full-width nav bar fixed to the top of the viewport on all device sizes
+    - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
+    - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
+    - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) directly inform this project's primary palette. A lighter shade of 'cyan process' blue [(featured throughout the current site's `footer`, for instance)](https://loosenthedark.github.io/brew-barberista#contact) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
 
-![](docs/images/screenshots/nav-bar-laptop.png)
+  - (Off-Canvas) Navigation Menu:
 
-> Navigation Bar on desktop
+    ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-laptop.png)
+    :-------------------------:|:-------------------------:|:-------------------------:
+    mobile  |  tablet |  desktop
 
-- (Off-Canvas) Navigation Menu
+    > Off-canvas Navigation Menu
 
-  - There is a full-width nav bar fixed to the top of the viewport on all device sizes
-  - The site's navigation menu is hidden off-canvas initially; instead, the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
-  - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
-  - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) are what give this project its primary palette. A lighter shade of 'cyan process' blue (featured throughout this site's `footer`, for instance) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
-  - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using vanilla JavaScript by listening for a relevant user click(s) and sliding the nav `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button animates on click to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
-  - The expanded polygon-shaped menu contains links to each of the website's six internal sections that contain content (see below), as well as a seventh link entitled 'Press'. Clicking on this triggers an additional absolutely-positioned submenu featuring links to recent Brew Barberista media appearances.
-  - The final 'Contact' link consists of a cyan call-to-action button. In keeping with UX best practices, clicking on any of these links will cause the `.navbar-nav` menu to revert to its off-canvas location as the site navigates to the desired anchor link. Smooth scrolling has been enabled to smoothen this navigation through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
+    - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using vanilla JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button animates on click to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
+    - The expanded polygon-shaped menu contains links to each of the website's six internal sections containing content (see below), as well as a seventh link entitled 'Press'.
+    - Clicking on this triggers an additional absolutely-positioned submenu featuring external links to recent Brew Barberista media appearances. Each of these links opens in a new browser tab due to the `<a>` tag's `target` property being set to `_blank`.
+    - The bottom 'Contact' link consists of a cyan call-to-action `button`. In keeping with UX best practices, clicking on any of the links embedded in the `.navbar-nav` will cause the menu to revert to its default off-canvas location as the site navigates to the designated location. Smooth scrolling has been enabled to streamline the navigation experience through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
+    - NB: One further section of the site, a tiled image gallery, is purely decorative, and so no anchor link is required.
 
-  ![](docs/images/screenshots/navbar-nav-mobile.png)
+    ![](docs/images/screenshots/nav/press-list-mobile.png)  |  ![](docs/images/screenshots/nav/press-list-tablet.png)  |  ![](docs/images/screenshots/nav/press-list-laptop.png)
+    :-------------------------:|:-------------------------:|:-------------------------:
+    mobile  |  tablet |  desktop
 
-  > Off-canvas Navigation Menu on mobile
+    > Off-canvas Press List Submenu
 
-  ![](docs/images/screenshots/navbar-nav-tablet.png)
+- Header:
 
-  > Off-canvas Navigation Menu on tablet
+  ![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
+  :-------------------------:|:-------------------------:
+  `<header>` HTML code snippet  |  `.hero-header` and `.overlay` CSS code snippets
 
-  ![](docs/images/screenshots/navbar-nav-laptop.png)
+  ![](docs/images/screenshots/header/header-mobile.gif)  |  ![](docs/images/screenshots/header/header-tablet.gif)  |  ![](docs/images/screenshots/header/header-desktop.gif)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
 
-  > Off-canvas Navigation Menu on desktop
+  > Above-the-fold Header
 
-  ![](docs/images/screenshots/press-list-mobile.png)
+  - Mobile & Tablet (< 992px):
 
-  > Press List Submenu on mobile
-
-  ![](docs/images/screenshots/press-list-tablet.png)
-
-  > Press List Submenu on tablet
-
-  ![](docs/images/screenshots/press-list-laptop.png)
-
-  > Press List Submenu on desktop
-
-- Header
-
-  ![](docs/images/screenshots/header-html-snippet.png)
-
-  ![](docs/images/screenshots/header-css-snippet.png)
-
-  - Mobile & Tablet (< 992px)
-
-    - The site's above-the-fold real estate features a clean, soothing background image of a horizon out to sea on mobile and tablet. This was chosen due to Brew Barberista's location just off the Howth Road in Raheny and less than a kilometre uphill from the Dublin Bay coast road.
+    - The site's above-the-fold real estate on mobile and tablet features a clean, soothing background image of a horizon out to sea. This was chosen due to Brew Barberista's prime location just off the Howth Road in Raheny and less than a kilometre uphill from the Dublin Bay coast road.
     - On page load this landing area is brought to life using animated hero icons: one of a takeaway cup of hot coffee, the other a silhouette of a man with a striking hairstyle. These icons have been enlarged and had a 'zoom-into-view' `@keyframes icon-reveal` animation effect applied to them in order to capture the visitor's attention and also hint at the services available at Brew Barberista.
 
-    ![](docs/images/screenshots/header-mobile.gif)
-
-    > Above-the-fold Header on mobile
-
-    ![](docs/images/screenshots/header-tablet.gif)
-
-    > Above-the-fold Header on tablet
-
-  - Desktop (> 991px)
+  - Desktop (> 991px):
 
     - A decision was made to change the `header` area's aesthetic on desktop devices. In place of the background image with animated icons are two short complimentary video backgrounds: one showing a barista pouring a cup of coffee, the other featuring a close-up of a barber trimming a customer's hair.
     - Each of these `video` elements has had its `opacity` reduced to keep them from being seen to occupy the foreground (and/or overly distract the user).
     - There has also been an `.overlay` class applied to an absolutely-positioned `div` element that acts as a subtle filter in line with the site's prevailing colour palette
     - One more additional `div` with `background-color` set to semi-opaque blue has had a `clip-path` rule applied to it. This has the effect of creating a symmetrical pair of roughly triangular 'corner areas', each containing an icon and a heading, which act as navigation links to 'Brew Coffee' and 'Brew Barber', respectively.
 
-    ![](docs/images/screenshots/header-desktop.gif)
+- Main:
 
-    > Above-the-fold Header on desktop
+  - About:
 
-- Main
-  - About
+    - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This section is in turn subdivided into two subsections, **Brew Coffee** and **Brew Barber**, each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
+
+      ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
+      :-------------------------:|:-------------------------:|:-------------------------:
+      mobile  |  tablet |  desktop
+
+      > About section responsive layout
+
   - More Info
   - Customer Reviews
   - Image Gallery
