@@ -1,3 +1,5 @@
+/* jshint esversion: 8 */
+
 // Variable declarations...
 const body = document.querySelector('.element-body');
 const hamburger = document.querySelector('.navbar-toggler');

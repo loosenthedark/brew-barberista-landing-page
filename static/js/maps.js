@@ -1,3 +1,5 @@
+/* jshint esversion: 8 */
+
 function initMap() {
   const brewBarberista = {
       lat: 53.3811089,
