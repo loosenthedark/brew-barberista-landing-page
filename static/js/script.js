@@ -12,8 +12,8 @@ const menu = document.querySelector('.navbar-nav');
 const animateNavToggler = document.getElementById('nav-toggler');
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const coffeeIcon = document.querySelector('.coffee-icon');
-const videoCoffee = document.getElementById('video-coffee')
-const videoBarber = document.getElementById('video-barber')
+const videoCoffee = document.getElementById('video-coffee');
+const videoBarber = document.getElementById('video-barber');
 
 function showMenu() {
     collapse.classList.toggle('toggled');
@@ -21,8 +21,12 @@ function showMenu() {
     if (pressList.className.indexOf('press-reveal') !== -1) {
         pressList.className = pressList.className.replace('press-reveal', '');
     }
-    hamburger.getAttribute('aria-expanded') == 'false' ? hamburger.setAttribute('aria-expanded', true) : hamburger.setAttribute('aria-expanded', false);
-
+    let ariaState = hamburger.getAttribute('aria-expanded');
+    if(ariaState == 'false') {
+        hamburger.setAttribute('aria-expanded', true);
+    } else {
+        hamburger.setAttribute('aria-expanded', true);
+    }
 }
 
 function hideMenus() {
@@ -48,6 +52,7 @@ body.addEventListener('click', function(e) {
     clickTarget(e);
 }, true);
 
+// Slide Press submenu into view on click...
 function showPress() {
     var x = document.getElementById('press-list');
     if (x.className.indexOf('press-reveal') == -1) {
@@ -79,7 +84,7 @@ animateNavToggler.addEventListener('click', function() {
 coffeeIcon.addEventListener('click', function() {
     coffeeIcon.classList.toggle('active');
     hamburgerIcon.classList.toggle('active');
-})
+});
 
 // Play multiple videos in background above the fold on desktop...
 // Adapted from https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos
@@ -98,7 +103,7 @@ window.onload = function() {
         videoCoffee.style.display = 'block';
         playVideo(videoCoffee);
     });
-}
+};
 
 function playVideo(video) {
     // This playVideo function takes in the ID of a video element and plays that video...
@@ -118,6 +123,6 @@ function dynamicFooterPositioning(x) {
 
 // JS media query...
 // code block adapted from https://www.w3schools.com/howto/howto_js_media_queries.asp
-var x = window.matchMedia('(min-width: 992px)')
-dynamicFooterPositioning(x) // Call listener function at run time
-x.addListener(dynamicFooterPositioning) // Attach listener function on state changes   
+var x = window.matchMedia('(min-width: 992px)');
+dynamicFooterPositioning(x); // Call listener function at run time
+x.addListener(dynamicFooterPositioning); // Attach listener function on state changes   

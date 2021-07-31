@@ -127,12 +127,12 @@ a {
   text-decoration: none;
 }
 
-img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon, .logo-dog-friendly, .hero-lg-icon) {
+/* img:not(.profiler, .logo, .partner-logo, .email-icon, .press-list-icon, .navbar-toggler-icon, .logo-dog-friendly, .hero-lg-icon) {
   display: block;
   border: 0;
   width: 100%;
   height: auto;
-}
+} */
 
 button {
   cursor: pointer;
