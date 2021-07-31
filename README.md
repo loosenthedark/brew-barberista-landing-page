@@ -68,9 +68,9 @@ Add to all of this the ongoing #DeleteFacebook movement and growing public conce
 
   - ##### Fixed Navigation Bar:
 
-    ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
-    :-------------------------:|:-------------------------:|:-------------------------:
-    mobile  |  tablet |  desktop
+  ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
 
     - There is a full-width nav bar fixed to the top of the viewport on all device sizes
     - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
@@ -79,9 +79,9 @@ Add to all of this the ongoing #DeleteFacebook movement and growing public conce
 
   - ##### (Off-Canvas) Navigation Menu:
 
-    ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
-    :-------------------------:|:-------------------------:|:-------------------------:
-    mobile  |  tablet |  desktop
+  ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
 
     - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using custom JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button animates on click to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
     - The expanded polygon-shaped menu contains links to each of the website's six internal sections containing content (see below), as well as a seventh link entitled 'Press'.
@@ -89,9 +89,9 @@ Add to all of this the ongoing #DeleteFacebook movement and growing public conce
     - The bottom 'Contact' link consists of a cyan call-to-action `button`. In keeping with UX best practices, clicking on any of the links embedded in the `.navbar-nav` will cause the menu to revert to its default off-canvas location as the site navigates to the designated location. Smooth scrolling has been enabled to streamline the navigation experience through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
     - NB: One further section of the site, a tiled image gallery, is purely decorative, and so no anchor link is required.
 
-    ![](docs/images/screenshots/nav/press-list-mobile.png)  |  ![](docs/images/screenshots/nav/press-list-tablet.png)  |  ![](docs/images/screenshots/nav/press-list-desktop.png)
-    :-------------------------:|:-------------------------:|:-------------------------:
-    mobile  |  tablet |  desktop
+  ![](docs/images/screenshots/nav/press-list-mobile.png)  |  ![](docs/images/screenshots/nav/press-list-tablet.png)  |  ![](docs/images/screenshots/nav/press-list-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
 
 - #### Header:
 
@@ -161,9 +161,19 @@ mobile  |  tablet |  desktop
 
     - As stated previously, the (untitled) image gallery is for decorative purposes only
     - A flexible and fluid layout has been achieved with flexbox - more specifically, through use of the `flex-wrap` CSS property
-    - The gallery displays as a 2x2 grid on mobile, 3x2 on tablet and a single row containing four images (each with a `max-height` rule applied when the screen width reaches 1440px) on desktop
+    - The gallery displays as a 2x2 grid on mobile, 3x2 on tablet (two extra image `div`s having had their `display` property toggled from `none` to `block`) and a single row containing four images (each with a `max-height` rule applied when the screen width reaches 1440px) on desktop
 
-  - Partners
+  - ##### Our Partners `section`:
+
+  ![](docs/images/screenshots/partners/partners-mobile.png)  |  ![](docs/images/screenshots/partners/partners-tablet.png)  |  ![](docs/images/screenshots/partners/partners-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
+
+    - A similarly fluid approach has been taken for the site's Our Partners `section`, which consists of a grid of logos belonging to companies/organisations that Brew Barberista has either championed or worked alongside
+    - Each logo `img` is also a clickable link to the relevant company's website, with all of these external links opening in a new browser tab
+    - Due to device width constraints, and in order to avoid generating a cluttered feel, two of the `section`'s twelve `figure` elements are hidden on mobile
+
+
   - Location
 - Footer
 
