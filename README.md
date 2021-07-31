@@ -99,7 +99,7 @@ Add to all of this the ongoing #DeleteFacebook movement and growing public conce
 :-------------------------:|:-------------------------:
 `<header>` HTML code snippet  |  `.hero-header` and `.overlay` CSS code snippets
 
-![](docs/images/screenshots/header/header-mobile.gif)  |  ![](docs/images/screenshots/header/header-tablet.gif)  |  ![](docs/images/screenshots/header/header-desktop.gif)
+![](docs/images/screenshots/header/header-mobile.jpg)  |  ![](docs/images/screenshots/header/header-tablet.jpg)  |  ![](docs/images/screenshots/header/header-desktop.gif)
 :-------------------------:|:-------------------------:|:-------------------------:
 mobile  |  tablet |  desktop
 
@@ -137,7 +137,17 @@ mobile  |  tablet |  desktop
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
     - The 'Our Partners' CTA `button` (visible on desktop only) in the Brew Coffee subsection directs the user to the 'Our Partners' section of the site (see below), while the 'Book Now' `button` (visible on tablet and desktop) beneath the 'Get in touch' Brew Barber heading causes the page to scroll right down to the `footer`, where the business's contact details can be found (see below). 
 
-  - Customer Reviews
+  - ##### Customer Reviews section:
+
+  ![](docs/images/screenshots/customer-reviews/customer-reviews-mobile.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-tablet.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
+
+    - The Customer Reviews section boasts a selection of reviews from Brew Barberista customers, shining a light on what the business has to offer.
+    - Each review consists of a customer avatar, excerpt from that customer's review, customer name and the source from which the review has been taken.
+    - Semantic HTML elements have been used here: each review is wrapped inside a `figure` element, with nested `img` (avatar), `blockquote` (review body) and `figcaption` (name and review source) elements.
+    - As with several other sections, the layout has been achieved using a combination of CSS positioning and flexbox on smaller screens, with CSS grid rules applied on desktop.
+
   - Image Gallery
   - Partners
   - Location
