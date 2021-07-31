@@ -107,6 +107,7 @@ mobile  |  tablet |  desktop
 
     - The site's above-the-fold real estate on mobile and tablet features a clean, soothing background image of a horizon out to sea. This was chosen due to Brew Barberista's prime location just off the Howth Road in Raheny and less than a kilometre uphill from the Dublin Bay coast road.
     - On page load this landing area is brought to life using animated hero icons: one of a takeaway cup of hot coffee, the other a silhouette of a man with a striking hairstyle. These icons have been enlarged and had a 'zoom-into-view' `@keyframes icon-reveal` animation effect applied to them in order to capture the visitor's attention and also hint at the services available at Brew Barberista.
+    - There is also a gold-coloured downward-pointing chevron icon used to hook the user and encourage them to explore below the fold. This functionality has been enhanced by adding a gentle "bobbing" animation effect in the project's stylesheet
 
   - ##### Desktop (> 991px):
 
@@ -135,7 +136,7 @@ mobile  |  tablet |  desktop
     - These two More Info subsections are stacked on mobile and tablet, and lie side by side on desktop
     - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
-    - The 'Our Partners' CTA `button` (visible on desktop only) in the Brew Coffee `div` directs the user to the 'Our Partners' `section` of the site (see below), while the 'Book Now' `button` (visible on tablet and desktop) beneath the 'Get in touch' Brew Barber heading causes the page to scroll right down to the `footer`, where the business's contact details can be found (see below). 
+    - The 'OUR PARTNERS' CTA `button` (visible on desktop only) in the Brew Coffee `div` directs the user to the 'Our Partners' `section` of the site (see below), while the 'BOOK NOW' `button` (visible on tablet and desktop) beneath the 'Get in touch' Brew Barber heading causes the page to scroll right down to the `footer`, where the business's contact details can be found (see below). 
 
   - ##### Customer Reviews `section`:
 
@@ -190,7 +191,15 @@ mobile  |  tablet |  desktop
     - A `max-width` value of `60rem` has been set on the `.map-container` `div` across desktop devices to prevent the map from sprawling too far horizontally.
     - To create a bespoke and memorable user experience, the default Maps marker image has been replaced by a miniature version of the dark blue and gold Brew Barberista circular logo
 
-- Footer
+- #### Footer:
+
+The site's `footer` element is far from an afterthought, as it contains important contact information and social media links for Brew Barberista. There are three main ways the user might arrive here:
+
+  1) By simply scrolling manually through the entire website
+  2) By clicking the blue 'CONTACT' call-to-action `button` located at the foot of the off-canvas `.navbar-nav` navigation menu (see above)
+  3) By clicking the gold-coloured 'BOOK NOW' CTA button located at the foot of the second `section#more-info > div` on tablet and desktop (see above)
+
+As outlined previously, the choice of a bright shade of cyan as the `background-color` for this area was inspired by the actual coat of paint used on [the facade of Brew Barberista's physical premises](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425) in D5.
 
 ### Potential future features:
 
