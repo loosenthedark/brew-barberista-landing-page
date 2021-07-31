@@ -117,38 +117,52 @@ mobile  |  tablet |  desktop
 
 - #### Main:
 
-  - ##### About section:
+  - ##### About `section`:
 
   ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This section is in turn subdivided into two subsections, **Brew Coffee** and **Brew Barber**, each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
+    - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This `section` is in turn subdivided into two `div`s, **Brew Coffee** and **Brew Barber**, each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
 
-  - ##### More Info section:
+  - ##### More Info `section`:
 
   ![](docs/images/screenshots/more-info/more-info-mobile.png)  |  ![](docs/images/screenshots/more-info/more-info-tablet.png)  |  ![](docs/images/screenshots/more-info/more-info-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
     - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service (Brew Coffee/Brew Barber).
-    - These two More Info subsections are stacked on mobile and tablet, and side by side on desktop
+    - These two More Info subsections are stacked on mobile and tablet, and lie side by side on desktop
     - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
-    - The 'Our Partners' CTA `button` (visible on desktop only) in the Brew Coffee subsection directs the user to the 'Our Partners' section of the site (see below), while the 'Book Now' `button` (visible on tablet and desktop) beneath the 'Get in touch' Brew Barber heading causes the page to scroll right down to the `footer`, where the business's contact details can be found (see below). 
+    - The 'Our Partners' CTA `button` (visible on desktop only) in the Brew Coffee `div` directs the user to the 'Our Partners' `section` of the site (see below), while the 'Book Now' `button` (visible on tablet and desktop) beneath the 'Get in touch' Brew Barber heading causes the page to scroll right down to the `footer`, where the business's contact details can be found (see below). 
 
-  - ##### Customer Reviews section:
+  - ##### Customer Reviews `section`:
 
   ![](docs/images/screenshots/customer-reviews/customer-reviews-mobile.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-tablet.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - The Customer Reviews section boasts a selection of reviews from Brew Barberista customers, shining a light on what the business has to offer.
+    - The Customer Reviews `section` boasts a selection of reviews from Brew Barberista customers, shining a light on what the business has to offer.
     - Each review consists of a customer avatar, excerpt from that customer's review, customer name and the source from which the review has been taken.
     - Semantic HTML elements have been used here: each review is wrapped inside a `figure` element, with nested `img` (avatar), `blockquote` (review body) and `figcaption` (name and review source) elements.
-    - As with several other sections, the layout has been achieved using a combination of CSS positioning and flexbox on smaller screens, with CSS grid rules applied on desktop.
 
-  - Image Gallery
+    ![](docs/images/screenshots/customer-reviews/customer-reviews-html-snippet.png)  |  
+    :-------------------------:|
+    `<figure>` HTML code snippet   |  
+
+    - As with several other `section`s, the layout has been achieved using a combination of CSS positioning and flexbox on smaller screens, with CSS grid rules applied on desktop.
+
+  - ##### Image gallery:
+
+  ![](docs/images/screenshots/image-gallery/image-gallery-mobile.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-tablet.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
+
+    - As stated previously, the (untitled) image gallery is for decorative purposes only
+    - A flexible and fluid layout has been achieved with flexbox - more specifically, through use of the `flex-wrap` CSS property
+    - The gallery displays as a 2x2 grid on mobile, 3x2 on tablet and a single row containing four images (each with a `max-height` rule applied when the screen width reaches 1440px) on desktop
+
   - Partners
   - Location
 - Footer
@@ -223,6 +237,8 @@ mobile  |  tablet |  desktop
 
 ### Acknowledgements:
 
+![Brew Barberista responsive footer device mockups](docs/images/screenshots/mockups/brew-barberista-footer.png)
+
 ### Notice:
 
-![Brew Barberista responsive footer device mockups](docs/images/screenshots/mockups/brew-barberista-footer.png)
+This site has been created for educational purposes only.
