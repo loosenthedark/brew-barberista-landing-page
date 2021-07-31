@@ -84,6 +84,9 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
   mobile  |  tablet |  desktop
 
     - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using custom JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button animates on click to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
+
+    ![animated nav toggler icons functionality](docs/images/screenshots/nav/nav-toggler-icons-animation.gif)
+
     - The expanded polygon-shaped menu contains links to each of the website's six internal sections containing content (see below), as well as a seventh link entitled 'Press'.
     - Clicking on this triggers an additional absolutely-positioned submenu featuring external links to recent Brew Barberista media appearances. Each of these links opens in a new browser tab due to the `<a>` tag's `target` property being set to `_blank`.
     - The bottom 'Contact' link consists of a cyan call-to-action `button`. In keeping with UX best practices, clicking on any of the links embedded in the `.navbar-nav` will cause the menu to revert to its default off-canvas location as the site navigates to the designated location. Smooth scrolling has been enabled to streamline the navigation experience through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
