@@ -9,7 +9,7 @@ function initMap() {
       zoom: 13,
       center: brewBarberista,
   });
-  new google.maps.Marker({
+  const pin = new google.maps.Marker({
       position: brewBarberista,
       map,
       title: 'Brew Barberista',
