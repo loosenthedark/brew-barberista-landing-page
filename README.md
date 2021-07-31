@@ -68,6 +68,11 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 
   - ##### Fixed Navigation Bar:
 
+  <details>
+  <summary>
+  click to view
+  </summary>
+
   ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
@@ -76,17 +81,20 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
     - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
     - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
     - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) directly inform this project's primary palette. A lighter shade of 'cyan process' blue [(featured throughout the current site's `footer`, for instance)](https://loosenthedark.github.io/brew-barberista#contact) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
+  </details>
 
   - ##### (Off-Canvas) Navigation Menu:
+
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using custom JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button animates on click to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
-
-    ![animated nav toggler icons functionality](docs/images/screenshots/nav/nav-toggler-icons-animation.gif)
-
+    - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using custom JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button [animates on click](docs/images/screenshots/nav/nav-toggler-icons-animation.gif) to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
     - The expanded polygon-shaped menu contains links to each of the website's six internal sections containing content (see below), as well as a seventh link entitled 'Press'.
     - Clicking on this triggers an additional absolutely-positioned submenu featuring external links to recent Brew Barberista media appearances. Each of these links opens in a new browser tab due to the `<a>` tag's `target` property being set to `_blank`.
     - The bottom 'Contact' link consists of a cyan call-to-action `button`. In keeping with UX best practices, clicking on any of the links embedded in the `.navbar-nav` will cause the menu to revert to its default off-canvas location as the site navigates to the designated location. Smooth scrolling has been enabled to streamline the navigation experience through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
@@ -95,8 +103,13 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
   ![](docs/images/screenshots/nav/press-list-mobile.png)  |  ![](docs/images/screenshots/nav/press-list-tablet.png)  |  ![](docs/images/screenshots/nav/press-list-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
+  </details>
 
 - #### [Header:](https://loosenthedark.github.io/brew-barberista)
+<details>
+  <summary>
+  click to view
+  </summary>
 
 ![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
 :-------------------------:|:-------------------------:
@@ -118,18 +131,28 @@ mobile  |  tablet |  desktop
     - Each of these `video` elements has had its `opacity` reduced to keep them from being seen to occupy the foreground (and/or overly distract the user).
     - There has also been an `.overlay` class applied to an absolutely-positioned `div` element that acts as a subtle filter in line with the site's prevailing colour palette
     - One more additional `div` with `background-color` set to semi-opaque blue has had a `clip-path` rule applied to it. This has the effect of creating a symmetrical pair of roughly triangular 'corner areas', each containing an icon and a heading, which act as navigation links to 'Brew Coffee' and 'Brew Barber', respectively.
+</details>
 
-- #### Main:
+- #### [Main:](https://loosenthedark.github.io/brew-barberista/#about)
 
   - ###### [About `section`:](https://loosenthedark.github.io/brew-barberista/#about)
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
     - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This `section` is in turn subdivided into two `div`s, [**Brew Coffee**](https://loosenthedark.github.io/brew-barberista/#about) and [**Brew Barber**](https://loosenthedark.github.io/brew-barberista/#barber), each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
+  </details>
 
   - ###### [More Info `section`:](https://loosenthedark.github.io/brew-barberista/#more-info)
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/more-info/more-info-mobile.png)  |  ![](docs/images/screenshots/more-info/more-info-tablet.png)  |  ![](docs/images/screenshots/more-info/more-info-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
@@ -139,9 +162,14 @@ mobile  |  tablet |  desktop
     - These two More Info subsections are stacked on mobile and tablet, and lie side by side on desktop
     - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
-    - The 'OUR PARTNERS' CTA `button` (visible on desktop only) in the [Brew Coffee `div`](https://loosenthedark.github.io/brew-barberista/#more-info) directs the user to the [Our Partners `section`](#our-partners-section) of the site, while the 'BOOK NOW' `button` (visible on tablet and desktop) beneath the ['Get in touch' Brew Barber heading](https://loosenthedark.github.io/brew-barberista/#get-in-touch) causes the page to scroll right down to the [`footer`](#footer-aka-contact-section), where the business's [contact details](https://loosenthedark.github.io/brew-barberista/#contact) can be found. 
+    - The 'OUR PARTNERS' CTA `button` (visible on desktop only) in the [Brew Coffee `div`](https://loosenthedark.github.io/brew-barberista/#more-info) directs the user to the [Our Partners `section`](#our-partners-section) of the site, while the 'BOOK NOW' `button` (visible on tablet and desktop) beneath the ['Get in touch' Brew Barber heading](https://loosenthedark.github.io/brew-barberista/#get-in-touch) causes the page to scroll right down to the [`footer`](#footer-aka-contact-section), where the business's [contact details](https://loosenthedark.github.io/brew-barberista/#contact) can be found.
+  </details>
 
   - ###### [Customer Reviews `section`:](https://loosenthedark.github.io/brew-barberista/#customer-reviews)
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/customer-reviews/customer-reviews-mobile.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-tablet.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
@@ -156,8 +184,13 @@ mobile  |  tablet |  desktop
       `<figure>` HTML code snippet   |  
 
     - As with several other `section`s, the layout has been achieved using a combination of CSS positioning and flexbox on smaller screens, with CSS grid rules applied on desktop.
+  </details>
 
   - ###### Image gallery:
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/image-gallery/image-gallery-mobile.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-tablet.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
@@ -166,8 +199,14 @@ mobile  |  tablet |  desktop
     - As stated previously, the (untitled) image gallery is for decorative purposes only
     - A flexible and fluid layout has been achieved with flexbox - more specifically, through use of the `flex-wrap` CSS property
     - The gallery displays as a 2x2 grid on mobile, 3x2 on tablet (two extra image `div`s having had their `display` property toggled from `none` to `block`) and a single row containing four images (each with a `max-height` rule applied when the screen width reaches 1440px) on desktop
+  </details>
 
   - ###### [Our Partners `section`:](https://loosenthedark.github.io/brew-barberista/#partners)
+
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/partners/partners-mobile.png)  |  ![](docs/images/screenshots/partners/partners-tablet.png)  |  ![](docs/images/screenshots/partners/partners-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
@@ -176,8 +215,13 @@ mobile  |  tablet |  desktop
     - A similarly fluid approach has been taken for the site's Our Partners `section`, which consists of a grid of logos belonging to companies/organisations that Brew Barberista has either championed or worked alongside
     - Each logo `img` is also a clickable link to the relevant company's website, with all of these external links opening in a new browser tab
     - Due to device width constraints, and in order to avoid generating a cluttered feel, two of the `section`'s twelve `figure` elements are hidden on mobile
+  </details>
 
   - ###### [Location `section`:](https://loosenthedark.github.io/brew-barberista/#location)
+  <details>
+  <summary>
+  click to view
+  </summary>
 
   ![](docs/images/screenshots/location/location-mobile.png)  |  ![](docs/images/screenshots/location/location-tablet.png)  |  ![](docs/images/screenshots/location/location-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
@@ -193,8 +237,13 @@ mobile  |  tablet |  desktop
 
     - A `max-width` value of `60rem` has been set on the `.map-container` `div` across desktop devices to prevent the map from sprawling too far horizontally.
     - To create a bespoke and memorable user experience, the default Maps Marker image has been replaced by [a miniature version of the dark blue and gold Brew Barberista circular logo](static/images/icons/pin-brew-barberista.png)
+  </details>
 
 - #### [Footer (aka `#contact` section):](https://loosenthedark.github.io/brew-barberista/#contact)
+<details>
+  <summary>
+  click to view
+  </summary>
 
 The site's `footer` element is far from an afterthought, as it contains important contact information and social media links for Brew Barberista. There are three main ways the user might arrive here:
 
@@ -203,8 +252,13 @@ The site's `footer` element is far from an afterthought, as it contains importan
   3) By clicking the gold-coloured 'BOOK NOW' CTA button located at the foot of the second [`section#more-info > div`](#more-info-section) on tablet and desktop
 
 As outlined previously, the choice of a bright shade of cyan as the `background-color` for this area was inspired by the actual coat of paint used on [the facade of Brew Barberista's physical premises](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425) in D5.
+</details>
 
 - #### Dynamic 'back-to-top' button (on page scroll):
+<details>
+  <summary>
+  click to view
+  </summary>
 
 One other important UX feature is a fixed-position dark-blue button containing an upward-pointing chevron icon that becomes available to the user as a single-click avenue back to the top of the page when they have scrolled more than 500px vertically downwards. This functionality has been put in place by listening out for a `window` [scroll event](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) in the project's [`script.js` file](static/js/script.js). The `#btn-back-to-top` element's `display` property is then toggled back and forth between `none` and `block` in order to show/hide the button in the bottom right-hand corner of the viewport.
 
@@ -215,6 +269,7 @@ One other important UX feature is a fixed-position dark-blue button containing a
 ![](docs/images/screenshots/back-to-top/back-to-top-mobile.png)  |  ![](docs/images/screenshots/back-to-top/back-to-top-tablet.png)  |  ![](docs/images/screenshots/back-to-top/back-to-top-desktop.png)
 :-------------------------:|:-------------------------:|:-------------------------:
 mobile  |  tablet |  desktop
+</details>
 
 ### Potential future features:
 
