@@ -1,7 +1,3 @@
-/* ## Colour palette - 'Space Cadet' dark blue in logo: hsl(234, 40%, 29%) - 'Old Gold' gold in logo: hsl(47, 58%, 56%) - 'Alice Blue' off-white blue (body background): hsl(215, 37%, 90%) - 'Gunmetal' blue-black (body text): hsl(213, 24%, 15%) - 'Queen Blue' (footer): hsl(204, 47%, 54%) ## Typography ### Body Copy - Base font size: 18px (1.125rem) ### Font - Family: [Poppins](https://fonts.google.com/specimen/Poppins) - Weights: 300, 400, 500 - Family: [Lora](https://fonts.google.com/specimen/Lora) - Weights: 600, 700 */
-
-
-
 /* CSS style resets adapted from https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274400#overview & https://www.linkedin.com/learning/css-advanced-layouts-with-grid */
 
 * {
@@ -176,6 +172,31 @@ button {
   display: inline-block;
 }
 
+.btn-contact:hover,
+.btn-contact:focus,
+.btn-partners:hover,
+.btn-partners:focus,
+.btn-book:hover,
+.btn-book:focus {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.btn-contact:focus {
+  background-color: hsl(204, 46%, 30%);
+}
+
+.btn-partners:focus {
+  background-color: hsl(216, 37%, 85%);
+}
+
+.btn-book:hover {
+  background-color: hsl(47, 58%, 56%);
+}
+
+.btn-book:focus {
+  background-color: hsl(47, 58%, 50%);
+}
+
 .btn-press {
   border: none;
   background-color: hsl(0, 0%, 96%);
@@ -194,6 +215,14 @@ button {
   background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .33), hsla(47, 58%, 56%, .33))
 }
 
+.btn-press:hover {
+  background-image: linear-gradient(90deg, hsl(215, 37%, 90%), hsl(215, 37%, 90%));
+}
+
+.btn-press:focus {
+  background-image: linear-gradient(90deg, hsla(234, 40%, 29%, .33), hsla(234, 40%, 29%, .33));
+}
+
 .btn-book,
 .btn-partners {
   display: none;
@@ -209,6 +238,10 @@ button {
   font-size: 3.5rem;
   color: hsl(234, 40%, 29%);
   display: none;
+}
+
+#btn-back-to-top:hover {
+  color: hsl(47, 58%, 56%);
 }
 
 /* Code block adapted from https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555 */
@@ -370,6 +403,19 @@ button {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+.navbar-nav .nav-link:not(.btn):hover {
+  background-position: bottom;
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+  padding-left: .33rem;
+  padding-right: .33rem;
+  background-image: linear-gradient(90deg, hsl(215, 37%, 90%), hsl(215, 37%, 90%));
+}
+
+.navbar-nav .nav-link:not(.btn):focus {
+  background-image: linear-gradient(90deg, hsla(234, 40%, 29%, .33), hsla(234, 40%, 29%, .33));
 }
 
 #press-list {
@@ -565,6 +611,14 @@ video,
   background-image: linear-gradient(90deg, hsla(47, 58%, 56%, .5), hsla(47, 58%, 56%, .5))
 }
 
+.link-more-info:hover {
+  background-image: linear-gradient(90deg, hsla(234, 40%, 29%, .33), hsla(234, 40%, 29%, .33))
+}
+
+.link-more-info:focus {
+  background-image: linear-gradient(90deg, hsla(234, 40%, 29%, .5), hsla(234, 40%, 29%, .5))
+}
+
 /* More Info section */
 
 .more-info-section {
@@ -744,6 +798,18 @@ figure {
   width: 100%;
 }
 
+.partner-link img {
+  transition: all .1s ease-in-out;
+}
+
+.partner-link:hover img {
+  transform: translateY(-.1rem)
+}
+
+.partner-link:hover img {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
 .pieman-logo {
   background-color: hsl(12, 19%, 95%);
 }
@@ -837,6 +903,16 @@ footer {
 
 .footer-nav-social .nav-link {
   color: hsl(0, 0%, 0%);
+  transition: all .2s ease-in-out;
+}
+
+.footer-nav-social .nav-link:hover {
+  color: hsl(47, 58%, 56%);
+  transform: translateY(-.3rem);
+}
+
+.footer-nav-social .nav-link:focus {
+  color: hsl(47, 58%, 50%);
 }
 
 pre {
@@ -856,6 +932,16 @@ pre {
 
 .footer-nav:not(.footer-nav-contact) .nav-link {
   font-size: 1.25rem;
+}
+
+.email-link:hover,
+.footer-nav:not(.footer-nav-contact) .nav-link:hover {
+  color: hsl(47, 58%, 56%);
+}
+
+.email-link:focus,
+.footer-nav:not(.footer-nav-contact) .nav-link:focus {
+  color: hsl(47, 58%, 50%);
 }
 
 .email-link {
@@ -926,6 +1012,10 @@ pre {
 
 .attribution a {
   color: hsl(215, 37%, 90%);
+}
+
+.attribution a:hover {
+  color: hsl(184, 100%, 19%);
 }
 
 .fa-heart,
@@ -1673,6 +1763,14 @@ pre {
   .hero-header .nav-link:nth-of-type(2) h2 .hero-lg-icon {
     position: relative;
     left: 1vw;
+  }
+
+  .hero-header .nav-link:hover h2 {
+    color: hsl(47, 58%, 56%);
+  }
+
+  .hero-header .nav-link:focus h2 {
+    color: hsl(47, 58%, 50%);
   }
 
   /* Main */
