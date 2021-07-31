@@ -147,9 +147,9 @@ mobile  |  tablet |  desktop
     - Each review consists of a customer avatar, excerpt from that customer's review, customer name and the source from which the review has been taken.
     - Semantic HTML elements have been used here: each review is wrapped inside a `figure` element, with nested `img` (avatar), `blockquote` (review body) and `figcaption` (name and review source) elements.
 
-    ![](docs/images/screenshots/customer-reviews/customer-reviews-html-snippet.png)  |  
-    :-------------------------:|
-    `<figure>` HTML code snippet   |  
+      ![](docs/images/screenshots/customer-reviews/customer-reviews-html-snippet.png)  |  
+      :-------------------------:|
+      `<figure>` HTML code snippet   |  
 
     - As with several other `section`s, the layout has been achieved using a combination of CSS positioning and flexbox on smaller screens, with CSS grid rules applied on desktop.
 
@@ -173,8 +173,23 @@ mobile  |  tablet |  desktop
     - Each logo `img` is also a clickable link to the relevant company's website, with all of these external links opening in a new browser tab
     - Due to device width constraints, and in order to avoid generating a cluttered feel, two of the `section`'s twelve `figure` elements are hidden on mobile
 
+  - ##### Location `section`:
 
-  - Location
+  ![](docs/images/screenshots/location/location-mobile.png)  |  ![](docs/images/screenshots/location/location-tablet.png)  |  ![](docs/images/screenshots/location/location-desktop.png)
+  :-------------------------:|:-------------------------:|:-------------------------:
+  mobile  |  tablet |  desktop
+
+    - The last `main` `section` before the `footer` is a full-width rendering of the business's location on Google Maps
+    - This has been implemented using a straightforward `script` call to the Maps API just inside `index.html`'s closing `<body>` tag
+    - Map configuration and rendering is processed in a `maps.js` file located in the project's `js` subdirectory of the `static` directory
+
+      ![](docs/images/screenshots/location/location-js-snippet.png)  |  
+      :-------------------------:|
+      `maps.js` file JS code snippet   |
+
+    - A `max-width` value of `60rem` has been set on the `.map-container` `div` across desktop devices to prevent the map from sprawling too far horizontally.
+    - To create a bespoke and memorable user experience, the default Maps marker image has been replaced by a miniature version of the dark blue and gold Brew Barberista circular logo
+
 - Footer
 
 ### Potential future features:
