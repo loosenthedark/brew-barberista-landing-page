@@ -108,21 +108,4 @@ window.onload = function() {
 function playVideo(video) {
     // This playVideo function takes in the ID of a video element and plays that video...
     video.play();
-}
-
-// Dynamically set position of footer by using height of other child elements of body...
-function dynamicFooterPositioning(x) {
-    // conditional logic for media query...
-    if (x.matches) { // If media query matches
-        let headerHeight = document.querySelector('header').offsetHeight;
-        let mainHeight = document.querySelector('main').offsetHeight;
-        let aboveFooterHeight = headerHeight + mainHeight + 80;
-        document.querySelector('footer').style.top = aboveFooterHeight + 'px';
-    }
-}
-
-// JS media query...
-// code block adapted from https://www.w3schools.com/howto/howto_js_media_queries.asp
-var x = window.matchMedia('(min-width: 992px)');
-dynamicFooterPositioning(x); // Call listener function at run time
-x.addListener(dynamicFooterPositioning); // Attach listener function on state changes   
+}  

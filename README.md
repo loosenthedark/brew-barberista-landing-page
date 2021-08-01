@@ -322,7 +322,12 @@ mobile  |  tablet |  desktop
 
 ### Content:
 
-
+- Most of the `body` text was composed by the developer, and is an extension of the content on Brew Barberista's existing site, along with relevant supplementary information found across the business's social media channels
+- The [customer reviews](https://loosenthedark.github.io/brew-barberista/#customer-reviews) are legitimate - below are links to the original of each:
+  - [Tripadvisor review](https://www.tripadvisor.ie/ShowUserReviews-g186605-d23032935-r780386055-Brew_Barberista-Dublin_County_Dublin.html#REVIEWS)
+  - [Lovin Dublin quote](https://lovindublin.com/amp/food-drink/22-of-dublins-best-sausage-rolls-as-voted-by-you?utm_campaign=article&utm_source=twitter&utm_medium=web)
+  - [Google Review #1](https://www.google.com/maps/contrib/103803718842789538353/reviews/@53.3810542,-6.1654387,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-IE)
+  - [Google Review #2](https://goo.gl/maps/sTyXPyPDziQCF67W9)
 
 ### Media:
 <details>
