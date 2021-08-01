@@ -31,7 +31,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 ### Colour scheme:
 <details>
   <summary>
-  click to view
+  <b>click to view</b>
   </summary>
 
 ![Brew Barberista colour scheme (Coolors palette) screenshot](docs/images/screenshots/brew-barberista-colour-scheme.png)
@@ -40,29 +40,29 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 ### Typography:
 <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
 - #### Primary font...
 
-  - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-  - Weights: 300, 400, 500
-  - Fallback: `sans-serif`
+  - **Family:** [Poppins](https://fonts.google.com/specimen/Poppins)
+  - **Weights:** 300, 400, 500
+  - **Fallback:** `sans-serif`
 
 - #### Secondary (Heading) font...
 
-  - Family: [Lora](https://fonts.google.com/specimen/Lora)
-  - Weights: 600, 700
-  - Fallback: `serif`
+  - **Family:** [Lora](https://fonts.google.com/specimen/Lora)
+  - **Weights:** 600, 700
+  - **Fallback:** `serif`
 </details>
 
 ### Wireframes:
 <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
-  Initial design inspiration for the project's layout and aesthetic came from [this Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+  Initial design inspiration for the project's layout and aesthetic came from [this Frontend Mentor challenge spec](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
 </details>
 
 ## Features
@@ -74,7 +74,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
   - ##### Fixed Navigation Bar:
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
@@ -91,7 +91,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
@@ -112,7 +112,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 - #### [Header:](https://loosenthedark.github.io/brew-barberista)
 <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
 ![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
@@ -142,7 +142,7 @@ mobile  |  tablet |  desktop
   - ###### [About `section`:](https://loosenthedark.github.io/brew-barberista/#about)
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
@@ -155,7 +155,7 @@ mobile  |  tablet |  desktop
   - ###### [More Info `section`:](https://loosenthedark.github.io/brew-barberista/#more-info)
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/more-info/more-info-mobile.png)  |  ![](docs/images/screenshots/more-info/more-info-tablet.png)  |  ![](docs/images/screenshots/more-info/more-info-desktop.png)
@@ -172,7 +172,7 @@ mobile  |  tablet |  desktop
   - ###### [Customer Reviews `section`:](https://loosenthedark.github.io/brew-barberista/#customer-reviews)
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/customer-reviews/customer-reviews-mobile.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-tablet.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-desktop.png)
@@ -193,7 +193,7 @@ mobile  |  tablet |  desktop
   - ###### Image gallery:
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/image-gallery/image-gallery-mobile.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-tablet.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-desktop.png)
@@ -209,7 +209,7 @@ mobile  |  tablet |  desktop
 
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/partners/partners-mobile.png)  |  ![](docs/images/screenshots/partners/partners-tablet.png)  |  ![](docs/images/screenshots/partners/partners-desktop.png)
@@ -224,7 +224,7 @@ mobile  |  tablet |  desktop
   - ###### [Location `section`:](https://loosenthedark.github.io/brew-barberista/#location)
   <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
   ![](docs/images/screenshots/location/location-mobile.png)  |  ![](docs/images/screenshots/location/location-tablet.png)  |  ![](docs/images/screenshots/location/location-desktop.png)
@@ -246,7 +246,7 @@ mobile  |  tablet |  desktop
 - #### [Footer (aka `#contact` section):](https://loosenthedark.github.io/brew-barberista/#contact)
 <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
 The site's `footer` element is far from an afterthought, as it contains important contact information and social media links for Brew Barberista. There are three main ways the user might arrive here:
@@ -261,7 +261,7 @@ As outlined previously, the choice of a specific shade of blue as the `backgroun
 - #### Dynamic 'back-to-top' button (on page scroll):
 <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
 One other important UX feature is a fixed-position dark-blue button containing an upward-pointing chevron icon that becomes available to the user as a single-click avenue back to the top of the page when they have scrolled more than 500px vertically downwards. This functionality has been put in place by listening out for a `window` [scroll event](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) in the project's [`script.js` file](static/js/script.js). The `#btn-back-to-top` element's `display` property is then toggled back and forth between `none` and `block` in order to show/hide the button in the bottom right-hand corner of the viewport.
@@ -278,7 +278,7 @@ mobile  |  tablet |  desktop
 ### Potential future features:
 <details>
   <summary>
-  click to view
+  <b>click to view
   </summary>
 
 - #### Favicon:
@@ -330,6 +330,12 @@ mobile  |  tablet |  desktop
 - [Adobe Illustrator:](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjHh4e5sIXyAhXP6-0KHS7vASoYABAAGgJkZw&ae=2&ohost=www.google.com&cid=CAESQOD2cD2cs4zu4JpNTapSj1nbDmPmLIo3quvyOOMw9veyz__8LtydqbjQH8HTLrYcgDlnQb6l-F40o-SYGXLD1T0&sig=AOD64_0b1ay7NFSesjZymAaH8gGibU9W0w&q&adurl&ved=2ahUKEwiPv_64sIXyAhW8UBUIHS4nDYMQ0Qx6BAgCEAE) used to convert both Shutterstock vector downloads from `.eps` to the more manageable `.svg` file format
 - [TinyJPG:](https://tinyjpg.com/) used for image compression
 - [PicResize:](https://picresize.com/) used to crop and resize images
+- [Brackets](http://brackets.io/) (desktop app version) used to make coloration edits to SVG files
+- [Kapwing](https://www.kapwing.com/) used as the project's go-to content editing resource, e.g. to shorten videos and customise [Brew Barberista partner logos](https://loosenthedark.github.io/brew-barberista/#partners)
+- [W3Schools HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp) used for generating on-the-fly colour pairings and modifications (lightening, darkening etc. of core project colours)
+- [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) / [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
+- [Editor.md](https://pandao.github.io/editor.md/en.html) used to format project Markdown in line with best practices
+- [Ray.so:](https://ray.so/) used to create the code block images featured throughout this Markdown file
 </details>
 
 ## Testing
@@ -344,7 +350,8 @@ mobile  |  tablet |  desktop
   - [index.html validation](docs/images/validation/html-validation.png)
 
 - Likewise, the website's custom CSS stylesheet was checked for errors using [W3C](https://www.w3.org/)'s [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Once again, [validation by direct input](https://jigsaw.w3.org/css-validator/#validate_by_input) was the preferred method selected, and all necessary changes were subsequently carried out. Consequently, the stylesheet now passes W3C validation with just a couple of warning/error messages concerning use of the `backdrop-filter` property being returned, as the following screenshot indicates:
-  - [css/style.css validation](docs/images/validation/css-validation.png)
+  - [static/css/style.css validation](docs/images/validation/css-validation.png)
+- The issue surrounding the incompatibility of `backdrop-filter` with the W3C validator appears to be [a well documented one](https://github.com/w3c/css-validator/issues/289). However, given that this property is present in the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) and [endorsed by CSS-Tricks](https://css-tricks.com/almanac/properties/b/backdrop-filter/), it has been used in this project in spite of the validator's error messages. Its [patchy browser support](https://caniuse.com/css-backdrop-filter) necessitated the use of a `@supports` query on [line 698](static/css/style.css) of the project's custom stylesheet (with a reasonable fallback option of an opaque background), as suggested in [this CSS-Tricks article](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
 
 - In a similar manner, both of the site's custom JavaScript files were validated against [JSHint](https://jshint.com/)'s error-detection tool, which is available both as an online linter and a Gitpod/VS Code extension for real-time JS problem-solving. After heeding various warning and error messages, at the time of deployment each of these .js documents passed JSHint validation with no problems detected.
 
@@ -355,6 +362,12 @@ mobile  |  tablet |  desktop
 </details>
 
 ### Responsiveness:
+
+- All testing was performed manually, and on a near-constant basis as the project evolved. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) served as an indispensable resource throughout this testing process, allowing incremental adjustments to be made to the site's infrastructure and layout. [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) was preferred when building out the grid layout on desktop, as this offers a broader suite of functionality than Chrome for grid. The site's responsiveness was also closely monitored and rigorously tested from start to finish using the bespoke developer-oriented [Responsively browser](https://responsively.app/).
+
+- A variety of actual physical devices were used to test real-life responsiveness. These ranged in size from a Samsung Galaxy S5 (screen width 360px) right up to a 32" LED Android Smart TV (using this device's native [Odin browser/ADK](https://play.google.com/store/apps/details?id=com.hisense.odinbrowser&hl=en&gl=US)). Other devices used in testing included an Acer Aspire F 15 Windows laptop, a 13" MacBook Pro, the Moto G4 and Huawei P20 smartphones, and a Kindle Fire tablet.
+
+- In addition to Chrome, Firefox and Odin, the site was also viewed numerous times in the Safari, Microsoft Edge and Amazon Silk browsers prior to completion.
 
 ### Bugs:
 
@@ -426,7 +439,8 @@ Where code blocks/snippets/implementations have been incorporated from external 
 - ['How to change the playing speed of videos in HTML5?'](https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5)] (Stack Overflow)
 - [’How can one display images side by side in a GitHub README.md?](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md) (Stack Overflow)
 - ['`<details>`: The Details disclosure element'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) (MDN Web Docs)
-  - My mentor kindly alerted me to this means of making my README more compact and readable via [his own demo implementation](https://github.com/TravelTimN/ci-ifd-lead/blob/main/week5-jasmine/jasmine.md#fizzbuzz-challenge)
+  - My mentor kindly alerted me to this means of making my README more compact and readable via [his own demo implementation](docs/images/screenshots/details.png)
+- [Morten Rand-Hendriksen](https://twitter.com/mor10)'s [LinkedIn Learning courses](https://www.linkedin.com/learning/instructors/morten-rand-hendriksen) on CSS, and in particular his advice on the principles of [progressive enhancement](docs/images/screenshots/mor10-progressive-enhancement.png) proved especially useful when implementing a CSS grid layout for larger screens
 </details>
 
 ### Content:
@@ -497,7 +511,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
 ### Acknowledgments:
 
 - I've been fortunate enough to be paired with an incredibly helpful and approachable mentor in [Tim Nelson](https://github.com/TravelTimN). He has been on hand throughout this project's evolution to offer pointers, timely feedback and guidance. Cheers, Tim!
-- My better half Ana deserves a medal, not just a mention, for all her constant support and encouragement. She was also the one who suggested I should speed up the background barista video above the fold on desktop 😁
+- My better half Ana deserves a medal, not just a mention, for all her constant support and encouragement. She also conducted plenty of ad hoc testing on a variety of devices, and it was she who suggested I speed up the background barista video above the fold on desktop 😁
 
 ![Brew Barberista responsive footer device mockups](docs/images/screenshots/mockups/brew-barberista-footer.png)
 
