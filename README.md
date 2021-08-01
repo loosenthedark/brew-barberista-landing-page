@@ -1,5 +1,3 @@
-![Code Institute logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 ![Brew Barberista logo and nav bar](docs/images/screenshots/nav/brew-barberista-branded-navbar-with-logo.png)
 
 ![Brew Barberista responsive header device mockups](docs/images/screenshots/mockups/brew-barberista-header.png)
@@ -40,7 +38,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 ### Typography:
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
 - #### Primary font...
@@ -59,7 +57,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 ### Wireframes:
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   Initial design inspiration for the project's layout and aesthetic came from [this Frontend Mentor challenge spec](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
@@ -74,7 +72,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
   - ##### Fixed Navigation Bar:
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
@@ -91,7 +89,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
@@ -112,7 +110,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 - #### [Header:](https://loosenthedark.github.io/brew-barberista)
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
 ![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
@@ -142,7 +140,7 @@ mobile  |  tablet |  desktop
   - ###### [About `section`:](https://loosenthedark.github.io/brew-barberista/#about)
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
@@ -155,14 +153,14 @@ mobile  |  tablet |  desktop
   - ###### [More Info `section`:](https://loosenthedark.github.io/brew-barberista/#more-info)
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/more-info/more-info-mobile.png)  |  ![](docs/images/screenshots/more-info/more-info-tablet.png)  |  ![](docs/images/screenshots/more-info/more-info-desktop.png)
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service ([Brew Coffee](https://loosenthedark.github.io/brew-barberista/#more-info)/[Brew Barber(https://loosenthedark.github.io/brew-barberista/#get-in-touch)]).
+    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service ([Brew Coffee](https://loosenthedark.github.io/brew-barberista/#more-info)/[Brew Barber](https://loosenthedark.github.io/brew-barberista/#get-in-touch)).
     - These two More Info subsections are stacked on mobile and tablet, and lie side by side on desktop
     - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
@@ -172,7 +170,7 @@ mobile  |  tablet |  desktop
   - ###### [Customer Reviews `section`:](https://loosenthedark.github.io/brew-barberista/#customer-reviews)
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/customer-reviews/customer-reviews-mobile.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-tablet.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-desktop.png)
@@ -193,7 +191,7 @@ mobile  |  tablet |  desktop
   - ###### Image gallery:
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/image-gallery/image-gallery-mobile.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-tablet.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-desktop.png)
@@ -209,7 +207,7 @@ mobile  |  tablet |  desktop
 
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/partners/partners-mobile.png)  |  ![](docs/images/screenshots/partners/partners-tablet.png)  |  ![](docs/images/screenshots/partners/partners-desktop.png)
@@ -224,7 +222,7 @@ mobile  |  tablet |  desktop
   - ###### [Location `section`:](https://loosenthedark.github.io/brew-barberista/#location)
   <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   ![](docs/images/screenshots/location/location-mobile.png)  |  ![](docs/images/screenshots/location/location-tablet.png)  |  ![](docs/images/screenshots/location/location-desktop.png)
@@ -246,7 +244,7 @@ mobile  |  tablet |  desktop
 - #### [Footer (aka `#contact` section):](https://loosenthedark.github.io/brew-barberista/#contact)
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
 The site's `footer` element is far from an afterthought, as it contains important contact information and social media links for Brew Barberista. There are three main ways the user might arrive here:
@@ -261,7 +259,7 @@ As outlined previously, the choice of a specific shade of blue as the `backgroun
 - #### Dynamic 'back-to-top' button (on page scroll):
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
 One other important UX feature is a fixed-position dark-blue button containing an upward-pointing chevron icon that becomes available to the user as a single-click avenue back to the top of the page when they have scrolled more than 500px vertically downwards. This functionality has been put in place by listening out for a `window` [scroll event](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) in the project's [`script.js` file](static/js/script.js). The `#btn-back-to-top` element's `display` property is then toggled back and forth between `none` and `block` in order to show/hide the button in the bottom right-hand corner of the viewport.
@@ -278,7 +276,7 @@ mobile  |  tablet |  desktop
 ### Potential future features:
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
 - #### Favicon:
@@ -364,7 +362,7 @@ mobile  |  tablet |  desktop
 ### Responsiveness:
 <details>
   <summary>
-  <b>click to view
+  <b>click to view</b>
   </summary>
 
   - All testing was performed manually, and on a near-constant basis as the project evolved. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) served as an indispensable resource throughout this testing process, allowing incremental adjustments to be made to the site's infrastructure and layout. [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) was preferred when building out the grid layout on desktop, as this offers a broader suite of functionality than Chrome for grid. The site's responsiveness was also closely monitored and rigorously tested from start to finish using the bespoke developer-oriented [Responsively browser](https://responsively.app/).
