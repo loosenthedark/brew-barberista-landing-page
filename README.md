@@ -70,7 +70,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/nav/nav-bar-mobile.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)  |  ![](docs/images/screenshots/nav/nav-bar-tablet.png)
@@ -87,7 +87,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/nav/navbar-nav-mobile.png)  |  ![](docs/images/screenshots/nav/navbar-nav-tablet.png)  |  ![](docs/images/screenshots/nav/navbar-nav-desktop.png)
@@ -108,7 +108,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 - #### [Header:](https://loosenthedark.github.io/brew-barberista)
 <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
 ![](docs/images/screenshots/header/header-html-snippet.png)  |  ![](docs/images/screenshots/header/header-css-snippet.png)
@@ -138,7 +138,7 @@ mobile  |  tablet |  desktop
   - ###### [About `section`:](https://loosenthedark.github.io/brew-barberista/#about)
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/about/about-mobile.png)  |  ![](docs/images/screenshots/about/about-tablet.png)  |  ![](docs/images/screenshots/about/about-desktop.png)
@@ -151,7 +151,7 @@ mobile  |  tablet |  desktop
   - ###### [More Info `section`:](https://loosenthedark.github.io/brew-barberista/#more-info)
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/more-info/more-info-mobile.png)  |  ![](docs/images/screenshots/more-info/more-info-tablet.png)  |  ![](docs/images/screenshots/more-info/more-info-desktop.png)
@@ -168,7 +168,7 @@ mobile  |  tablet |  desktop
   - ###### [Customer Reviews `section`:](https://loosenthedark.github.io/brew-barberista/#customer-reviews)
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/customer-reviews/customer-reviews-mobile.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-tablet.png)  |  ![](docs/images/screenshots/customer-reviews/customer-reviews-desktop.png)
@@ -189,7 +189,7 @@ mobile  |  tablet |  desktop
   - ###### Image gallery:
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/image-gallery/image-gallery-mobile.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-tablet.png)  |  ![](docs/images/screenshots/image-gallery/image-gallery-desktop.png)
@@ -205,7 +205,7 @@ mobile  |  tablet |  desktop
 
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/partners/partners-mobile.png)  |  ![](docs/images/screenshots/partners/partners-tablet.png)  |  ![](docs/images/screenshots/partners/partners-desktop.png)
@@ -220,7 +220,7 @@ mobile  |  tablet |  desktop
   - ###### [Location `section`:](https://loosenthedark.github.io/brew-barberista/#location)
   <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
   ![](docs/images/screenshots/location/location-mobile.png)  |  ![](docs/images/screenshots/location/location-tablet.png)  |  ![](docs/images/screenshots/location/location-desktop.png)
@@ -242,7 +242,7 @@ mobile  |  tablet |  desktop
 - #### [Footer (aka `#contact` section):](https://loosenthedark.github.io/brew-barberista/#contact)
 <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
 The site's `footer` element is far from an afterthought, as it contains important contact information and social media links for Brew Barberista. There are three main ways the user might arrive here:
@@ -257,7 +257,7 @@ As outlined previously, the choice of a specific shade of blue as the `backgroun
 - #### Dynamic 'back-to-top' button (on page scroll):
 <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
 One other important UX feature is a fixed-position dark-blue button containing an upward-pointing chevron icon that becomes available to the user as a single-click avenue back to the top of the page when they have scrolled more than 500px vertically downwards. This functionality has been put in place by listening out for a `window` [scroll event](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) in the project's [`script.js` file](static/js/script.js). The `#btn-back-to-top` element's `display` property is then toggled back and forth between `none` and `block` in order to show/hide the button in the bottom right-hand corner of the viewport.
@@ -273,7 +273,11 @@ mobile  |  tablet |  desktop
 
 ### Potential future features:
 
-- #### Favicon
+- #### Favicon: The site's current favicon has been crudely created by simply cropping a circular cutout of the main Brew Barberista brand logo. A more professional-looking image (to be designed from scratch) would therefore give a more polished look.
+- #### Opening hours: These may vary (e.g. Brew Coffee is open seven days a week, whereas Brew Barber is closed two of those days), and will need to be confirmed in consulatation with the owner. A couple of options for displaying these would be to place them in the footer or else maybe to make them viewable on click by toggling a modal from the site's `navbar-nav` menu.
+- #### Contact/Booking form: At present, the user is unable to either contact Brew Barberista or make an appointment for a haircut from within the site itself - the Contact link in the `navbar-nav` just directs them to the `footer`, which list the company's contact details along with social media links. A more comprehensive UX would incorporate a native form for reaching out to Brew Barberista without having to open a separate tab/window. Again, a pop-up modal might be suitable for this purpose, or else the form could maybe fit alongside the `.map-container` `div` on wider screens.
+- #### Price list(s)/Menu: One way of engaging the user further would be to display prices for all of Brew Barberista's products and services. This would likely necessitate building an additional page(s), as the current landing page is probably too long already to accommodate much more scrollable content.
+- #### 'Meet The Team' section: One more potential feature to add would be a brief introductory profile section for each front-f-house member of the ['Brew Crew'](https://www.facebook.com/photo.php?fbid=183724086859431&set=pb.100056655232619.-2207520000..&type=3), as they're known. It would be best to maybe bring in a professional photographer if possible to take production-ready shots of the team at work. Together with a short, vox pop-style interview with each staff member, this would add a nice personal touch to the site and help to connect the business more tangibly to its customer base.
 
 ## Technologies Used
 
@@ -323,7 +327,7 @@ mobile  |  tablet |  desktop
 ### Media:
 <details>
   <summary>
-  **click to view**
+  click to view
   </summary>
 
 | Media title/description  | Media format  | Credit  | Link to original media source(s)  | 
