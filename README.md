@@ -26,23 +26,22 @@ Add to all of this the ongoing [#DeleteFacebook](https://twitter.com/search?q=%2
 
 This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebuild is a fully-responsive frontend website, offering users a visually appealing overview of the business's [services](https://loosenthedark.github.io/brew-barberista/#about), [local partnerships](https://loosenthedark.github.io/brew-barberista/#partners) and [core values](https://loosenthedark.github.io/brew-barberista/#more-info). Both first-time and returning visitors will be impressed by the site's mobile-first design as well as its intuitive navigation and layout, while their knowledge of Brew Barberista's offerings and message will be enriched by the site's informative and regularly-updated content.
 
-### User stories:
-
-#### User goals (general visitor to the site):
-
-
-
-#### Developer goals:
-
-
-
 ## Project design
 
 ### Colour scheme:
+<details>
+  <summary>
+  click to view
+  </summary>
 
 ![Brew Barberista colour scheme (Coolors palette) screenshot](docs/images/screenshots/brew-barberista-colour-scheme.png)
+</details>
 
 ### Typography:
+<details>
+  <summary>
+  click to view
+  </summary>
 
 - #### Primary font...
 
@@ -55,10 +54,16 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
   - Family: [Lora](https://fonts.google.com/specimen/Lora)
   - Weights: 600, 700
   - Fallback: `serif`
+</details>
 
 ### Wireframes:
+<details>
+  <summary>
+  click to view
+  </summary>
 
-
+  Initial design inspiration for the project's layout and aesthetic came from [this Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+</details>
 
 ## Features
 
@@ -67,7 +72,6 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
 - #### Navigation:
 
   - ##### Fixed Navigation Bar:
-
   <details>
   <summary>
   click to view
@@ -272,6 +276,10 @@ mobile  |  tablet |  desktop
 </details>
 
 ### Potential future features:
+<details>
+  <summary>
+  click to view
+  </summary>
 
 - #### Favicon:
 
@@ -292,6 +300,7 @@ mobile  |  tablet |  desktop
 - #### 'Meet The Team' section:
 
   One more potential feature to add would be a brief introductory profile section for each front-f-house member of the ['Brew Crew'](https://www.facebook.com/photo.php?fbid=183724086859431&set=pb.100056655232619.-2207520000..&type=3), as they're known. It would be best to maybe bring in a professional photographer if possible to take production-ready shots of the team at work. Together with a short, vox pop-style interview with each staff member, this would add a nice personal touch to the site and help to connect the business more tangibly to its customer base.
+</details>
 
 ## Technologies Used
 
@@ -331,14 +340,54 @@ mobile  |  tablet |  desktop
 
 ### Bugs:
 
-
 ## Deployment
+<details>
+  <summary>
+  click to view
+  </summary>
 
 ### GitHub Pages:
 
+This project has been deployed to [GitHub Pages](https://en.wikipedia.org/wiki/GitHub#GitHub_Pages). The deployment process carried out was as follows...
+
+1. [**Sign in** to GitHub](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista). If you do not have a GitHub account, you may create one [here](https://github.com/signup).
+2. At the top of the project repository page, select **Settings**. 
+3. On the Settings page, scroll down the menu flanking the left-hand side of the screen and select **Pages** near the bottom of the list of options.
+
+This will open GitHub Pages....
+
+4. Under **Source**, click the dropdown displaying **Branch: None** and select the **master** branch. Click **Save**. 
+5. The page will then automatically refresh and inform you that the site is now ready to be published, as well as indicating the `https://` address to be used. 
+6. For reference purposes, a [link](https://loosenthedark.github.io/brew-barberista/) to this newly-published site can be found in the **Pages** section of **Settings** (described above).
+
 ### Forking the GitHub Repository:
 
+It is possible to fork this GitHub repository to view and/or make changes without affecting the original. This is achieved by following these steps...
+
+1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista).
+2. Click on **Fork**, located near the top right-hand corner of the repository page.
+3. You will now have a copy of this project's repository in your own GitHub account.
+
 ### Making a local clone:
+
+It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original project code. Cloning a repository pulls down a full copy of all the repo data that GitHub has at that point in time. See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information, and below for a brief summary...
+
+1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista).
+2. Click on the **Code** dropdown next to the green **Gitpod** button. This will reveal the **Clone** option.
+3. In order to clone the repository using `HTTPS`, select **HTTPS** and copy the link shown (there is a copy button to the right of the URL).
+4. Next, open **Git Bash** (see [here](https://git-scm.com/downloads) for an overview of download options, if required).
+5. Change the current working directory on your local machine to the location where you want the cloning to be made.
+6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3 above, i.e.
+
+```
+https://github.com/loosenthedark/brew-barberista.git
+```
+
+7. Press **Enter**. 
+8. Your local clone has now been created.
+
+_See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on all of the above processes._
+</details>
 
 ## Credits
 
@@ -359,8 +408,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
 - ['How to change the playing speed of videos in HTML5?'](https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5)] (Stack Overflow)
 - [’How can one display images side by side in a GitHub README.md?](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md) (Stack Overflow)
 - ['`<details>`: The Details disclosure element'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) (MDN Web Docs)
-  - My mentor kindly alerted me to this means of making my README more compact and readable via [his own demo implementation](- https://github.com/TravelTimN/ci-ifd-lead/blob/main/week5-jasmine/jasmine.md#fizzbuzz-challenge)
-- Initial design inspiration for the project's layout and aesthetic came from [this Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+  - My mentor kindly alerted me to this means of making my README more compact and readable via [his own demo implementation](https://github.com/TravelTimN/ci-ifd-lead/blob/main/week5-jasmine/jasmine.md#fizzbuzz-challenge)
 </details>
 
 ### Content:
@@ -428,7 +476,10 @@ Where code blocks/snippets/implementations have been incorporated from external 
 | 'Dog Friendly sign'      | image  | [SVGCraftLounge](https://www.etsy.com/ie/shop/SVGCraftLounge?ref=l2-about-shopname)      | [Etsy](https://www.etsy.com/ie/listing/1046348333/dog-friendly-sign-printable-and-cut-file?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=no+pets+allowed+png&ref=sr_gallery-2-26&pro=1)      |
 </details>
 
-### Acknowledgements:
+### Acknowledgments:
+
+- I've been fortunate enough to be paired with an incredibly helpful and approachable mentor in [Tim Nelson](https://github.com/TravelTimN). He has been on hand throughout this project's evolution to offer pointers, timely feedback and guidance. Cheers, Tim!
+- My better half Ana deserves a medal, not just a mention, for all her constant support and encouragement. She was also the one who suggested I should speed up the background barista video above the fold on desktop 😁
 
 ![Brew Barberista responsive footer device mockups](docs/images/screenshots/mockups/brew-barberista-footer.png)
 
