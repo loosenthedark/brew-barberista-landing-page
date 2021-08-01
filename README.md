@@ -362,12 +362,17 @@ mobile  |  tablet |  desktop
 </details>
 
 ### Responsiveness:
+<details>
+  <summary>
+  <b>click to view
+  </summary>
 
 - All testing was performed manually, and on a near-constant basis as the project evolved. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) served as an indispensable resource throughout this testing process, allowing incremental adjustments to be made to the site's infrastructure and layout. [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) was preferred when building out the grid layout on desktop, as this offers a broader suite of functionality than Chrome for grid. The site's responsiveness was also closely monitored and rigorously tested from start to finish using the bespoke developer-oriented [Responsively browser](https://responsively.app/).
 
 - A variety of actual physical devices were used to test real-life responsiveness. These ranged in size from a Samsung Galaxy S5 (screen width 360px) right up to a 32" LED Android Smart TV (using this device's native [Odin browser/ADK](https://play.google.com/store/apps/details?id=com.hisense.odinbrowser&hl=en&gl=US)). Other devices used in testing included an Acer Aspire F 15 Windows laptop, a 13" MacBook Pro, the Moto G4 and Huawei P20 smartphones, and a Kindle Fire tablet.
 
 - In addition to Chrome, Firefox and Odin, the site was also viewed numerous times in the Safari, Microsoft Edge and Amazon Silk browsers prior to completion.
+</details>
 
 ### Bugs:
 
