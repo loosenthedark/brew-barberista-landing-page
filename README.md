@@ -273,21 +273,44 @@ mobile  |  tablet |  desktop
 
 ### Potential future features:
 
-- #### Favicon: The site's current favicon has been crudely created by simply cropping a circular cutout of the main Brew Barberista brand logo. A more professional-looking image (to be designed from scratch) would therefore give a more polished look.
-- #### Opening hours: These may vary (e.g. Brew Coffee is open seven days a week, whereas Brew Barber is closed two of those days), and will need to be confirmed in consulatation with the owner. A couple of options for displaying these would be to place them in the footer or else maybe to make them viewable on click by toggling a modal from the site's `navbar-nav` menu.
-- #### Contact/Booking form: At present, the user is unable to either contact Brew Barberista or make an appointment for a haircut from within the site itself - the Contact link in the `navbar-nav` just directs them to the `footer`, which list the company's contact details along with social media links. A more comprehensive UX would incorporate a native form for reaching out to Brew Barberista without having to open a separate tab/window. Again, a pop-up modal might be suitable for this purpose, or else the form could maybe fit alongside the `.map-container` `div` on wider screens.
-- #### Price list(s)/Menu: One way of engaging the user further would be to display prices for all of Brew Barberista's products and services. This would likely necessitate building an additional page(s), as the current landing page is probably too long already to accommodate much more scrollable content.
-- #### 'Meet The Team' section: One more potential feature to add would be a brief introductory profile section for each front-f-house member of the ['Brew Crew'](https://www.facebook.com/photo.php?fbid=183724086859431&set=pb.100056655232619.-2207520000..&type=3), as they're known. It would be best to maybe bring in a professional photographer if possible to take production-ready shots of the team at work. Together with a short, vox pop-style interview with each staff member, this would add a nice personal touch to the site and help to connect the business more tangibly to its customer base.
+- #### Favicon:
+
+  The site's current favicon has been crudely created by simply cropping a circular cutout of the main Brew Barberista brand logo. A more professional-looking image (to be designed from scratch) would therefore give a more polished look.
+
+- #### Opening hours:
+
+  These may vary (e.g. Brew Coffee is open seven days a week, whereas Brew Barber is closed two of those days), and will need to be confirmed in consulatation with the owner. A couple of options for displaying these would be to place them in the footer or else maybe to make them viewable on click by toggling a modal from the site's `navbar-nav` menu.
+
+- #### Contact/Booking form:
+
+  At present, the user is unable to either contact Brew Barberista or make an appointment for a haircut from within the site itself - the Contact link in the `navbar-nav` just directs them to the `footer`, which list the company's contact details along with social media links. A more comprehensive UX would incorporate a native form for reaching out to Brew Barberista without having to open a separate tab/window. Again, a pop-up modal might be suitable for this purpose, or else the form could maybe fit alongside the `.map-container` `div` on wider screens.
+
+- #### Price list(s)/Menu:
+
+  One way of engaging the user further would be to display prices for all of Brew Barberista's products and services. This would likely necessitate building an additional page(s), as the current landing page is probably too long already to accommodate much more scrollable content.
+
+- #### 'Meet The Team' section:
+
+  One more potential feature to add would be a brief introductory profile section for each front-f-house member of the ['Brew Crew'](https://www.facebook.com/photo.php?fbid=183724086859431&set=pb.100056655232619.-2207520000..&type=3), as they're known. It would be best to maybe bring in a professional photographer if possible to take production-ready shots of the team at work. Together with a short, vox pop-style interview with each staff member, this would add a nice personal touch to the site and help to connect the business more tangibly to its customer base.
 
 ## Technologies Used
 
 ### Languages:
+<details>
+  <summary>
+  click to view
+  </summary>
 
 - [HTML5:](https://en.wikipedia.org/wiki/HTML5) used for structuring the site
 - [CSS3:](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) used for styling the site
 - [JavaScript:](https://en.wikipedia.org/wiki/JavaScript) used for site logic and web page behaviour
+</details>
 
 ### Frameworks/Libraries, APIs, Programmes and Tools:
+<details>
+  <summary>
+  click to view
+  </summary>
 
 - [Google Fonts:](https://fonts.google.com/) used to import the Poppins and Lora fonts into the project's stylesheets
 - [Font Awesome v5.15.3:](https://fontawesome.com/) used to add appropriate and visually appealing site icons
@@ -298,6 +321,7 @@ mobile  |  tablet |  desktop
 - [Adobe Illustrator:](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjHh4e5sIXyAhXP6-0KHS7vASoYABAAGgJkZw&ae=2&ohost=www.google.com&cid=CAESQOD2cD2cs4zu4JpNTapSj1nbDmPmLIo3quvyOOMw9veyz__8LtydqbjQH8HTLrYcgDlnQb6l-F40o-SYGXLD1T0&sig=AOD64_0b1ay7NFSesjZymAaH8gGibU9W0w&q&adurl&ved=2ahUKEwiPv_64sIXyAhW8UBUIHS4nDYMQ0Qx6BAgCEAE) used to convert both Shutterstock vector downloads from `.eps` to the more manageable `.svg` file format
 - [TinyJPG:](https://tinyjpg.com/) used for image compression
 - [PicResize:](https://picresize.com/) used to crop and resize images
+</details>
 
 ## Testing
 
@@ -335,11 +359,15 @@ Where code blocks/snippets/implementations have been incorporated from external 
 - ['How to change the playing speed of videos in HTML5?'](https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5)] (Stack Overflow)
 - [’How can one display images side by side in a GitHub README.md?](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md) (Stack Overflow)
 - ['`<details>`: The Details disclosure element'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) (MDN Web Docs)
-  - My mentor @TravelTimN kindly put me on to this means of making my README more compact and readable via [his own demo implementation](- https://github.com/TravelTimN/ci-ifd-lead/blob/main/week5-jasmine/jasmine.md#fizzbuzz-challenge)
+  - My mentor kindly alerted me to this means of making my README more compact and readable via [his own demo implementation](- https://github.com/TravelTimN/ci-ifd-lead/blob/main/week5-jasmine/jasmine.md#fizzbuzz-challenge)
 - Initial design inspiration for the project's layout and aesthetic came from [this Frontend Mentor challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
 </details>
 
 ### Content:
+<details>
+  <summary>
+  click to view
+  </summary>
 
 - Most of the `body` text was composed by the developer, and is an extension of the content on Brew Barberista's existing site, along with relevant supplementary information found across the business's social media channels
 - The [customer reviews](https://loosenthedark.github.io/brew-barberista/#customer-reviews) are legitimate - below are links to the original of each:
@@ -347,6 +375,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
   - [Lovin Dublin quote](https://lovindublin.com/amp/food-drink/22-of-dublins-best-sausage-rolls-as-voted-by-you?utm_campaign=article&utm_source=twitter&utm_medium=web)
   - [Google Review #1](https://www.google.com/maps/contrib/103803718842789538353/reviews/@53.3810542,-6.1654387,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-IE)
   - [Google Review #2](https://goo.gl/maps/sTyXPyPDziQCF67W9)
+</details>
 
 ### Media:
 <details>
