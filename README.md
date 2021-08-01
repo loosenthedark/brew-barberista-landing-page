@@ -2,7 +2,9 @@
 
 ![Brew Barberista responsive header device mockups](docs/images/screenshots/mockups/brew-barberista-header.png)
 
-#### [Live link to deployed project](https://loosenthedark.github.io/brew-barberista) (hosted on GitHub Pages)
+#### [Live link to deployed project](https://loosenthedark.tech/brew-barberista/) (loosenthedark.tech)
+
+_NB: This project is an expanded version of the original (built in July 2021), the repository for which can be found [here](https://github.com/loosenthedark/brew-barberista)_
 
 [Brew Barberista](http://brewbarberista.ie/) is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
@@ -22,7 +24,7 @@ Add to all of this the ongoing [#DeleteFacebook](https://twitter.com/search?q=%2
 
 ## User Experience (UX)
 
-This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebuild is a fully-responsive frontend website, offering users a visually appealing overview of the business's [services](https://loosenthedark.github.io/brew-barberista/#about), [local partnerships](https://loosenthedark.github.io/brew-barberista/#partners) and [core values](https://loosenthedark.github.io/brew-barberista/#more-info). Both first-time and returning visitors will be impressed by the site's mobile-first design as well as its intuitive navigation and layout, while their knowledge of Brew Barberista's offerings and message will be enriched by the site's informative and regularly-updated content.
+This [**Brew Barberista**](https://loosenthedark.tech/brew-barberista) rebuild is a fully-responsive frontend website, offering users a visually appealing overview of the business's [services](https://loosenthedark.tech/brew-barberista/#about), [local partnerships](https://loosenthedark.tech/brew-barberista/#partners) and [core values](https://loosenthedark.tech/brew-barberista/#more-info). Both first-time and returning visitors will be impressed by the site's mobile-first design as well as its intuitive navigation and layout, while their knowledge of Brew Barberista's offerings and message will be enriched by the site's informative and regularly-updated content.
 
 ## Project design
 
@@ -82,7 +84,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
     - There is a full-width nav bar fixed to the top of the viewport on all device sizes
     - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
     - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
-    - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) directly inform this project's primary palette. A lighter shade of 'queen blue' [(featured throughout the current site's `footer`, for instance)](https://loosenthedark.github.io/brew-barberista#contact) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
+    - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) directly inform this project's primary palette. A lighter shade of 'queen blue' [(featured throughout the current site's `footer`, for instance)](https://loosenthedark.tech/brew-barberista#contact) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
   </details>
 
   - ##### (Off-Canvas) Navigation Menu:
@@ -107,7 +109,7 @@ This [**Brew Barberista**](https://loosenthedark.github.io/brew-barberista) rebu
   mobile  |  tablet |  desktop
   </details>
 
-- #### [Header:](https://loosenthedark.github.io/brew-barberista)
+- #### [Header:](https://loosenthedark.tech/brew-barberista)
 <details>
   <summary>
   <b>click to view</b>
@@ -123,7 +125,7 @@ mobile  |  tablet |  desktop
 
   - ##### Mobile & Tablet (< 992px):
 
-    - The site's above-the-fold real estate on mobile and tablet features a clean, soothing background image of a horizon out to sea. This was chosen due to Brew Barberista's prime [location](https://loosenthedark.github.io/brew-barberista/#location) just off the Howth Road in Raheny and less than a kilometre uphill from the Dublin Bay coast road.
+    - The site's above-the-fold real estate on mobile and tablet features a clean, soothing background image of a horizon out to sea. This was chosen due to Brew Barberista's prime [location](https://loosenthedark.tech/brew-barberista/#location) just off the Howth Road in Raheny and less than a kilometre uphill from the Dublin Bay coast road.
     - On page load this landing area is brought to life using animated hero icons: one of a [takeaway cup of hot coffee](static/images/icons/icon-coffee-takeaway.svg), the other a [silhouette of a man with a striking hairstyle](static/images/icons/icon-silhouette.svg). These icons have been enlarged and had a 'zoom-into-view' `@keyframes icon-reveal` animation effect applied to them in order to capture the visitor's attention and also hint at the services available at Brew Barberista.
     - There is also a gold-coloured downward-pointing chevron icon used to hook the user and encourage them to explore below the fold. This functionality has been enhanced by adding a gentle "bobbing" animation effect in the project's stylesheet
 
@@ -135,9 +137,9 @@ mobile  |  tablet |  desktop
     - One more additional `div` with `background-color` set to semi-opaque blue has had a `clip-path` rule applied to it. This has the effect of creating a symmetrical pair of roughly triangular 'corner areas', each containing an icon and a heading, which act as navigation links to 'Brew Coffee' and 'Brew Barber', respectively.
 </details>
 
-- #### [Main:](https://loosenthedark.github.io/brew-barberista/#about)
+- #### [Main:](https://loosenthedark.tech/brew-barberista/#about)
 
-  - ###### [About `section`:](https://loosenthedark.github.io/brew-barberista/#about)
+  - ###### [About `section`:](https://loosenthedark.tech/brew-barberista/#about)
   <details>
   <summary>
   <b>click to view</b>
@@ -147,10 +149,10 @@ mobile  |  tablet |  desktop
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This `section` is in turn subdivided into two `div`s, [**Brew Coffee**](https://loosenthedark.github.io/brew-barberista/#about) and [**Brew Barber**](https://loosenthedark.github.io/brew-barberista/#barber), each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
+    - The site's first textual content appears in the area immediately below the `header` (referred to as the About section here for the sake of convenience). This `section` is in turn subdivided into two `div`s, [**Brew Coffee**](https://loosenthedark.tech/brew-barberista/#about) and [**Brew Barber**](https://loosenthedark.tech/brew-barberista/#barber), each accompanied by eye-catching background imagery and short, snappy summaries of the two sides of Brew Barberista's operations:
   </details>
 
-  - ###### [More Info `section`:](https://loosenthedark.github.io/brew-barberista/#more-info)
+  - ###### [More Info `section`:](https://loosenthedark.tech/brew-barberista/#more-info)
   <details>
   <summary>
   <b>click to view</b>
@@ -160,14 +162,14 @@ mobile  |  tablet |  desktop
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service ([Brew Coffee](https://loosenthedark.github.io/brew-barberista/#more-info)/[Brew Barber](https://loosenthedark.github.io/brew-barberista/#get-in-touch)).
+    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service ([Brew Coffee](https://loosenthedark.tech/brew-barberista/#more-info)/[Brew Barber](https://loosenthedark.tech/brew-barberista/#get-in-touch)).
     - These two More Info subsections are stacked on mobile and tablet, and lie side by side on desktop
     - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
-    - The 'OUR PARTNERS' CTA `button` (visible on desktop only) in the [Brew Coffee `div`](https://loosenthedark.github.io/brew-barberista/#more-info) directs the user to the [Our Partners `section`](#our-partners-section) of the site, while the 'BOOK NOW' `button` (visible on tablet and desktop) beneath the ['Get in touch' Brew Barber heading](https://loosenthedark.github.io/brew-barberista/#get-in-touch) causes the page to scroll right down to the [`footer`](#footer-aka-contact-section), where the business's [contact details](https://loosenthedark.github.io/brew-barberista/#contact) can be found.
+    - The 'OUR PARTNERS' CTA `button` (visible on desktop only) in the [Brew Coffee `div`](https://loosenthedark.tech/brew-barberista/#more-info) directs the user to the [Our Partners `section`](#our-partners-section) of the site, while the 'BOOK NOW' `button` (visible on tablet and desktop) beneath the ['Get in touch' Brew Barber heading](https://loosenthedark.tech/brew-barberista/#get-in-touch) causes the page to scroll right down to the [`footer`](#footer-aka-contact-section), where the business's [contact details](https://loosenthedark.tech/brew-barberista/#contact) can be found.
   </details>
 
-  - ###### [Customer Reviews `section`:](https://loosenthedark.github.io/brew-barberista/#customer-reviews)
+  - ###### [Customer Reviews `section`:](https://loosenthedark.tech/brew-barberista/#customer-reviews)
   <details>
   <summary>
   <b>click to view</b>
@@ -203,7 +205,7 @@ mobile  |  tablet |  desktop
     - The gallery displays as a 2x2 grid on mobile, 3x2 on tablet (two extra image `div`s having had their `display` property toggled from `none` to `block`) and a single row containing four images (each with a `max-height` rule applied when the screen width reaches 1440px) on desktop
   </details>
 
-  - ###### [Our Partners `section`:](https://loosenthedark.github.io/brew-barberista/#partners)
+  - ###### [Our Partners `section`:](https://loosenthedark.tech/brew-barberista/#partners)
 
   <details>
   <summary>
@@ -219,7 +221,7 @@ mobile  |  tablet |  desktop
     - Due to device width constraints, and in order to avoid generating a cluttered feel, two of the `section`'s twelve `figure` elements are hidden on mobile
   </details>
 
-  - ###### [Location `section`:](https://loosenthedark.github.io/brew-barberista/#location)
+  - ###### [Location `section`:](https://loosenthedark.tech/brew-barberista/#location)
   <details>
   <summary>
   <b>click to view</b>
@@ -241,7 +243,7 @@ mobile  |  tablet |  desktop
     - To create a bespoke and memorable user experience, the default Maps Marker image has been replaced by [a miniature version of the dark blue and gold Brew Barberista circular logo](static/images/icons/pin-brew-barberista.png)
   </details>
 
-- #### [Footer (aka `#contact` section):](https://loosenthedark.github.io/brew-barberista/#contact)
+- #### [Footer (aka `#contact` section):](https://loosenthedark.tech/brew-barberista/#contact)
 <details>
   <summary>
   <b>click to view</b>
@@ -329,7 +331,7 @@ mobile  |  tablet |  desktop
 - [TinyJPG:](https://tinyjpg.com/) used for image compression
 - [PicResize:](https://picresize.com/) used to crop and resize images
 - [Brackets](http://brackets.io/) (desktop app version) used to make coloration edits to SVG files
-- [Kapwing](https://www.kapwing.com/) used as the project's go-to content editing resource, e.g. to shorten videos and customise [Brew Barberista partner logos](https://loosenthedark.github.io/brew-barberista/#partners)
+- [Kapwing](https://www.kapwing.com/) used as the project's go-to content editing resource, e.g. to shorten videos and customise [Brew Barberista partner logos](https://loosenthedark.tech/brew-barberista/#partners)
 - [W3Schools HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp) used for generating on-the-fly colour pairings and modifications (lightening, darkening etc. of core project colours)
 - [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) / [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
 - [Editor.md](https://pandao.github.io/editor.md/en.html) used to format project Markdown in line with best practices
@@ -392,7 +394,7 @@ This will open GitHub Pages....
 
 4. Under **Source**, click the dropdown displaying **Branch: None** and select the **master** branch. Click **Save**. 
 5. The page will then automatically refresh and inform you that the site is now ready to be published, as well as indicating the `https://` address to be used. 
-6. For reference purposes, a [link](https://loosenthedark.github.io/brew-barberista/) to this newly-published site can be found in the **Pages** section of **Settings** (described above).
+6. For reference purposes, a [link](https://loosenthedark.tech/brew-barberista/) to this newly-published site can be found in the **Pages** section of **Settings** (described above).
 
 ### Forking the GitHub Repository:
 
@@ -453,7 +455,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
   </summary>
 
 - Most of the `body` text was composed by the developer, and is an extension of the content on Brew Barberista's existing site, along with relevant supplementary information found across the business's social media channels
-- The [customer reviews](https://loosenthedark.github.io/brew-barberista/#customer-reviews) are legitimate - below are links to the original of each:
+- The [customer reviews](https://loosenthedark.tech/brew-barberista/#customer-reviews) are legitimate - below are links to the original of each:
   - [Tripadvisor review](https://www.tripadvisor.ie/ShowUserReviews-g186605-d23032935-r780386055-Brew_Barberista-Dublin_County_Dublin.html#REVIEWS)
   - [Lovin Dublin quote](https://lovindublin.com/amp/food-drink/22-of-dublins-best-sausage-rolls-as-voted-by-you?utm_campaign=article&utm_source=twitter&utm_medium=web)
   - [Google Review #1](https://www.google.com/maps/contrib/103803718842789538353/reviews/@53.3810542,-6.1654387,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-IE)
@@ -518,6 +520,6 @@ Where code blocks/snippets/implementations have been incorporated from external 
 
 ![Brew Barberista responsive footer device mockups](docs/images/screenshots/mockups/brew-barberista-footer.png)
 
-### Notice:
+## Notice
 
 This site has been created for development purposes only.
