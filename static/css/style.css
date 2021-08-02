@@ -1732,12 +1732,8 @@ pre {
     object-fit: cover;
   }
 
-  header video:first-of-type {
+  header video {
     opacity: .5;
-  }
-
-  header video:nth-of-type(2) {
-    opacity: .3;
   }
 
   .overlay {
