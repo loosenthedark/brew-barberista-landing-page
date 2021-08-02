@@ -4,13 +4,13 @@
 
 #### [Live link to deployed project](https://loosenthedark.tech/brew-barberista/) (loosenthedark.tech)
 
-_NB: This project is an expanded version of the original (built in July 2021), the repository for which can be found [here](https://github.com/loosenthedark/brew-barberista)_
+*** _NB: This project is an expanded version of the original (built in July 2021), the repository for which can be found [here](https://github.com/loosenthedark/brew-barberista)_ ***
 
-[Brew Barberista](http://brewbarberista.ie/) is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has established itself as a community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
+[Brew Barberista](http://brewbarberista.ie/) is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has firmly established itself as a community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
 While the company has made good use of social media (notably [Instagram](https://www.instagram.com/brewbarberista/)) throughout its early days, one thing the pandemic has brought home to business owners everywhere is the importance of building a robust and reliable online presence - something that can remain as a proverbial shop window for customers if and when physical premises might have to close their doors due to Covid restrictions.
 
-At the time of writing, the company's [existing site](http://brewbarberista.ie/) appears to be unfinished, while it is also displaying out-of-date information about opening hours etc. (last updated in December 2020). In addition, its design falls well short of being sufficiently responsive for today's mobile-first consumer landscape:
+At the time of writing, the company's [existing site](http://brewbarberista.ie/) appears to be somewhat unfinished, while it is also displaying out-of-date information about opening hours etc. (last updated in December 2020). In addition, its design falls well short of being sufficiently responsive for today's mobile-first consumer landscape:
 
 mobile  |  tablet  |  desktop
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -82,9 +82,9 @@ This [**Brew Barberista**](https://loosenthedark.tech/brew-barberista) rebuild i
   mobile  |  tablet |  desktop
 
     - There is a full-width nav bar fixed to the top of the viewport on all device sizes
-    - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right (see screenshots above)
+    - The site's core navigation menu is hidden off-canvas initially to create a spacious feel across the landing area, where the user is greeted by the Brew Barberista `.navbar-logo` on the left-hand side and a `.navbar-toggler` button (aka 'hamburger icon') to the right
     - This logo is a modified version of the one featured in the nav bar of [the business's existing website](http://brewbarberista.ie/)
-    - The ['space cadet' dark blue and 'old gold' colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) directly inform this project's primary palette. A lighter shade of 'queen blue' [(featured throughout the current site's `footer`, for instance)](https://loosenthedark.tech/brew-barberista#contact) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
+    - The [dark blue and gold colours that make up this logo](http://brewbarberista.ie/resources/Circular%20logo.jpg) directly inform this project's primary palette. A lighter shade of 'queen blue' [(featured throughout the current site's `footer`, for instance)](https://loosenthedark.tech/brew-barberista#contact) is taken directly from [the premises' brightly-painted shopfront](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425).
   </details>
 
   - ##### (Off-Canvas) Navigation Menu:
@@ -100,7 +100,7 @@ This [**Brew Barberista**](https://loosenthedark.tech/brew-barberista) rebuild i
 
     - The off-canvas `navbar-nav` menu mentioned above can be expanded by clicking on the `.navbar-toggler` button. This functionality has been enabled using custom JavaScript by listening for a relevant user click(s) and sliding the `.navbar-nav` into the viewport with CSS class toggling involving `absolute` positioning and appropriate transition effects. In addition, the icon comprising the `.navbar-toggler` button [animates on click](docs/images/screenshots/nav/nav-toggler-icons-animation.gif) to produce a dynamic yet smooth transition that is both distinctive and pleasing to the eye.
     - The expanded polygon-shaped menu contains links to each of the website's six internal sections containing content (see below), as well as a seventh link entitled 'Press'.
-    - Clicking on this triggers an additional absolutely-positioned submenu featuring external links to recent Brew Barberista media appearances. Each of these links opens in a new browser tab due to the `<a>` tag's `target` property being set to `_blank`.
+    - Clicking on this 'Press' link triggers an additional absolutely-positioned submenu featuring external links to recent Brew Barberista media appearances. Each of these links opens in a new browser tab due to the `<a>` tag's `target` property being set to `_blank`.
     - The bottom 'Contact' link consists of a blue call-to-action `button`. In keeping with UX best practices, clicking on any of the links embedded in the `.navbar-nav` will cause the menu to revert to its default off-canvas location as the site navigates to the designated location. Smooth scrolling has been enabled to streamline the navigation experience through use of the `scroll-behavior: smooth;` CSS rule on the document's `body` element.
     - It's worth noting that one further section of the site, a tiled image gallery, is purely decorative, and so no anchor link was deemed necessary.
 
@@ -125,14 +125,14 @@ mobile  |  tablet |  desktop
 
   - ##### Mobile & Tablet (< 992px):
 
-    - The site's above-the-fold real estate on mobile and tablet features a clean, soothing background image of a horizon out to sea. This was chosen due to Brew Barberista's prime [location](https://loosenthedark.tech/brew-barberista/#location) just off the Howth Road in Raheny and less than a kilometre uphill from the Dublin Bay coast road.
-    - On page load this landing area is brought to life using animated hero icons: one of a [takeaway cup of hot coffee](static/images/icons/icon-coffee-takeaway.svg), the other a [silhouette of a man with a striking hairstyle](static/images/icons/icon-silhouette.svg). These icons have been enlarged and had a 'zoom-into-view' `@keyframes icon-reveal` animation effect applied to them in order to capture the visitor's attention and also hint at the services available at Brew Barberista.
-    - There is also a gold-coloured downward-pointing chevron icon used to hook the user and encourage them to explore below the fold. This functionality has been enhanced by adding a gentle "bobbing" animation effect in the project's stylesheet
+    - The site's above-the-fold real estate on mobile and tablet features a clean, soothing background image of a horizon out to sea. This was chosen due to Brew Barberista's prime [location](https://loosenthedark.tech/brew-barberista/#location) just off the Howth Road in Raheny, less than a kilometre uphill from the Dublin Bay coast road.
+    - On page load this landing area is brought to life using animated hero icons: one a [takeaway cup of hot coffee](static/images/icons/icon-coffee-takeaway.svg), the other a [silhouette of a man with a striking hairstyle](static/images/icons/icon-silhouette.svg). These icons have been enlarged and had a 'zoom-into-view' `@keyframes icon-reveal` animation effect applied to them in order to capture the visitor's attention and hint at the services available at Brew Barberista.
+    - There is also a gold-coloured downward-pointing chevron icon used to hook the user and encourage them to explore below the fold. This functionality has been enhanced by adding a gentle `@keyframes bobbing` animation effect in the project's stylesheet
 
   - ##### Desktop (> 991px):
 
-    - A decision was made to change the `header` area's aesthetic on desktop devices. In place of the background image with animated icons are two short complimentary video backgrounds: one showing [a barista pouring a cup of coffee](static/videos/bg-barista-pour.mp4), the other featuring [a close-up of a barber trimming a customer's hair](static/videos/bg-barber.mp4).
-    - Each of these `video` elements has had its `opacity` reduced to keep them from being seen to occupy the foreground (and/or overly distract the user).
+    - A decision was made to change the `header` area's aesthetic on desktop devices. In place of the background image with animated icons are two short complementary video backgrounds: one showing [a barista pouring a cup of coffee](static/videos/bg-barista-pour.mp4), the other featuring [a closeup of a barber trimming a customer's hair](static/videos/bg-barber.mp4).
+    - Both of these `video` elements have had their `opacity` reduced to keep them from being seen to occupy the foreground (and/or overly distract the user from the site's main content).
     - There has also been an `.overlay` class applied to an absolutely-positioned `div` element that acts as a subtle filter in line with the site's prevailing colour palette
     - One more additional `div` with `background-color` set to semi-opaque blue has had a `clip-path` rule applied to it. This has the effect of creating a symmetrical pair of roughly triangular 'corner areas', each containing an icon and a heading, which act as navigation links to 'Brew Coffee' and 'Brew Barber', respectively.
 </details>
@@ -162,7 +162,7 @@ mobile  |  tablet |  desktop
   :-------------------------:|:-------------------------:|:-------------------------:
   mobile  |  tablet |  desktop
 
-    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service ([Brew Coffee](https://loosenthedark.tech/brew-barberista/#more-info)/[Brew Barber](https://loosenthedark.tech/brew-barberista/#get-in-touch)).
+    - Each About subsection contains a 'More Info' hyperlink, which brings the user to the relevant follow-on subsection for that Brew Barberista service ([Brew Coffee](https://loosenthedark.tech/brew-barberista/#more-info) / [Brew Barber](https://loosenthedark.tech/brew-barberista/#get-in-touch)).
     - These two More Info subsections are stacked on mobile and tablet, and lie side by side on desktop
     - Each panel contains informative blurbs highlighting a variety of USPs offered by Brew Barberista. The text is set against carefully-positioned full-width and -height background images.
     - As screen width increases and space permits, several (initially hidden) elements are revealed across tablet and desktop devices. These include supplementary paragraphs of text and call-to-action `button`s.
@@ -258,7 +258,7 @@ The site's `footer` element is far from an afterthought, as it contains importan
 As outlined previously, the choice of a specific shade of blue as the `background-color` for this area was inspired by the actual coat of paint used on [the facade of Brew Barberista's physical premises](https://www.facebook.com/photo/?fbid=190590879506085&set=a.190590812839425) in D5 (_cf._ device mockups `footer` screenshots at the bottom of this `README` document).
 </details>
 
-- #### Dynamic 'back-to-top' button (on page scroll):
+- #### Dynamic 'back-to-top' button (visible on page scroll):
 <details>
   <summary>
   <b>click to view</b>
@@ -283,23 +283,23 @@ mobile  |  tablet |  desktop
 
 - #### Favicon:
 
-  The site's current favicon has been crudely created by simply cropping a circular cutout of the main Brew Barberista brand logo. A more professional-looking image (to be designed from scratch) would therefore give a more polished look.
+  The site's current favicon has been crudely created by simply cropping a circular cutout of the main Brew Barberista brand logo. A more professional-looking image (to be designed from scratch) would therefore be preferable going forward.
 
 - #### Opening hours:
 
-  These may vary (e.g. Brew Coffee is open seven days a week, whereas Brew Barber is closed two of those days), and will need to be confirmed in consulatation with the owner. A couple of options for displaying these would be to place them in the footer or else maybe to make them viewable on click by toggling a modal from the site's `navbar-nav` menu.
+  These may vary (e.g. Brew Coffee is open seven days a week, whereas Brew Barber is closed two of those days), and will need to be confirmed in consulatation with the business owner. A couple of options for displaying these would be to place them in the `footer` or else maybe to make them viewable on click by toggling a modal from the site's `navbar-nav` menu.
 
 - #### Contact/Booking form:
 
-  At present, the user is unable to either contact Brew Barberista or make an appointment for a haircut from within the site itself - the Contact link in the `navbar-nav` just directs them to the `footer`, which list the company's contact details along with social media links. A more comprehensive UX would incorporate a native form for reaching out to Brew Barberista without having to open a separate tab/window. Again, a pop-up modal might be suitable for this purpose, or else the form could maybe fit alongside the `.map-container` `div` on wider screens.
+  At present, the user is unable to either contact Brew Barberista or make an appointment for a haircut from within the site itself - the Contact link in the `navbar-nav` just directs them to the [`footer`](https://loosenthedark.tech/brew-barberista/#contact), which lists the company's contact details along with social media links. A more comprehensive UX would incorporate a native form for reaching out to Brew Barberista without having to open a separate tab/window. Again, a pop-up modal might be suitable for this purpose, or else the form could maybe fit alongside the `.map-container` `div` on wider screens.
 
 - #### Price list(s)/Menu:
 
-  One way of engaging the user further would be to display prices for all of Brew Barberista's products and services. This would likely necessitate building an additional page(s), as the current landing page is probably too long already to accommodate much more scrollable content.
+  One way of engaging the user further would be to display prices for all of Brew Barberista's products and services. This would likely necessitate building an additional page(s), as the current landing page is probably too long to accommodate much more scrollable content.
 
 - #### 'Meet The Team' section:
 
-  One more potential feature to add would be a brief introductory profile section for each front-f-house member of the ['Brew Crew'](https://www.facebook.com/photo.php?fbid=183724086859431&set=pb.100056655232619.-2207520000..&type=3), as they're known. It would be best to maybe bring in a professional photographer if possible to take production-ready shots of the team at work. Together with a short, vox pop-style interview with each staff member, this would add a nice personal touch to the site and help to connect the business more tangibly to its customer base.
+  One more potential feature to add would be a brief introductory profile section for each front-of-house member of the ['Brew Crew'](https://www.facebook.com/photo.php?fbid=183724086859431&set=pb.100056655232619.-2207520000..&type=3), as they're known. It would be best to maybe bring in a professional photographer if possible to take production-ready shots of the team at work. Together with a short, vox pop-style interview with each staff member, this would add a nice personal touch to the site and help connect the business more tangibly to its customer base.
 </details>
 
 ## Technologies Used
@@ -323,18 +323,18 @@ mobile  |  tablet |  desktop
 
 - [Google Fonts:](https://fonts.google.com/) used to import the Poppins and Lora fonts into the project's stylesheets
 - [Font Awesome v5.15.3:](https://fontawesome.com/) used to add appropriate and visually appealing site icons
-- [Google Maps API](https://developers.google.com/maps) used to provide a visual representation of Brew Barberista's location to site visitors
+- [Gitpod:](https://gitpod.io/) used as the online IDE for the project
 - [Git:](https://git-scm.com/) used for version control by utilising the Gitpod terminal to commit frequently to Git and push all commits to GitHub
 - [GitHub:](https://github.com/) used to compile and remotely store the project's codebase following successive local commits initiated from the command line
-- [Balsamiq:](https://balsamiq.com/) used to generate [wireframes](docs/wireframes/flippin-proud-wireframes.pdf) during the project's design phase
+- [Google Maps API:](https://developers.google.com/maps) used to provide a visual representation of Brew Barberista's location to site visitors
 - [Adobe Illustrator:](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjHh4e5sIXyAhXP6-0KHS7vASoYABAAGgJkZw&ae=2&ohost=www.google.com&cid=CAESQOD2cD2cs4zu4JpNTapSj1nbDmPmLIo3quvyOOMw9veyz__8LtydqbjQH8HTLrYcgDlnQb6l-F40o-SYGXLD1T0&sig=AOD64_0b1ay7NFSesjZymAaH8gGibU9W0w&q&adurl&ved=2ahUKEwiPv_64sIXyAhW8UBUIHS4nDYMQ0Qx6BAgCEAE) used to convert both Shutterstock vector downloads from `.eps` to the more manageable `.svg` file format
 - [TinyJPG:](https://tinyjpg.com/) used for image compression
 - [PicResize:](https://picresize.com/) used to crop and resize images
-- [Brackets](http://brackets.io/) (desktop app version) used to make coloration edits to SVG files
-- [Kapwing](https://www.kapwing.com/) used as the project's go-to content editing resource, e.g. to shorten videos and customise [Brew Barberista partner logos](https://loosenthedark.tech/brew-barberista/#partners)
-- [W3Schools HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp) used for generating on-the-fly colour pairings and modifications (lightening, darkening etc. of core project colours)
+- [Brackets](http://brackets.io/) (desktop app version): used to make coloration edits to SVG files
+- [Kapwing:](https://www.kapwing.com/) used as the project's go-to content editing resource, e.g. to shorten videos and customise [Brew Barberista partner logos](https://loosenthedark.tech/brew-barberista/#partners)
+- [W3Schools HTML Color Picker:](https://www.w3schools.com/colors/colors_picker.asp) used for generating on-the-fly colour pairings and modifications (lightening, darkening etc. of core project colours)
 - [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) / [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
-- [Editor.md](https://pandao.github.io/editor.md/en.html) used to format project Markdown in line with best practices
+- [Editor.md:](https://pandao.github.io/editor.md/en.html) used to format project Markdown in line with best practices
 - [Ray.so:](https://ray.so/) used to create the code block images featured throughout this Markdown file
 </details>
 
@@ -351,7 +351,7 @@ mobile  |  tablet |  desktop
 
 - Likewise, the website's custom CSS stylesheet was checked for errors using [W3C](https://www.w3.org/)'s [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Once again, [validation by direct input](https://jigsaw.w3.org/css-validator/#validate_by_input) was the preferred method selected, and all necessary changes were subsequently carried out. Consequently, the stylesheet now passes W3C validation with just a couple of warning/error messages concerning use of the `backdrop-filter` property being returned, as the following screenshot indicates:
   - [static/css/style.css validation](docs/images/validation/css-validation.png)
-- The issue surrounding the incompatibility of `backdrop-filter` with the W3C validator appears to be [a well documented one](https://github.com/w3c/css-validator/issues/289). However, given that this property is present in the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) and [endorsed by CSS-Tricks](https://css-tricks.com/almanac/properties/b/backdrop-filter/), it has been used in this project in spite of the validator's error messages. Its [patchy browser support](https://caniuse.com/css-backdrop-filter) necessitated the use of a `@supports` query on [line 698](static/css/style.css) of the project's custom stylesheet (with a reasonable fallback option of an opaque background), as suggested in [this CSS-Tricks article](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
+- The issue surrounding the incompatibility of `backdrop-filter` with the W3C validator appears to be [a well documented one](https://github.com/w3c/css-validator/issues/289). However, given that this property is present in the [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) and [endorsed by CSS-Tricks](https://css-tricks.com/almanac/properties/b/backdrop-filter/), it has been used in this project in spite of the validator's error messages. Its [patchy browser support](https://caniuse.com/css-backdrop-filter) necessitated the use of a `@supports` query on [line 698](static/css/style.css) of the project's stylesheet (with a reasonable fallback option of an opaque background), as suggested in [this CSS-Tricks article](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
 
 - In a similar manner, both of the site's custom JavaScript files were validated against [JSHint](https://jshint.com/)'s error-detection tool, which is available both as an online linter and a Gitpod/VS Code extension for real-time JS problem-solving. After heeding various warning and error messages, at the time of deployment each of these .js documents passed JSHint validation with no problems detected.
 
@@ -367,7 +367,11 @@ mobile  |  tablet |  desktop
   <b>click to view</b>
   </summary>
 
-  - All testing was performed manually, and on a near-constant basis as the project evolved. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) served as an indispensable resource throughout this testing process, allowing incremental adjustments to be made to the site's infrastructure and layout. [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) was preferred when building out the grid layout on desktop, as this offers a broader suite of functionality than Chrome for grid. The site's responsiveness was also closely monitored and rigorously tested from start to finish using the bespoke developer-oriented [Responsively browser](https://responsively.app/).
+  - All testing was performed manually, and on a near-constant basis as the project evolved. [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) served as an indispensable resource throughout this testing process, allowing incremental adjustments to be made to the site's infrastructure and layout. [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) was preferred when building out the grid layout on desktop, as this offers a broader suite of grid functionality than Chrome. The site's responsiveness was also closely monitored and rigorously tested from start to finish using the developer-oriented [Responsively browser](https://responsively.app/).
+
+|  | `header`  | `nav .navbar-nav`  | `nav #press-list`  | `main > section#about .coffee` | `main > section#about .barber`  | `main > section#more-info .local-business`  | `main > section#more-info .get-in-touch`  | `main > section#customer-reviews`  | `main > section#gallery`  | `main > section#partners`  | `main > section#location`  | `footer#contact`  | 
+| :------------ |:---------------: |:-----:|:---------------:|:---------------: |:-----:|:---------------:|:---------------: |:-----:|:---------------:|:---------------: |:-----:|:---------------:|
+|    Samsung Galaxy S5      |     ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-1.jpg)            |   ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-2.jpg)   |     ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-3.jpg)           |    ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-4.jpg)    | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-5.jpg)      | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-6.jpg)        | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-7.jpg)      | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-8.jpg)      | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-9.jpg)      | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-10.jpg)        | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-11.jpg)      | ![](docs/images/responsiveness/samsung/samsung-galaxy-s5-12.jpg)      
 
   - A variety of actual physical devices were used to test real-life responsiveness. These ranged in size from a Samsung Galaxy S5 (screen width 360px) right up to a 32" LED Android Smart TV (using this device's native [Odin browser/ADK](https://play.google.com/store/apps/details?id=com.hisense.odinbrowser&hl=en&gl=US)). Other devices used in testing included an Acer Aspire F 15 Windows laptop, a 13" MacBook Pro, the Moto G4 and Huawei P20 smartphones, and a Kindle Fire tablet.
 
@@ -386,7 +390,7 @@ mobile  |  tablet |  desktop
 
 This project has been deployed to [GitHub Pages](https://en.wikipedia.org/wiki/GitHub#GitHub_Pages). The deployment process carried out was as follows...
 
-1. [**Sign in** to GitHub](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista). If you do not have a GitHub account, you may create one [here](https://github.com/signup).
+1. [**Sign in** to GitHub](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista-landing-page). If you do not have a GitHub account, you may create one [here](https://github.com/signup).
 2. At the top of the project repository page, select **Settings**. 
 3. On the Settings page, scroll down the menu flanking the left-hand side of the screen and select **Pages** near the bottom of the list of options.
 
@@ -394,13 +398,13 @@ This will open GitHub Pages....
 
 4. Under **Source**, click the dropdown displaying **Branch: None** and select the **master** branch. Click **Save**. 
 5. The page will then automatically refresh and inform you that the site is now ready to be published, as well as indicating the `https://` address to be used. 
-6. For reference purposes, a [link](https://loosenthedark.tech/brew-barberista/) to this newly-published site can be found in the **Pages** section of **Settings** (described above).
+6. For reference purposes, a link to this newly-published site can be found in the **Pages** section of **Settings** (described above).
 
 ### Forking the GitHub Repository:
 
 It is possible to fork this GitHub repository to view and/or make changes without affecting the original. This is achieved by following these steps...
 
-1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista).
+1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista-landing-page).
 2. Click on **Fork**, located near the top right-hand corner of the repository page.
 3. You will now have a copy of this project's repository in your own GitHub account.
 
@@ -408,7 +412,7 @@ It is possible to fork this GitHub repository to view and/or make changes withou
 
 It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original project code. Cloning a repository pulls down a full copy of all the repo data that GitHub has at that point in time. See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information, and below for a brief summary...
 
-1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista).
+1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/brew-barberista-landing-page).
 2. Click on the **Code** dropdown next to the green **Gitpod** button. This will reveal the **Clone** option.
 3. In order to clone the repository using `HTTPS`, select **HTTPS** and copy the link shown (there is a copy button to the right of the URL).
 4. Next, open **Git Bash** (see [here](https://git-scm.com/downloads) for an overview of download options, if required).
@@ -416,7 +420,7 @@ It is possible to copy the repository to your local machine so that you can fix 
 6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3 above, i.e.
 
 ```
-https://github.com/loosenthedark/brew-barberista.git
+https://github.com/loosenthedark/brew-barberista-landing-page.git
 ```
 
 7. Press **Enter**. 
@@ -429,7 +433,7 @@ _See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-ar
 
 ### Code:
 
-Where code blocks/snippets/implementations have been incorporated from external sources into this project's code, these have been noted through the use of comments. Beyond this, the developer made use of the following articles, suggestions and learning resources while building the site:
+Where code blocks/snippets/suggestions have been incorporated from external sources into this project's code, these have been noted through the use of comments. Beyond this, the developer made use of the following articles, workarounds and learning resources while building the site:
 <details>
   <summary>
   click to view
@@ -439,6 +443,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
 - ['Show div after 500px scroll'](https://jsfiddle.net/amirsaleem/xpd1wr7n/) (JSFiddle)
 - ['How to crop SVG file within HTML/CSS'](https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css/37589395) (Stack Overflow)
 - ['CSS Clipping Path with CSS Shapes'](https://codepen.io/heyitsolivia/pen/EICDK?editors=1100) (CodePen)
+- ['A Complete Guide to Grid'](https://css-tricks.com/snippets/css/complete-guide-grid/) (CSS-Tricks)
 - ['Create a Website With Video Background'](https://www.youtube.com/watch?v=8MgpE2DTTKA) (Traversy Media)
 - ['How do I loop through multiple background videos?'](https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos) (Stack Overflow)
 - ['How to change the playing speed of videos in HTML5?'](https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5)] (Stack Overflow)
@@ -455,7 +460,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
   </summary>
 
 - Most of the `body` text was composed by the developer, and is an extension of the content on Brew Barberista's existing site, along with relevant supplementary information found across the business's social media channels
-- The [customer reviews](https://loosenthedark.tech/brew-barberista/#customer-reviews) are legitimate - below are links to the original of each:
+- The [customer reviews](https://loosenthedark.tech/brew-barberista/#customer-reviews) are legitimate - below are links to the originals of each:
   - [Tripadvisor review](https://www.tripadvisor.ie/ShowUserReviews-g186605-d23032935-r780386055-Brew_Barberista-Dublin_County_Dublin.html#REVIEWS)
   - [Lovin Dublin quote](https://lovindublin.com/amp/food-drink/22-of-dublins-best-sausage-rolls-as-voted-by-you?utm_campaign=article&utm_source=twitter&utm_medium=web)
   - [Google Review #1](https://www.google.com/maps/contrib/103803718842789538353/reviews/@53.3810542,-6.1654387,17z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-IE)
@@ -468,7 +473,7 @@ Where code blocks/snippets/implementations have been incorporated from external 
   click to view
   </summary>
 
-| Media title/description  | Media format  | Credit  | Link to original media source(s)  | 
+| [**Website section**] Media title/description  | Media format  | Credit  | Link to original media source(s)  | 
 | :------------ |:--------------- |:-----|:---------------|
 | **`head`**         |                 |      |                |
 | Brew Barberista circular brand logo      | image        | [Brew Barberista](http://brewbarberista.ie/)      | [Brew Barberista website header](http://brewbarberista.ie/resources/Circular%20logo.jpg)      |
@@ -482,13 +487,13 @@ Where code blocks/snippets/implementations have been incorporated from external 
 | 'Fashion silhouette hipster style'      | vector illustration  | [RomanYa](https://www.shutterstock.com/g/RomanYa)      | [Shutterstock](https://www.shutterstock.com/image-vector/fashion-silhouette-hipster-style-vector-illustration-161463794)      |
 | 'Paper mug with hot drink inside'      | vector illustration  | [Agnieszka Karpinska](https://www.shutterstock.com/g/Panptys)      | [Shutterstock](https://www.shutterstock.com/image-vector/paper-mug-hot-drink-inside-vector-322930262)      |
 | 'A Barista Making A Coffee Artistically'      | video  | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/video/a-barista-making-a-coffee-artistically-4378109/)      |
+| 'A Man Shaving A Man's Facial Hair'      | video  | [Pavel Danilyuk](https://www.pexels.com/@pavel-danilyuk)      | [Pexels](https://www.pexels.com/video/a-man-shaving-a-man-s-facial-hair-4178140/)      |
 | **`main`**         |                 |      |                |
 | 'Cold Brew'      | photo      | [Andrew "Donovan" Valdivia](https://unsplash.com/@donovan_valdivia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)      | [Unsplash](https://unsplash.com/photos/mMI5sdLFoHMt)      |
 | 'Anonymous barista pouring milk from jug into paper cup'      | photo  | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/photo/anonymous-barista-pouring-milk-from-jug-into-paper-cup-4350051/)      |
 | barber's kit against orange background      | photo      | [Sinval Carvalho](https://unsplash.com/@sinvalbmx)      | [Unsplash](https://unsplash.com/photos/WbEibGKHBMY)      |
 | 'Baked Pastries'      | photo      | [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels)      | [Pexels](https://www.pexels.com/photo/baked-pastries-2573870)      |
 | 'Brown Coffee Beans on Gray Textile'      | photo      | [Liana Horodetska](https://www.pexels.com/@liana-horodetska-5077625)      | [Pexels](https://www.pexels.com/photo/dawn-caffeine-coffee-dark-7507365/)      |
-| 'Crop barista pouring milk froth in cappuccino for client'      | photo      | [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto)      | [Pexels](https://www.pexels.com/photo/crop-barista-pouring-milk-froth-in-cappuccino-for-client-4349759/)      |
 | 'Man in White and Black Stripe Shirt Holding Black Pen'      | photo      | [cottonbro](https://www.pexels.com/@cottonbro)      | [Pexels](https://www.pexels.com/photo/man-in-white-and-black-stripe-shirt-holding-black-pen-3998429/)      |
 | 'White Ceramic Mug With Brown Liquid'      | photo      | [Gareth Rees](https://www.pexels.com/@gareth-rees-2793957)      | [Pexels](https://www.pexels.com/photo/white-ceramic-mug-with-brown-liquid-4334758/)      |
 | 'Straight Razor Kit'      | photo      | [Josh Sorenson](https://www.pexels.com/@joshsorenson)      | [Pexels](https://www.pexels.com/photo/straight-razor-kit-995300/)      |
