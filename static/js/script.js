@@ -90,6 +90,8 @@ coffeeIcon.addEventListener('click', function () {
 // Adapted from https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos
 window.onload = function () {
     // speed up above-the-fold video backgrounds cf. https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5
+    // BUG WORKAROUND: conditional check for Firefox in place to prevent frozen video bug caused by dynamically altering playback speed in JS (cf. https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser)
+    // sped-up videos now play in all browsers except Firefox (normal speed)
     if (typeof InstallTrigger === 'undefined') {
         videoCoffee.playbackRate = 2;
         videoBarber.playbackRate = 1.5;
@@ -104,6 +106,8 @@ window.onload = function () {
     videoBarber.addEventListener('ended', () => {
         videoBarber.style.display = 'none';
         videoCoffee.style.display = 'block';
+        // BUG WORKAROUND: These values need to be set to prevent a bug seen in all browsers whereby video brightness/saturation/contrast appears altered when video(s) plays for a secnd/third/fourth (etc.) time
+        // 02/08/21: bug still present in Safari, but rectified in all other browsers tested
         videoCoffee.style.opacity = '.75';
         videoCoffee.style.filter = "saturate(100%)";
         videoCoffee.style.filter = "contrast(100%)";

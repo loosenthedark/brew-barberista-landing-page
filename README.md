@@ -6,7 +6,7 @@
 
 #### [Live link to deployed project](https://loosenthedark.tech/brew-barberista/) (loosenthedark.tech)
 
-*** _NB: This project is an expanded version of the original (built in July 2021), the repository for which can be found [here](https://github.com/loosenthedark/brew-barberista)_ ***
+***_**NB: This project is an expanded version of the original (built in July 2021), the repository for which can be found [here](https://github.com/loosenthedark/brew-barberista)**_***
 
 [Brew Barberista](http://brewbarberista.ie/) is a thriving independent coffee shop and barber in North Dublin. Opening its doors at the height of lockdown, the business has not only survived this period of uncertainty, it has firmly established itself as a community hub, showcasing the best of local produce as well as selling art and literature from Dublin-based creatives.
 
@@ -337,6 +337,7 @@ mobile  |  tablet |  desktop
 - [Kapwing:](https://www.kapwing.com/) used as the project's go-to content editing resource, e.g. to shorten videos and customise [Brew Barberista partner logos](https://loosenthedark.tech/brew-barberista/#partners)
 - [W3Schools HTML Color Picker:](https://www.w3schools.com/colors/colors_picker.asp) used for generating on-the-fly colour pairings and modifications (lightening, darkening etc. of core project colours)
 - [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) / [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
+- [Can I Use:](https://caniuse.com/) browser compatibility tables used to cross-reference the viability of implementing certain HTML5 elements, CSS3 properties, file formats and more
 - [Editor.md:](https://pandao.github.io/editor.md/en.html) used to format project Markdown in line with best practices
 - [Ray.so:](https://ray.so/) used to create the code block images featured throughout this Markdown file
 </details>
@@ -466,6 +467,7 @@ Where code blocks/snippets/suggestions have been incorporated from external sour
 - ['15 Compelling Above the Fold Content Examples to Inspire Your Own'](https://blog.hubspot.com/marketing/above-the-fold) (HubSpot)
 - ['Create a Website With Video Background'](https://www.youtube.com/watch?v=8MgpE2DTTKA) (Traversy Media)
 - ['How do I loop through multiple background videos?'](https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos) (Stack Overflow)
+- ['How to detect Safari, Chrome, IE, Firefox and Opera browser?'](https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser) (Stack Overflow)
 - ['How to change the playing speed of videos in HTML5?'](https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5)] (Stack Overflow)
 - [’How can one display images side by side in a GitHub README.md?](https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md) (Stack Overflow)
 - ['`<details>`: The Details disclosure element'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) (MDN Web Docs)

@@ -1732,7 +1732,8 @@ pre {
     object-fit: cover;
   }
 
-  header video {
+  header video,
+  .bg-barista {
     opacity: .5;
   }
 
