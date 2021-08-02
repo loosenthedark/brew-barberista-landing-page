@@ -157,11 +157,11 @@ button {
 /* Buttons */
 
 .btn {
-  padding: 1rem 1.85rem;
+  padding: 1.125rem 2rem;
   text-transform: uppercase;
   font-family: Lora, serif;
   color: hsl(214, 24%, 19%);
-  font-size: .95rem;
+  font-size: .9rem;
   border-radius: 5rem;
   font-weight: 900;
   letter-spacing: -.0125rem;
@@ -171,6 +171,7 @@ button {
   background-color: hsl(204, 47%, 41%);
   color: hsl(0, 0%, 100%);
   display: inline-block;
+  font-size: .85rem;
 }
 
 .btn-contact:hover,
@@ -1217,12 +1218,14 @@ pre {
   /* Buttons */
 
   .btn-book {
+    width: 13rem;
     background-color: hsl(47, 58%, 32%);
     color: hsl(0, 0%, 100%);
     display: inline-block;
     margin-top: .75rem;
     letter-spacing: unset;
     font-weight: 600;
+    font-size: .75rem;
   }
 
   /* Navbar */
@@ -1582,12 +1585,13 @@ pre {
 
   /* Buttons */
 
-  .btn:not(.btn-press) {
-    padding: .85rem 1.85rem;
+  .btn-partners,
+  .btn-book {
+    padding: .85rem 2rem;
   }
 
   .btn {
-    font-size: .8rem;
+    font-size: .7rem;
   }
 
   .btn-press {
@@ -1595,7 +1599,9 @@ pre {
   }
 
   .btn-contact {
-    font-size: .9rem;
+    font-size: .8rem;
+    padding-top: .875rem;
+    padding-bottom: .875rem;
   }
 
   .btn-book {
@@ -1609,12 +1615,7 @@ pre {
     margin-top: .5rem;
     letter-spacing: unset;
     font-weight: 700;
-  }
-
-  .btn-partners,
-  .btn-book,
-  .btn-contact {
-    width: 10.5rem;
+    width: 13rem;
   }
 
   /* Navbar */
@@ -1846,14 +1847,14 @@ pre {
   }
 
   .partner {
-    width: calc(100% / 3 - 1rem);
+    width: calc(100% / 4 - 1rem);
     margin: .65rem 0;
   }
 
   .partner-logo,
   .partner-link {
-    height: 10vw;
-    max-height: 6.75rem;
+    height: 6vw;
+    max-height: 5rem;
   }
 
   /* Footer */
@@ -1995,6 +1996,17 @@ pre {
 
   .btn-partners {
     margin-top: .25rem;
+    width: 13rem;
+  }
+
+  .btn-partners,
+  .btn-book {
+    padding-top: .95rem;
+    padding-bottom: .95rem;
+  }
+
+  .btn-contact {
+    width: 10rem;
   }
 
   /* Header */
@@ -2072,6 +2084,12 @@ pre {
 
   .gallery-image {
     max-height: 22.5rem;
+  }
+
+  /* Partners section */
+
+  #partners {
+    max-width: 80rem;
   }
 
   /*--------- CSS Grid layout for wider screens, when browser supports grid: -----------*/
