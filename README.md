@@ -309,7 +309,7 @@ mobile  |  tablet |  desktop
 ### Languages:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 - [HTML5:](https://en.wikipedia.org/wiki/HTML5) used for structuring the site
@@ -320,7 +320,7 @@ mobile  |  tablet |  desktop
 ### Frameworks/Libraries, APIs, Programmes and Tools:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 - [Google Fonts:](https://fonts.google.com/) used to import the Poppins and Lora fonts into the project's stylesheets
@@ -347,7 +347,7 @@ mobile  |  tablet |  desktop
 ### Validation:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 - [W3C](https://www.w3.org/)'s [Markup Validation Service](https://validator.w3.org/) was used to test the validity of all HTML used in this project. The code was [validated by direct input](https://validator.w3.org/#validate_by_input), and all suggested corrections were then made. As a result, all of the site's HTML source code now passes W3C validation with just a single warning message being returned, as is reflected in the following screenshot:
@@ -402,7 +402,7 @@ mobile  |  tablet |  desktop
 ### Bugs:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 - [CSS `scroll-behavior`](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior) remains [unsupported](https://caniuse.com/css-scroll-behavior) in the Safari browser. As ever, [CSS-Tricks is on hand](https://css-tricks.com/snippets/jquery/smooth-scrolling/) to offer suggested workarounds, although the most practical and reliable of these does depend on [jQuery](https://jquery.com/) (which this project has chosen not to use). Other potential fixes for this diminished UX in Safari will be reviewed at a later date.
@@ -416,7 +416,7 @@ mobile  |  tablet |  desktop
 ## Deployment
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 ### GitHub Pages:
@@ -469,7 +469,7 @@ _See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-ar
 Where code blocks/snippets/suggestions have been incorporated from external sources into this project's code, these have been noted through the use of comments. Beyond this, the developer made use of the following articles, workarounds and learning resources while building the site:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 - ['Bootstrap 4 simple back to top with smooth scroll'](https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555) (BBBootstrap)
@@ -491,7 +491,7 @@ Where code blocks/snippets/suggestions have been incorporated from external sour
 ### Content:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 - Most of the `body` text was composed by the developer, and is an extension of the content on Brew Barberista's existing site, along with relevant supplementary information found across the business's social media channels
@@ -505,7 +505,7 @@ Where code blocks/snippets/suggestions have been incorporated from external sour
 ### Media:
 <details>
   <summary>
-  click to view
+    <b>click to view</b>
   </summary>
 
 | [**Website section**] Media title/description  | Media format  | Credit  | Link to original media source(s)  | 
