@@ -22,7 +22,7 @@ function showMenu() {
         pressList.className = pressList.className.replace('press-reveal', '');
     }
     let ariaState = hamburger.getAttribute('aria-expanded');
-    if(ariaState == 'false') {
+    if (ariaState == 'false') {
         hamburger.setAttribute('aria-expanded', true);
     } else {
         hamburger.setAttribute('aria-expanded', true);
@@ -48,7 +48,7 @@ function clickTarget(e) {
 hamburgerIcon.addEventListener('click', showMenu, false);
 
 // Listen for clicks anywhere on screen...
-body.addEventListener('click', function(e) {
+body.addEventListener('click', function (e) {
     clickTarget(e);
 }, true);
 
@@ -64,7 +64,7 @@ function showPress() {
 
 // Code block adapted from https://jsfiddle.net/amirsaleem/xpd1wr7n/
 // Listen for page scroll...
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     var backToTopButton = document.getElementById('btn-back-to-top');
     // Show button if user scrolls more than 500px from top...
     if (window.pageYOffset > 500) {
@@ -77,30 +77,41 @@ window.addEventListener('scroll', function() {
 }, false);
 
 // Custom nav toggler icon animation on click - code block adapted from https://www.youtube.com/watch?v=g7v4BB9IMRw
-animateNavToggler.addEventListener('click', function() {
+animateNavToggler.addEventListener('click', function () {
     hamburgerIcon.classList.toggle('active');
     coffeeIcon.classList.toggle('active');
 });
-coffeeIcon.addEventListener('click', function() {
+coffeeIcon.addEventListener('click', function () {
     coffeeIcon.classList.toggle('active');
     hamburgerIcon.classList.toggle('active');
 });
 
 // Play multiple videos in background above the fold on desktop...
 // Adapted from https://stackoverflow.com/questions/54380721/how-do-i-loop-through-multiple-background-videos
-window.onload = function() {
+window.onload = function () {
     // speed up above-the-fold video backgrounds cf. https://stackoverflow.com/questions/3027707/how-to-change-the-playing-speed-of-videos-in-html5
-    videoCoffee.playbackRate = 1.5;
-    videoBarber.playbackRate = 1.5;
+    // BUG WORKAROUND: conditional check for Firefox in place to prevent frozen video bug caused by dynamically altering playback speed in JS (cf. https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser)
+    // sped-up videos now play in all browsers except Firefox (normal speed)
+    if (typeof InstallTrigger === 'undefined') {
+        videoCoffee.playbackRate = 2;
+        videoBarber.playbackRate = 1.5;
+    }
     // Once the window has loaded, listen for the end of the first video and trigger the start of the second video...
     videoCoffee.addEventListener('ended', () => {
         videoCoffee.style.display = 'none';
         videoBarber.style.display = 'block';
+        videoBarber.style.opacity = '.5';
         playVideo(videoBarber);
     });
     videoBarber.addEventListener('ended', () => {
         videoBarber.style.display = 'none';
         videoCoffee.style.display = 'block';
+        // BUG WORKAROUND: These values need to be set to prevent a bug seen in all browsers whereby video brightness/saturation/contrast appears altered when video(s) plays for a secnd/third/fourth (etc.) time
+        // 02/08/21: bug still present in Safari, but rectified in all other browsers tested
+        videoCoffee.style.opacity = '.75';
+        videoCoffee.style.filter = "saturate(100%)";
+        videoCoffee.style.filter = "contrast(100%)";
+        videoCoffee.style.filter = "brightness(50%)";
         playVideo(videoCoffee);
     });
 };
@@ -108,4 +119,4 @@ window.onload = function() {
 function playVideo(video) {
     // This playVideo function takes in the ID of a video element and plays that video...
     video.play();
-}  
+}
